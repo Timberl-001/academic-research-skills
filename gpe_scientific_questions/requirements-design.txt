@@ -1,0 +1,4 @@
+# Isolated dependencies for the GPE slide builder (not repository-wide tools).
+Pillow>=10,<13
+python-pptx>=1.0,<2
+resvg-py>=0.2,<1

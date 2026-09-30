@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>体系各组分的作用与选择依据</title>
+<desc>Component roles and PEGDA comparator rationale; mechanistic benefits require validation.</desc>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F5F7FB" data-name="表格-页面背景"/>
+<rect x="48" y="40" width="7" height="99" rx="3" fill="#285E8B" data-name="表格-标题强调线"/>
+<text x="76" y="62" font-size="20" font-weight="700" fill="#285E8B" text-anchor="start" data-name="表格-英文页眉"><tspan font-family="DejaVu Sans">COMPONENT ROLES &amp; CONTROL</tspan></text>
+<text x="76" y="122" font-size="47" font-weight="700" fill="#172B46" text-anchor="start" data-name="表格-主标题"><tspan font-family="Noto Sans SC">体系各组分的作用与选择依据</tspan></text>
+<text x="76" y="168" font-size="27" font-weight="700" fill="#285E8B" text-anchor="start" data-name="表格-体系配方"><tspan font-family="DejaVu Sans">MBA </tspan><tspan font-family="Noto Sans SC">交联网络</tspan><tspan font-family="DejaVu Sans">  |  1.0 M LiPF₆ + 0.2 M LiDFOB  |  DMTFA : TTE = 1 : 1</tspan></text>
+<text x="76" y="211" font-size="24" font-weight="400" fill="#63788F" text-anchor="start" data-name="表格-对比样说明"><tspan font-family="DejaVu Sans">PEGDA </tspan><tspan font-family="Noto Sans SC">为对比样的网络基体，不是本体系同时加入的组分</tspan></text>
+<text x="48" y="976" font-size="21" font-weight="400" fill="#63788F" text-anchor="start" data-name="表格-说明1"><tspan font-family="Noto Sans SC">公平对比：建议液相配方与测试条件一致；注明</tspan><tspan font-family="DejaVu Sans"> PEGDA </tspan><tspan font-family="Noto Sans SC">分子量、聚合物含量，并评估实际成胶</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">交联程度。</tspan></text>
+<text x="48" y="1019" font-size="21" font-weight="400" fill="#63788F" text-anchor="start" data-name="表格-说明2"><tspan font-family="Noto Sans SC">表中为功能定位与设计理由，具体相容、配位及成膜效果需验证；仅凭</tspan><tspan font-family="DejaVu Sans"> 1:1 </tspan><tspan font-family="Noto Sans SC">配比不能认定</tspan><tspan font-family="DejaVu Sans"> LHCE</tspan><tspan font-family="Noto Sans SC">。</tspan></text>
+<rect x="48" y="246" width="350" height="74" rx="0" fill="#213D5A" stroke="#213D5A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-表头底色0"/>
+<text x="72" y="294" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="start" data-name="预览-表头文字0"><tspan font-family="Noto Sans SC">组分</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">定位</tspan></text>
+<rect x="398" y="246" width="728" height="74" rx="0" fill="#213D5A" stroke="#213D5A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-表头底色1"/>
+<text x="422" y="294" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="start" data-name="预览-表头文字1"><tspan font-family="Noto Sans SC">主要作用</tspan></text>
+<rect x="1126" y="246" width="746" height="74" rx="0" fill="#213D5A" stroke="#213D5A" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-表头底色2"/>
+<text x="1150" y="294" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="start" data-name="预览-表头文字2"><tspan font-family="Noto Sans SC">选择理由</tspan></text>
+<rect x="48" y="320" width="350" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格0-0"/>
+<rect x="398" y="320" width="728" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格0-1"/>
+<rect x="1126" y="320" width="746" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格0-2"/>
+<text x="72" y="363" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称0"><tspan font-family="DejaVu Sans">MBA</tspan></text>
+<text x="72" y="397" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位0"><tspan font-family="Noto Sans SC">交联单体</tspan></text>
+<text x="422" y="370" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文0-1-0"><tspan font-family="Noto Sans SC">双键构网，固定电解液；酰胺位点参与分子间作用。</tspan></text>
+<text x="1150" y="370" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文0-2-0"><tspan font-family="Noto Sans SC">研究酰胺网络对保液、相容性与离子传输的调控。</tspan></text>
+<rect x="48" y="420" width="350" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格1-0"/>
+<rect x="398" y="420" width="728" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格1-1"/>
+<rect x="1126" y="420" width="746" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格1-2"/>
+<text x="72" y="463" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称1"><tspan font-family="DejaVu Sans">LiPF₆</tspan><tspan font-family="Noto Sans SC">（</tspan><tspan font-family="DejaVu Sans">1.0 M</tspan><tspan font-family="Noto Sans SC">）</tspan></text>
+<text x="72" y="497" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位1"><tspan font-family="Noto Sans SC">主体锂盐</tspan></text>
+<text x="422" y="470" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文1-1-0"><tspan font-family="Noto Sans SC">提供</tspan><tspan font-family="DejaVu Sans"> Li⁺</tspan><tspan font-family="Noto Sans SC">，构成电解液的基础导电组分。</tspan></text>
+<text x="1150" y="470" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文1-2-0"><tspan font-family="Noto Sans SC">成熟常用锂盐，作为可比较的基础电解液。</tspan></text>
+<rect x="48" y="520" width="350" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格2-0"/>
+<rect x="398" y="520" width="728" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格2-1"/>
+<rect x="1126" y="520" width="746" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格2-2"/>
+<text x="72" y="563" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称2"><tspan font-family="DejaVu Sans">LiDFOB</tspan><tspan font-family="Noto Sans SC">（</tspan><tspan font-family="DejaVu Sans">0.2 M</tspan><tspan font-family="Noto Sans SC">）</tspan></text>
+<text x="72" y="597" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位2"><tspan font-family="Noto Sans SC">成膜调控共盐</tspan></text>
+<text x="422" y="570" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文2-1-0"><tspan font-family="Noto Sans SC">提供</tspan><tspan font-family="DejaVu Sans"> DFOB⁻</tspan><tspan font-family="Noto Sans SC">；其分解产物可参与电极界面膜形成。</tspan></text>
+<text x="1150" y="570" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文2-2-0"><tspan font-family="Noto Sans SC">含</tspan><tspan font-family="DejaVu Sans"> F/B</tspan><tspan font-family="Noto Sans SC">，可探索富</tspan><tspan font-family="DejaVu Sans"> LiF / B–O </tspan><tspan font-family="Noto Sans SC">的</tspan><tspan font-family="DejaVu Sans"> SEI / CEI </tspan><tspan font-family="Noto Sans SC">成膜。</tspan></text>
+<rect x="48" y="620" width="350" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格3-0"/>
+<rect x="398" y="620" width="728" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格3-1"/>
+<rect x="1126" y="620" width="746" height="100" rx="0" fill="#F6F9FC" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格3-2"/>
+<text x="72" y="663" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称3"><tspan font-family="DejaVu Sans">DMTFA</tspan></text>
+<text x="72" y="697" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位3"><tspan font-family="Noto Sans SC">主溶剂</tspan></text>
+<text x="422" y="670" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文3-1-0"><tspan font-family="Noto Sans SC">作为主要溶盐</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">配位组分；羰基可与</tspan><tspan font-family="DejaVu Sans"> Li⁺ </tspan><tspan font-family="Noto Sans SC">相互作用。</tspan></text>
+<text x="1150" y="670" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文3-2-0"><tspan font-family="Noto Sans SC">与</tspan><tspan font-family="DejaVu Sans"> MBA </tspan><tspan font-family="Noto Sans SC">同含酰胺结构，可探索网络相容与配位调控。</tspan></text>
+<rect x="48" y="720" width="350" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格4-0"/>
+<rect x="398" y="720" width="728" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格4-1"/>
+<rect x="1126" y="720" width="746" height="100" rx="0" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格4-2"/>
+<text x="72" y="763" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称4"><tspan font-family="DejaVu Sans">TTE</tspan></text>
+<text x="72" y="797" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位4"><tspan font-family="Noto Sans SC">弱配位氟醚稀释组分</tspan></text>
+<text x="422" y="770" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文4-1-0"><tspan font-family="Noto Sans SC">调节混合液相环境，不作为主要溶盐组分。</tspan></text>
+<text x="1150" y="770" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文4-2-0"><tspan font-family="Noto Sans SC">与</tspan><tspan font-family="DejaVu Sans"> DMTFA </tspan><tspan font-family="Noto Sans SC">搭配，调节配位环境和液相性质。</tspan></text>
+<rect x="48" y="820" width="350" height="100" rx="0" fill="#EEF5FB" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格5-0"/>
+<rect x="398" y="820" width="728" height="100" rx="0" fill="#EEF5FB" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格5-1"/>
+<rect x="1126" y="820" width="746" height="100" rx="0" fill="#EEF5FB" stroke="#DCE4ED" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" data-name="预览-单元格5-2"/>
+<text x="72" y="863" font-size="29" font-weight="700" fill="#285E8B" text-anchor="start" data-name="预览-组分名称5"><tspan font-family="DejaVu Sans">PEGDA</tspan><tspan font-family="Noto Sans SC">（对比样）</tspan></text>
+<text x="72" y="897" font-size="22" font-weight="400" fill="#63788F" text-anchor="start" data-name="预览-组分定位5"><tspan font-family="Noto Sans SC">聚醚型交联基体</tspan></text>
+<text x="422" y="870" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文5-1-0"><tspan font-family="Noto Sans SC">两端双键构网；柔性聚醚链可与</tspan><tspan font-family="DejaVu Sans"> Li⁺ </tspan><tspan font-family="Noto Sans SC">相互作用。</tspan></text>
+<text x="1150" y="870" font-size="26" font-weight="400" fill="#172B46" text-anchor="start" data-name="预览-正文5-2-0"><tspan font-family="Noto Sans SC">常见凝胶基体、同为双官能度；对比酰胺网络与聚醚网络。</tspan></text>
+</svg>

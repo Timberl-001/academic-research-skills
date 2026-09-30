@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>关键科学问题：传统凝胶电解质的两大共性挑战</title>
+<desc>Original schematic of common conventional gel-polymer-electrolyte challenges: bulk ion transport and electrode/interphase stability. Qualitative examples, not universal failure mechanisms or measured structures. All elements are editable.</desc>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F5F7FB" data-name="页面-背景"/>
+<rect x="48" y="41" width="7" height="98" rx="3" fill="#2B6FA9" data-name="页面-标题强调线"/>
+<text x="76" y="61" font-size="20" font-weight="700" fill="#2B6FA9" text-anchor="start" data-name="页面-英文页眉"><tspan font-family="DejaVu Sans">SCIENTIFIC QUESTIONS</tspan></text>
+<text x="76" y="119" font-size="45" font-weight="700" fill="#172B46" text-anchor="start" data-name="页面-主标题"><tspan font-family="Noto Sans SC">关键科学问题：传统凝胶电解质的两大共性挑战</tspan></text>
+<text x="76" y="162" font-size="26" font-weight="400" fill="#64768A" text-anchor="start" data-name="页面-副标题"><tspan font-family="Noto Sans SC">仅讨论传统凝胶的常见瓶颈：体相传输与电极界面</tspan></text>
+<rect x="48" y="192" width="888" height="724" rx="22" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-面板外框"/>
+<rect x="48" y="192" width="888" height="80" rx="22" fill="#EDF5FB" data-name="问题一-标题底色"/>
+<rect x="48" y="236" width="888" height="36" rx="0" fill="#EDF5FB" data-name="问题一-标题底色平底"/>
+<ellipse cx="91" cy="232" rx="23" ry="23" fill="#2B6FA9" data-name="问题一-编号圆"/>
+<text x="91" y="240" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-编号文字"><tspan font-family="DejaVu Sans">01</tspan></text>
+<text x="130" y="245" font-size="34" font-weight="700" fill="#2B6FA9" text-anchor="start" data-name="问题一-问题标题"><tspan font-family="Noto Sans SC">体相：离子传输受限</tspan></text>
+<text x="78" y="314" font-size="28" font-weight="700" fill="#172B46" text-anchor="start" data-name="问题一-核心问句"><tspan font-family="Noto Sans SC">为什么引入聚合物网络后，电导率可能下降？</tspan></text>
+<rect x="984" y="192" width="888" height="724" rx="22" fill="#FFFFFF" stroke="#DCE4ED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-面板外框"/>
+<rect x="984" y="192" width="888" height="80" rx="22" fill="#FCF0EC" data-name="问题二-标题底色"/>
+<rect x="984" y="236" width="888" height="36" rx="0" fill="#FCF0EC" data-name="问题二-标题底色平底"/>
+<ellipse cx="1027" cy="232" rx="23" ry="23" fill="#BE5D50" data-name="问题二-编号圆"/>
+<text x="1027" y="240" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题二-编号文字"><tspan font-family="DejaVu Sans">02</tspan></text>
+<text x="1066" y="245" font-size="34" font-weight="700" fill="#BE5D50" text-anchor="start" data-name="问题二-问题标题"><tspan font-family="Noto Sans SC">界面：接触与成膜失稳</tspan></text>
+<text x="1014" y="314" font-size="28" font-weight="700" fill="#172B46" text-anchor="start" data-name="问题二-核心问句"><tspan font-family="Noto Sans SC">为什么接触与成膜不均会导致界面阻抗增长？</tspan></text>
+<rect x="78" y="352" width="188" height="365" rx="12" fill="#F0F9FD" stroke="#AACFE4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-液态参照外框"/>
+<rect x="78" y="352" width="188" height="53" rx="12" fill="#E2F1FA" data-name="问题一-液态标题底色"/>
+<rect x="78" y="379" width="188" height="26" rx="0" fill="#E2F1FA" data-name="问题一-液态标题底色平底"/>
+<text x="172" y="389" font-size="25" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题一-液态标题"><tspan font-family="Noto Sans SC">液态电解液</tspan></text>
+<rect x="116" y="420" width="26" height="242" rx="13" fill="#D9EFF9" data-name="问题一-液态-连续液相通道1"/>
+<path d="M 129 650 L 129 432" fill="none" stroke="#2B6FA9" stroke-width="4.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="问题一-液态-迁移箭头1"/>
+<path d="M 129 432 L 134.53721304585798 443.7617716218595 L 123.462786954142 443.7617716218595 Z" fill="#2B6FA9" data-name="问题一-液态-迁移箭头1-箭头"/>
+<rect x="198" y="420" width="26" height="242" rx="13" fill="#D9EFF9" data-name="问题一-液态-连续液相通道2"/>
+<path d="M 211 650 L 211 432" fill="none" stroke="#2B6FA9" stroke-width="4.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="问题一-液态-迁移箭头2"/>
+<path d="M 211 432 L 216.53721304585798 443.7617716218595 L 205.46278695414202 443.7617716218595 Z" fill="#2B6FA9" data-name="问题一-液态-迁移箭头2-箭头"/>
+<ellipse cx="129" cy="541" rx="29" ry="29" fill="#F6FCFF" stroke="#76BAD9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题一-液态-离子环境1"/>
+<ellipse cx="109" cy="523" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂1-1"/>
+<ellipse cx="150" cy="526" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂1-2"/>
+<ellipse cx="130" cy="564" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂1-3"/>
+<ellipse cx="129" cy="541" rx="17" ry="17" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-液态-锂离子1"/>
+<ellipse cx="124.75" cy="535.9" rx="5.27" ry="3.91" fill="#FFE3A3" data-name="问题一-液态-锂离子1-高光"/>
+<text x="129" y="546.78" font-size="13.26" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-液态-锂离子1-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="211" cy="590" rx="29" ry="29" fill="#F6FCFF" stroke="#76BAD9" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题一-液态-离子环境2"/>
+<ellipse cx="191" cy="572" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂2-1"/>
+<ellipse cx="232" cy="575" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂2-2"/>
+<ellipse cx="212" cy="613" rx="6" ry="6" fill="#C4E6F5" data-name="问题一-液态-溶剂2-3"/>
+<ellipse cx="211" cy="590" rx="17" ry="17" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-液态-锂离子2"/>
+<ellipse cx="206.75" cy="584.9" rx="5.27" ry="3.91" fill="#FFE3A3" data-name="问题一-液态-锂离子2-高光"/>
+<text x="211" y="595.78" font-size="13.26" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-液态-锂离子2-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<line x1="91" y1="674" x2="253" y2="674" fill="none" stroke="#B9D7E8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-液态-图注分隔线"/>
+<text x="172" y="701" font-size="21" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题一-液态-图注"><tspan font-family="Noto Sans SC">连续液相通道</tspan></text>
+<rect x="292" y="352" width="614" height="365" rx="12" fill="#FBFCFE" stroke="#DCE4ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶示意外框"/>
+<rect x="292" y="352" width="614" height="53" rx="12" fill="#EEF2F7" data-name="问题一-凝胶标题底色"/>
+<rect x="292" y="379" width="614" height="26" rx="0" fill="#EEF2F7" data-name="问题一-凝胶标题底色平底"/>
+<text x="599" y="389" font-size="25" font-weight="700" fill="#172B46" text-anchor="middle" data-name="问题一-凝胶标题"><tspan font-family="Noto Sans SC">传统凝胶：聚合物骨架</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">溶剂</tspan></text>
+<ellipse cx="546" cy="508" rx="54" ry="54" fill="#FEF0EE" stroke="#DDB2A9" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" data-name="问题一-凝胶-局部配位滞留区域"/>
+<path d="M 315 443 C 371 426 413 457 475 441 C 534 425 582 452 637 438 C 708 424 783 464 886 438" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链1"/>
+<path d="M 312 554 C 374 531 415 570 485 547 C 547 526 599 564 666 546 C 741 527 800 562 884 543" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链2"/>
+<path d="M 312 642 C 378 624 423 651 488 634 C 554 617 609 648 675 632 C 741 616 808 650 884 633" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链3"/>
+<path d="M 382 420 C 364 461 399 487 380 530 C 359 579 394 611 382 658" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链4"/>
+<path d="M 594 419 C 567 469 608 489 589 535 C 569 583 604 611 591 659" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链5"/>
+<path d="M 791 419 C 764 461 805 492 785 536 C 764 579 799 612 784 659" fill="none" stroke="#5F6E7D" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-聚合物链6"/>
+<ellipse cx="382" cy="441" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点1-交联节点"/>
+<ellipse cx="380" cy="439" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点1-节点高光"/>
+<ellipse cx="590" cy="440" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点2-交联节点"/>
+<ellipse cx="588" cy="438" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点2-节点高光"/>
+<ellipse cx="787" cy="442" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点3-交联节点"/>
+<ellipse cx="785" cy="440" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点3-节点高光"/>
+<ellipse cx="380" cy="547" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点4-交联节点"/>
+<ellipse cx="378" cy="545" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点4-节点高光"/>
+<ellipse cx="588" cy="548" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点5-交联节点"/>
+<ellipse cx="586" cy="546" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点5-节点高光"/>
+<ellipse cx="786" cy="548" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点6-交联节点"/>
+<ellipse cx="784" cy="546" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点6-节点高光"/>
+<ellipse cx="384" cy="634" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点7-交联节点"/>
+<ellipse cx="382" cy="632" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点7-节点高光"/>
+<ellipse cx="592" cy="634" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点8-交联节点"/>
+<ellipse cx="590" cy="632" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点8-节点高光"/>
+<ellipse cx="784" cy="634" rx="7" ry="7" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-节点9-交联节点"/>
+<ellipse cx="782" cy="632" rx="2.4499999999999997" ry="1.8900000000000001" fill="#F3CDAE" data-name="问题一-凝胶-节点9-节点高光"/>
+<ellipse cx="331" cy="479" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂1-溶剂符号"/>
+<text x="331" y="483" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂1-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="431" cy="605" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂2-溶剂符号"/>
+<text x="431" y="609" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂2-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="644" cy="602" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂3-溶剂符号"/>
+<text x="644" y="606" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂3-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="839" cy="590" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂4-溶剂符号"/>
+<text x="839" y="594" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂4-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="687" cy="489" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂5-溶剂符号"/>
+<text x="687" y="493" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂5-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="870" cy="486" rx="12" ry="8.64" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-自由溶剂6-溶剂符号"/>
+<text x="870" y="490" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-自由溶剂6-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="772" cy="523" rx="75" ry="45" fill="#EEF1F5" stroke="#9AA9B8" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" data-name="问题一-凝胶-局部团聚区域"/>
+<text x="772" y="520" font-size="22" font-weight="700" fill="#64768A" text-anchor="middle" data-name="问题一-凝胶-团聚文字"><tspan font-family="Noto Sans SC">局部团聚</tspan></text>
+<text x="772" y="546" font-size="18" font-weight="400" fill="#64768A" text-anchor="middle" data-name="问题一-凝胶-通道文字"><tspan font-family="Noto Sans SC">通道不连续</tspan></text>
+<path d="M 331 651 C 355 626 367 591 349 565 C 328 532 363 509 405 503 C 454 496 447 425 489 418 C 538 410 553 430 608 442 C 668 456 647 516 675 544 C 697 570 725 590 752 577 C 807 553 844 487 873 426" fill="none" stroke="#CC9232" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="问题一-凝胶-曲折迁移路径"/>
+<path d="M 873 426 L 872.59396037325 438.99365736894384 L 862.7265744738892 433.965973133237 Z" fill="#CC9232" data-name="问题一-凝胶-曲折迁移路径-箭头"/>
+<text x="734" y="664" font-size="22" font-weight="700" fill="#CC9232" text-anchor="middle" data-name="问题一-凝胶-曲折路径标注"><tspan font-family="Noto Sans SC">更曲折的路径</tspan></text>
+<line x1="501" y1="445" x2="515" y2="466" fill="none" stroke="#5F6E7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-极性位点连接"/>
+<ellipse cx="520" cy="473" rx="9" ry="9" fill="#BE5D50" data-name="问题一-凝胶-极性位点"/>
+<line x1="525" y1="482" x2="538" y2="496" fill="none" stroke="#BE5D50" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题一-凝胶-位点配位虚线"/>
+<ellipse cx="579" cy="482" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-局部溶剂1-溶剂符号"/>
+<text x="579" y="486" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-局部溶剂1-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="581" cy="533" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-局部溶剂2-溶剂符号"/>
+<text x="581" y="537" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-局部溶剂2-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="511" cy="535" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-局部溶剂3-溶剂符号"/>
+<text x="511" y="539" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题一-凝胶-局部溶剂3-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="546" cy="508" rx="21" ry="21" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-滞留锂离子"/>
+<ellipse cx="540.75" cy="501.7" rx="6.51" ry="4.83" fill="#FFE3A3" data-name="问题一-凝胶-滞留锂离子-高光"/>
+<text x="546" y="515.14" font-size="16.38" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-凝胶-滞留锂离子-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="393" cy="509" rx="16" ry="16" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-迁移锂离子1"/>
+<ellipse cx="389.0" cy="504.2" rx="4.96" ry="3.68" fill="#FFE3A3" data-name="问题一-凝胶-迁移锂离子1-高光"/>
+<text x="393" y="514.44" font-size="12.48" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-凝胶-迁移锂离子1-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="837" cy="493" rx="16" ry="16" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-迁移锂离子2"/>
+<ellipse cx="833.0" cy="488.2" rx="4.96" ry="3.68" fill="#FFE3A3" data-name="问题一-凝胶-迁移锂离子2-高光"/>
+<text x="837" y="498.44" font-size="12.48" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题一-凝胶-迁移锂离子2-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<rect x="454.5" y="576.5" width="193" height="37" rx="18.5" fill="#FFF6F3" stroke="#DDAA9E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-配位滞留标注"/>
+<text x="551" y="602.92" font-size="22" font-weight="700" fill="#BE5D50" text-anchor="middle" data-name="问题一-凝胶-配位滞留标注-标签"><tspan font-family="Noto Sans SC">局部配位滞留</tspan></text>
+<line x1="550" y1="576" x2="548" y2="552" fill="none" stroke="#C47D6B" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题一-凝胶-配位标注引线"/>
+<line x1="307" y1="674" x2="891" y2="674" fill="none" stroke="#DCE4ED" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-凝胶-图注分隔线"/>
+<text x="599" y="701" font-size="24" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题一-凝胶-图注"><tspan font-family="Noto Sans SC">路径曲折</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">局部滞留</tspan></text>
+<rect x="1014" y="352" width="828" height="365" rx="12" fill="#FBFCFE" stroke="#DCE4ED" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-界面示意外框"/>
+<text x="1150" y="392" font-size="22" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题二-正极-膜标签"><tspan font-family="DejaVu Sans">CEI </tspan><tspan font-family="Noto Sans SC">不均</tspan></text>
+<text x="1428" y="392" font-size="25" font-weight="700" fill="#172B46" text-anchor="middle" data-name="问题二-凝胶标签"><tspan font-family="Noto Sans SC">传统凝胶</tspan></text>
+<text x="1705" y="392" font-size="22" font-weight="700" fill="#BE5D50" text-anchor="middle" data-name="问题二-负极-膜标签"><tspan font-family="DejaVu Sans">SEI </tspan><tspan font-family="Noto Sans SC">不均</tspan></text>
+<rect x="1058" y="421" width="34" height="246" rx="4" fill="#73839A" data-name="问题二-正极-电极主体"/>
+<rect x="1061" y="424" width="5" height="240" rx="2" fill="#9CABB9" data-name="问题二-正极-电极高光"/>
+<text x="1075" y="701" font-size="22" font-weight="700" fill="#64768A" text-anchor="middle" data-name="问题二-正极-电极文字"><tspan font-family="Noto Sans SC">正极</tspan></text>
+<rect x="1770" y="421" width="34" height="246" rx="4" fill="#B7A18C" data-name="问题二-负极-电极主体"/>
+<rect x="1773" y="424" width="5" height="240" rx="2" fill="#D4C1AD" data-name="问题二-负极-电极高光"/>
+<text x="1787" y="701" font-size="22" font-weight="700" fill="#64768A" text-anchor="middle" data-name="问题二-负极-电极文字"><tspan font-family="Noto Sans SC">负极</tspan></text>
+<rect x="1097" y="423" width="30" height="34" rx="6" fill="#A9C7D9" data-name="问题二-正极-不均匀界面膜1"/>
+<rect x="1097" y="472" width="20" height="22" rx="6" fill="#CBDCE8" data-name="问题二-正极-不均匀界面膜2"/>
+<rect x="1097" y="507" width="34" height="35" rx="6" fill="#A9C7D9" data-name="问题二-正极-不均匀界面膜3"/>
+<rect x="1097" y="557" width="23" height="20" rx="6" fill="#CBDCE8" data-name="问题二-正极-不均匀界面膜4"/>
+<rect x="1097" y="624" width="29" height="40" rx="6" fill="#A9C7D9" data-name="问题二-正极-不均匀界面膜5"/>
+<rect x="1742" y="423" width="24" height="35" rx="6" fill="#DFC2B4" data-name="问题二-负极-不均匀界面膜1"/>
+<rect x="1733" y="472" width="33" height="25" rx="6" fill="#EBD7CC" data-name="问题二-负极-不均匀界面膜2"/>
+<rect x="1740" y="512" width="26" height="38" rx="6" fill="#DFC2B4" data-name="问题二-负极-不均匀界面膜3"/>
+<rect x="1736" y="565" width="30" height="30" rx="6" fill="#EBD7CC" data-name="问题二-负极-不均匀界面膜4"/>
+<rect x="1743" y="629" width="23" height="36" rx="6" fill="#DFC2B4" data-name="问题二-负极-不均匀界面膜5"/>
+<ellipse cx="1117" cy="601" rx="24" ry="22" fill="#FFFFFF" stroke="#BE5D50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 4" data-name="问题二-正极-局部接触空隙"/>
+<path d="M 1742 571 L 1754 578 L 1745 586 L 1760 593" fill="none" stroke="#BE5D50" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-负极-膜层裂纹"/>
+<path d="M 1231 447 C 1314 428 1383 463 1452 446 C 1515 433 1564 453 1628 445" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链1"/>
+<path d="M 1227 547 C 1305 527 1377 562 1453 544 C 1515 527 1578 555 1631 542" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链2"/>
+<path d="M 1228 632 C 1313 613 1386 646 1458 626 C 1521 608 1578 638 1633 627" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链3"/>
+<path d="M 1281 422 C 1261 464 1297 491 1279 533 C 1260 580 1293 614 1280 655" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链4"/>
+<path d="M 1442 421 C 1422 465 1458 492 1440 535 C 1421 579 1454 614 1442 655" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链5"/>
+<path d="M 1597 422 C 1577 465 1613 492 1595 533 C 1576 579 1609 613 1597 653" fill="none" stroke="#5F6E7D" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-聚合物链6"/>
+<ellipse cx="1280" cy="443" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点1-交联节点"/>
+<ellipse cx="1278" cy="441" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点1-节点高光"/>
+<ellipse cx="1440" cy="447" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点2-交联节点"/>
+<ellipse cx="1438" cy="445" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点2-节点高光"/>
+<ellipse cx="1597" cy="447" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点3-交联节点"/>
+<ellipse cx="1595" cy="445" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点3-节点高光"/>
+<ellipse cx="1278" cy="544" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点4-交联节点"/>
+<ellipse cx="1276" cy="542" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点4-节点高光"/>
+<ellipse cx="1440" cy="545" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点5-交联节点"/>
+<ellipse cx="1438" cy="543" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点5-节点高光"/>
+<ellipse cx="1595" cy="546" rx="6" ry="6" fill="#D4864D" stroke="#B36F41" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-节点6-交联节点"/>
+<ellipse cx="1593" cy="544" rx="2.0999999999999996" ry="1.62" fill="#F3CDAE" data-name="问题二-凝胶-节点6-节点高光"/>
+<ellipse cx="1343" cy="484" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-溶剂1-溶剂符号"/>
+<text x="1343" y="488" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题二-凝胶-溶剂1-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="1487" cy="489" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-溶剂2-溶剂符号"/>
+<text x="1487" y="493" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题二-凝胶-溶剂2-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="1359" cy="591" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-溶剂3-溶剂符号"/>
+<text x="1359" y="595" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题二-凝胶-溶剂3-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="1521" cy="602" rx="13" ry="9.36" fill="#C4E6F5" stroke="#8BC6DF" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-溶剂4-溶剂符号"/>
+<text x="1521" y="606" font-size="13" font-weight="700" fill="#2B6FA9" text-anchor="middle" data-name="问题二-凝胶-溶剂4-溶剂文字"><tspan font-family="DejaVu Sans">S</tspan></text>
+<ellipse cx="1409" cy="511" rx="21" ry="21" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-锂离子1"/>
+<ellipse cx="1403.75" cy="504.7" rx="6.51" ry="4.83" fill="#FFE3A3" data-name="问题二-凝胶-锂离子1-高光"/>
+<text x="1409" y="518.14" font-size="16.38" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题二-凝胶-锂离子1-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="1251" cy="584" rx="16" ry="16" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-锂离子2"/>
+<ellipse cx="1247.0" cy="579.2" rx="4.96" ry="3.68" fill="#FFE3A3" data-name="问题二-凝胶-锂离子2-高光"/>
+<text x="1251" y="589.44" font-size="12.48" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题二-凝胶-锂离子2-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="1518" cy="462" rx="16" ry="16" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-凝胶-锂离子3"/>
+<ellipse cx="1514.0" cy="457.2" rx="4.96" ry="3.68" fill="#FFE3A3" data-name="问题二-凝胶-锂离子3-高光"/>
+<text x="1518" y="467.44" font-size="12.48" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="问题二-凝胶-锂离子3-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<path d="M 1450 511 C 1533 486 1599 492 1709 510" fill="none" stroke="#2B6FA9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 5" data-name="问题二-负极-较高局部离子通量"/>
+<path d="M 1709 510 L 1696.5820620207733 513.8464030397341 L 1698.1233242413105 502.8797525014693 Z" fill="#2B6FA9" data-name="问题二-负极-较高局部离子通量-箭头"/>
+<path d="M 1471 613 C 1565 630 1623 608 1711 618" fill="none" stroke="#85B6D4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 6" data-name="问题二-负极-较低局部离子通量"/>
+<path d="M 1711 618 L 1701.615681195672 621.4546433359667 L 1702.3581426045396 612.968270599831 Z" fill="#85B6D4" data-name="问题二-负极-较低局部离子通量-箭头"/>
+<path d="M 1242 496 C 1208 480 1175 484 1149 502" fill="none" stroke="#2B6FA9" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" data-name="问题二-正极-界面迁移箭头"/>
+<path d="M 1149 502 L 1155.2646583651767 494.20551120549766 L 1158.9990498004508 501.8621483112011 Z" fill="#2B6FA9" data-name="问题二-正极-界面迁移箭头-箭头"/>
+<rect x="1174.0" y="668.0" width="216" height="36" rx="18.0" fill="#FFF6F3" stroke="#DDAA9E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-正极-空隙标注"/>
+<text x="1282" y="693.92" font-size="22" font-weight="700" fill="#BE5D50" text-anchor="middle" data-name="问题二-正极-空隙标注-标签"><tspan font-family="Noto Sans SC">局部接触空隙</tspan></text>
+<path d="M 1180 677 L 1143 637 L 1133 614" fill="none" stroke="#BE5D50" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题二-正极-空隙标注引线"/>
+<rect x="1460.0" y="558.0" width="216" height="36" rx="18.0" fill="#FFF6F3" stroke="#DDAA9E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-负极-成膜失稳标注"/>
+<text x="1568" y="583.56" font-size="21" font-weight="700" fill="#BE5D50" text-anchor="middle" data-name="问题二-负极-成膜失稳标注-标签"><tspan font-family="Noto Sans SC">反应膜破裂</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">重构</tspan></text>
+<path d="M 1676 576 L 1702 573 L 1733 582" fill="none" stroke="#BE5D50" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="问题二-负极-成膜标注引线"/>
+<text x="1631" y="685" font-size="22" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题二-负极-通量标注"><tspan font-family="Noto Sans SC">局部通量不均</tspan></text>
+<text x="492" y="748" font-size="26" font-weight="700" fill="#225A8C" text-anchor="middle" data-name="问题一-宏观总结"><tspan font-family="Noto Sans SC">网络限域</tspan><tspan font-family="DejaVu Sans"> → </tspan><tspan font-family="Noto Sans SC">有效离子迁移可能受限</tspan></text>
+<text x="1428" y="748" font-size="26" font-weight="700" fill="#BE5D50" text-anchor="middle" data-name="问题二-宏观总结"><tspan font-family="Noto Sans SC">接触不均</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">界面膜失稳</tspan><tspan font-family="DejaVu Sans"> → </tspan><tspan font-family="Noto Sans SC">阻抗增长</tspan></text>
+<line x1="77" y1="769" x2="907" y2="769" fill="none" stroke="#DCE4ED" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题一-要点分隔线"/>
+<line x1="1013" y1="769" x2="1843" y2="769" fill="none" stroke="#DCE4ED" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="问题二-要点分隔线"/>
+<ellipse cx="84" cy="790" rx="4.5" ry="4.5" fill="#2B6FA9" data-name="问题一-要点1-圆点"/>
+<text x="103" y="799" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题一-要点1-文字"><tspan font-family="Noto Sans SC">通道曲折：网络分割连续液相，离子需要绕行</tspan></text>
+<ellipse cx="84" cy="833" rx="4.5" ry="4.5" fill="#2B6FA9" data-name="问题一-要点2-圆点"/>
+<text x="103" y="842" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题一-要点2-文字"><tspan font-family="Noto Sans SC">配位</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">链段约束：局部结合与松弛可能限制迁移</tspan></text>
+<ellipse cx="84" cy="876" rx="4.5" ry="4.5" fill="#2B6FA9" data-name="问题一-要点3-圆点"/>
+<text x="103" y="885" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题一-要点3-文字"><tspan font-family="Noto Sans SC">结构不均：团聚或相分离使有效通道不连续</tspan></text>
+<ellipse cx="1020" cy="790" rx="4.5" ry="4.5" fill="#BE5D50" data-name="问题二-要点1-圆点"/>
+<text x="1039" y="799" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题二-要点1-文字"><tspan font-family="Noto Sans SC">接触不均：局部空隙减少有效电极接触面积</tspan></text>
+<ellipse cx="1020" cy="833" rx="4.5" ry="4.5" fill="#BE5D50" data-name="问题二-要点2-圆点"/>
+<text x="1039" y="842" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题二-要点2-文字"><tspan font-family="Noto Sans SC">界面副反应：</tspan><tspan font-family="DejaVu Sans">SEI / CEI </tspan><tspan font-family="Noto Sans SC">不均、破裂与重构</tspan></text>
+<ellipse cx="1020" cy="876" rx="4.5" ry="4.5" fill="#BE5D50" data-name="问题二-要点3-圆点"/>
+<text x="1039" y="885" font-size="24" font-weight="400" fill="#172B46" text-anchor="start" data-name="问题二-要点3-文字"><tspan font-family="Noto Sans SC">通量失衡：局部极化增大，长期阻抗持续增长</tspan></text>
+<rect x="48" y="946" width="1824" height="77" rx="16" fill="#172F4D" data-name="过渡-底部问题栏"/>
+<rect x="72.0" y="965.0" width="216" height="40" rx="20.0" fill="#2D698A" stroke="#2D698A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="过渡-提示标签"/>
+<text x="180" y="993.28" font-size="23" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="过渡-提示标签-标签"><tspan font-family="Noto Sans SC">引出体系设计</tspan></text>
+<text x="318" y="995" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="start" data-name="过渡-核心设计目标问句"><tspan font-family="Noto Sans SC">如何兼顾稳定的聚合物骨架、高效离子传输与长期稳定的电极界面？</tspan></text>
+<text x="48" y="1055" font-size="19" font-weight="400" fill="#64768A" text-anchor="start" data-name="页面-科学边界说明"><tspan font-family="Noto Sans SC">注：图示为常见挑战的定性示意，并非所有凝胶必然失效；迁移数不必然下降，影响程度依网络、溶剂与电极体系而变。</tspan></text>
+</svg>
