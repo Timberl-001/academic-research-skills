@@ -4,18 +4,21 @@
 
 1. **科学问题页（新重画、完全可编辑）**：`Traditional_GPE_Common_Problems_Editable.pptx`——单页16:9、206个独立原生对象，仅介绍传统凝胶的体相传输与界面问题，不提前展示本体系配方。优先使用此版本，而非下面的旧图片嵌入版。
 2. **体系设计页**：`MBA_GPE_Design_Concept_Slide.pptx`——最新原生可编辑版本，展示MBA网络、DMTFA/TTE溶剂化调控和LiDFOB双界面成膜设计；所有效果为待验证的设计预期。
+3. **组分与对比说明表**：`GPE_Component_Roles_Table.pptx`——原生7×3表格，概括各组分作用与选用理由，含PEGDA对比基体；每个单元格可编辑。另附CSV，可在Excel中打开。PEGDA对比样的液相组成、分子量和含量未作未经提供的假定。
 
 ## 文件与编辑方式
 
 | 文件 | 页数 | 内容 | 可编辑程度 |
 | --- | ---: | --- | --- |
+| `GPE_Component_Roles_Table.pptx` | 1 | 各组分作用、选择依据与PEGDA对比理由 | **7×3原生表格，每个单元格可直接编辑，无嵌入图片** |
+| `GPE_Component_Roles_Table.csv` | — | 同一组分表的Excel兼容文本数据 | UTF-8 BOM编码，可编辑单元格内容 |
 | `Traditional_GPE_Common_Problems_Editable.pptx` | 1 | 全新重画的传统凝胶两大共性问题页 | **206个原生可编辑对象，无嵌入图片、无锁定对象** |
 | `Traditional_GPE_Common_Problems_Editable_Files.zip` | — | 本次单页的PPT、SVG、PNG及编辑说明 | 仅打包本页；不包含其他版本 |
 | `Traditional_GPE_Scientific_Questions_Slide.pptx` | 5 | 传统凝胶的两类共性挑战；含整页版、两张单图和一张早期体系设计图 | 第1页标题/过渡文字为原生对象，图片可移动和缩放；图内部为嵌入PNG，不能逐个修改 |
 | `MBA_GPE_Scientific_Questions_Presentation.pptx` | 5 | 上述科学问题文件的旧文件名 | **与上一文件内容完全相同，不是另一版本** |
 | `MBA_GPE_Earlier_Schematics_Collection.pptx` | 5 | 三项科学问题矩阵、全电池机理、离子传输单图、界面单图、含本体系的双图布局 | 标题和草稿说明是原生文本；示意图为PNG，原SVG源另附 |
 | `MBA_GPE_Design_Concept_Slide.pptx` | 1 | 最新的左右对比体系设计页 | **277个原生可编辑对象；未嵌入整页图片** |
-| `GPE_PPT_Collection.zip` | — | 先前3份不重复的PPT、10份SVG源和当时的索引 | 压缩包内按01/02/03编号；**不包含本次新重画的科学问题页**；新页请用其单独打包文件 |
+| `GPE_PPT_Collection.zip` | — | 先前3份不重复的PPT、10份SVG源和当时的索引 | 压缩包内按01/02/03编号；**不包含新重画的科学问题页或组分表**；两者请单独下载 |
 
 ### 科学问题文件的5页
 
@@ -46,7 +49,7 @@ python3 -m pip install -r gpe_scientific_questions/requirements-design.txt
 # 在对应PNG、SVG和既有PPT存在的情况下重建早期合集及打包文件：
 python3 gpe_scientific_questions/build_earlier_presentations.py
 # 检查最新设计页、早期合集及压缩包的文件结构：
-python3 -m unittest discover -s gpe_scientific_questions -p 'test_design_concept.py' -v
+python3 -m unittest discover -s gpe_scientific_questions -p 'test_*.py' -v
 ```
 
 最新设计页生成程序为 `build_design_concept.py`，需要另行提供绘图字体，详见最新设计页说明。
