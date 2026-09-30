@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="leftPicHdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="rightPicHdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#0D9488"/>
+    </linearGradient>
+    <linearGradient id="liqGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECFEFF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="gelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF2F2"/>
+    </linearGradient>
+    <linearGradient id="anodeMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="cathodeMetal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <radialGradient id="liG" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="pf6G" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#DDD6FE"/>
+      <stop offset="60%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </radialGradient>
+    <radialGradient id="dfobG" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A7F3D0"/>
+      <stop offset="60%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </radialGradient>
+    <radialGradient id="oxyG" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="60%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </radialGradient>
+    <radialGradient id="nodeG" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="60%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </radialGradient>
+    <filter id="cardShad" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0F172A" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrRed" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrOrange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#D97706"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+  </defs>
+
+  <!-- Slide Background -->
+  <rect width="1920" height="1080" fill="#F1F5F9"/>
+
+  <!-- Top PPT Slide Title Bar -->
+  <rect x="24" y="18" width="1872" height="68" rx="14" fill="url(#topBar)" filter="url(#cardShad)"/>
+  <text x="52" y="61" font-family="Noto Sans SC, DejaVu Sans" font-size="27" font-weight="bold" fill="#FFFFFF">
+    本课题拟解决的关键科学问题（体相离子传输 vs 电极/凝胶界面演化）
+  </text>
+  <rect x="1255" y="30" width="618" height="44" rx="22" fill="#0F172A" fill-opacity="0.55" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="1564" y="58" font-family="Noto Sans SC, DejaVu Sans" font-size="16" font-weight="bold" fill="#E0F2FE" text-anchor="middle">
+    体系：MBA + 1.0 M LiPF₆ + 0.2 M LiDFOB in DMTFA : TTE (1 : 1)
+  </text>
+
+  <!-- ========================================================================== -->
+  <!-- PICTURE 1 (LEFT HALF: x=24..946, w=922, y=102..1058)                       -->
+  <!-- 科学问题一：为什么凝胶化后离子电导率会下降？ (传统凝胶骨架 + 溶剂示意图)      -->
+  <!-- ========================================================================== -->
+  <g transform="translate(24, 102)">
+    <rect width="922" height="956" rx="18" fill="#FFFFFF" stroke="#93C5FD" stroke-width="2.5" filter="url(#cardShad)"/>
+    <!-- Picture 1 Title Header -->
+    <rect x="0" y="0" width="922" height="58" rx="18" fill="url(#leftPicHdr)"/>
+    <rect x="0" y="32" width="922" height="26" fill="url(#leftPicHdr)"/>
+    <circle cx="42" cy="29" r="18" fill="#FFFFFF" opacity="0.22"/>
+    <text x="42" y="36" font-family="DejaVu Sans" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">图1</text>
+    <text x="74" y="37" font-family="Noto Sans SC, DejaVu Sans" font-size="21" font-weight="bold" fill="#FFFFFF">
+      科学问题一：为什么凝胶化后体相离子电导率 (<tspan font-family="DejaVu Sans">σ</tspan>) 会下降？
+    </text>
+
+    <!-- Sub-comparison inside Picture 1: Left (Liquid Fast) vs Right (Gel Skeleton + Solvent Slow) -->
+    <!-- Left Mini-Column: Liquid Electrolyte (x=22..262, w=240, y=74..694) -->
+    <rect x="22" y="74" width="240" height="620" rx="12" fill="url(#liqGrad)" stroke="#38BDF8" stroke-width="2"/>
+    <rect x="22" y="74" width="240" height="36" rx="12" fill="#0284C7"/>
+    <rect x="22" y="94" width="240" height="16" fill="#0284C7"/>
+    <text x="142" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      液态电解液 (高电导率 <tspan font-family="DejaVu Sans">σ₀</tspan>)
+    </text>
+
+    <!-- Straight Highways in Liquid -->
+    <rect x="62" y="130" width="42" height="470" rx="21" fill="#BAE6FD" opacity="0.5"/>
+    <rect x="180" y="130" width="42" height="470" rx="21" fill="#BAE6FD" opacity="0.5"/>
+    <line x1="83" y1="585" x2="83" y2="145" stroke="#0284C7" stroke-width="4.5" stroke-dasharray="8,4" marker-end="url(#arrBlue)"/>
+    <line x1="201" y1="585" x2="201" y2="145" stroke="#0284C7" stroke-width="4.5" stroke-dasharray="8,4" marker-end="url(#arrBlue)"/>
+
+    <!-- Solvated Li+ Clusters in Liquid -->
+    <g transform="translate(83, 265)">
+      <circle cx="0" cy="0" r="38" fill="#FFFFFF" fill-opacity="0.85" stroke="#0284C7" stroke-width="1.8" stroke-dasharray="4,2"/>
+      <circle cx="0" cy="0" r="16" fill="url(#liG)"/>
+      <text x="0" y="5" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+      <circle cx="20" cy="-18" r="11" fill="url(#pf6G)"/>
+      <text x="20" y="-14" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PF₆⁻</text>
+      <rect x="-30" y="14" width="38" height="14" rx="5" fill="#FEF08A" stroke="#D97706"/>
+      <text x="-11" y="24" font-family="DejaVu Sans" font-size="8" font-weight="bold" fill="#92400E" text-anchor="middle">DMTFA</text>
+    </g>
+
+    <g transform="translate(201, 430)">
+      <circle cx="0" cy="0" r="38" fill="#FFFFFF" fill-opacity="0.85" stroke="#0284C7" stroke-width="1.8" stroke-dasharray="4,2"/>
+      <circle cx="0" cy="0" r="16" fill="url(#liG)"/>
+      <text x="0" y="5" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+      <circle cx="-20" cy="-16" r="11" fill="url(#dfobG)"/>
+      <text x="-20" y="-12" font-family="DejaVu Sans" font-size="7" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DFOB⁻</text>
+      <rect x="-6" y="14" width="38" height="14" rx="5" fill="#FEF08A" stroke="#D97706"/>
+      <text x="13" y="24" font-family="DejaVu Sans" font-size="8" font-weight="bold" fill="#92400E" text-anchor="middle">DMTFA</text>
+    </g>
+
+    <rect x="122" y="185" width="40" height="20" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.2"/>
+    <text x="142" y="199" font-family="DejaVu Sans" font-size="10" font-weight="bold" fill="#0E7490" text-anchor="middle">TTE</text>
+    <rect x="122" y="345" width="40" height="20" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.2"/>
+    <text x="142" y="359" font-family="DejaVu Sans" font-size="10" font-weight="bold" fill="#0E7490" text-anchor="middle">TTE</text>
+    <rect x="122" y="515" width="40" height="20" rx="10" fill="#CFFAFE" stroke="#0891B2" stroke-width="1.2"/>
+    <text x="142" y="529" font-family="DejaVu Sans" font-size="10" font-weight="bold" fill="#0E7490" text-anchor="middle">TTE</text>
+
+    <rect x="32" y="618" width="220" height="62" rx="8" fill="#FFFFFF" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="142" y="644" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#0369A1" text-anchor="middle">
+      ✔ 连续液相直通 (<tspan font-family="DejaVu Sans">τ ≈ 1</tspan>)
+    </text>
+    <text x="142" y="666" font-family="Noto Sans SC, DejaVu Sans" font-size="12" fill="#475569" text-anchor="middle">
+      无骨架阻隔 · 自由快速迁移
+    </text>
+
+    <!-- Right Main Area of Picture 1: MBA Gel Skeleton + Solvent (x=278..900, w=622, y=74..694) -->
+    <rect x="278" y="74" width="622" height="620" rx="12" fill="url(#gelGrad)" stroke="#F87171" stroke-width="2"/>
+    <rect x="278" y="74" width="622" height="36" rx="12" fill="#B91C1C"/>
+    <rect x="278" y="94" width="622" height="16" fill="#B91C1C"/>
+    <text x="589" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      传统MBA凝胶骨架 + 溶剂体系：三重受阻导致电导率 (<tspan font-family="DejaVu Sans">σ</tspan>) 显著下降
+    </text>
+
+    <!-- Visual Canvas of Polymer Skeleton + Solvent + Trapped Ions -->
+    <rect x="294" y="122" width="590" height="482" rx="10" fill="#FFFFFF" fill-opacity="0.78" stroke="#FCA5A5" stroke-width="1.5"/>
+
+    <!-- Mechanism 3 Visual: TTE Phase Separation Droplets -->
+    <ellipse cx="775" cy="215" rx="85" ry="56" fill="#CFFAFE" stroke="#0891B2" stroke-width="2.2" stroke-dasharray="6,3"/>
+    <text x="775" y="198" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#0E7490" text-anchor="middle">③ TTE 微相分离区</text>
+    <text x="775" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#DC2626" text-anchor="middle">(非极性氟醚受骨架排斥)</text>
+    <text x="775" y="240" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" fill="#0369A1" text-anchor="middle">形成不导Li⁺绝缘液滴盲区</text>
+
+    <ellipse cx="395" cy="515" rx="78" ry="50" fill="#CFFAFE" stroke="#0891B2" stroke-width="2.2" stroke-dasharray="6,3"/>
+    <text x="395" y="508" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#0E7490" text-anchor="middle">TTE 析出液滴</text>
+    <text x="395" y="528" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#DC2626" text-anchor="middle">(挤占有效液相通道)</text>
+
+    <!-- Thick 3D Intertwined MBA Polymer Skeleton Strands -->
+    <path d="M 300 195 C 420 155, 520 245, 645 185 C 735 145, 810 205, 878 175" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 300 325 C 430 375, 540 275, 670 340 C 760 385, 825 305, 878 340" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 300 445 C 415 400, 550 495, 675 435 C 770 390, 825 465, 878 435" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- Vertical MBA Cross-linking Bridges -->
+    <path d="M 410 140 C 445 225, 395 335, 455 435 C 485 495, 465 555, 485 595" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 595 135 C 560 235, 625 325, 580 445 C 555 515, 605 555, 590 595" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 735 280 C 705 355, 755 445, 715 585" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Glowing Orange Crosslink Nodes (MBA Bis-C=C Junctions) -->
+    <circle cx="424" cy="186" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="585" cy="204" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="420" cy="336" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="602" cy="314" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="724" cy="352" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="450" cy="432" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="584" cy="452" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+    <circle cx="732" cy="426" r="12" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="2.2"/>
+
+    <!-- Badge: MBA Polymer Skeleton -->
+    <rect x="306" y="130" width="216" height="30" rx="6" fill="#0F172A"/>
+    <text x="414" y="150" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      MBA 高交联三维刚性骨架
+    </text>
+
+    <!-- Mechanism 2 Visual: Amide C=O Trapping Li+ (Large Zoom Circle) -->
+    <circle cx="510" cy="262" r="58" fill="#FEE2E2" fill-opacity="0.92" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="5,3"/>
+    <line x1="476" y1="204" x2="490" y2="238" stroke="#991B1B" stroke-width="3.5"/>
+    <circle cx="490" cy="238" r="10" fill="url(#oxyG)"/>
+    <text x="490" y="242" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">O</text>
+
+    <line x1="544" y1="208" x2="530" y2="240" stroke="#991B1B" stroke-width="3.5"/>
+    <circle cx="530" cy="240" r="10" fill="url(#oxyG)"/>
+    <text x="530" y="244" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">O</text>
+
+    <line x1="510" y1="316" x2="510" y2="288" stroke="#991B1B" stroke-width="3.5"/>
+    <circle cx="510" cy="288" r="10" fill="url(#oxyG)"/>
+    <text x="510" y="292" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">O</text>
+
+    <circle cx="510" cy="262" r="17" fill="url(#liG)" stroke="#DC2626" stroke-width="2.2"/>
+    <text x="510" y="268" font-family="DejaVu Sans" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+
+    <rect x="442" y="324" width="182" height="44" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+    <text x="533" y="343" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#DC2626" text-anchor="middle">
+      ② 骨架酰胺 C=O “锁死” Li⁺
+    </text>
+    <text x="533" y="361" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" fill="#991B1B" text-anchor="middle">
+      (配位力强于弱溶剂DMTFA，难解离)
+    </text>
+
+    <!-- Mechanism 1 Visual: Tortuous Detour & Blocked Direct Path -->
+    <path d="M 535 585 C 535 515, 485 485, 520 435 C 555 385, 470 365, 385 375 C 325 380, 335 265, 395 245 C 425 235, 385 195, 365 170"
+          fill="none" stroke="#D97706" stroke-width="4" stroke-dasharray="7,4" marker-end="url(#arrOrange)"/>
+    <rect x="300" y="376" width="184" height="44" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="392" y="395" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#92400E" text-anchor="middle">
+      ① 骨架空间阻隔 (<tspan font-family="DejaVu Sans">τ ≫ 1</tspan>)
+    </text>
+    <text x="392" y="413" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" fill="#B45309" text-anchor="middle">
+      直通路径被阻断 · 迁移路径被迫绕行
+    </text>
+
+    <!-- Caged Solvation Sheath in Narrow Pore -->
+    <g transform="translate(800, 505)">
+      <circle cx="0" cy="0" r="42" fill="#FEF3C7" fill-opacity="0.9" stroke="#D97706" stroke-width="2" stroke-dasharray="4,2"/>
+      <circle cx="0" cy="0" r="15" fill="url(#liG)"/>
+      <text x="0" y="5" font-family="DejaVu Sans" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+      <circle cx="-18" cy="-14" r="10" fill="url(#pf6G)"/>
+      <text x="-18" y="-11" font-family="DejaVu Sans" font-size="7" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PF₆⁻</text>
+      <rect x="-4" y="12" width="36" height="14" rx="4" fill="#FEF08A" stroke="#D97706"/>
+      <text x="14" y="22" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#92400E" text-anchor="middle">DMTFA</text>
+      <rect x="-82" y="44" width="164" height="22" rx="5" fill="#FFFFFF" stroke="#F59E0B"/><text x="0" y="59" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#92400E" text-anchor="middle">微孔笼状限域 · 局部粘度激增</text>
+    </g>
+
+    <!-- Summary Formula Bar inside Gel Panel -->
+    <rect x="294" y="618" width="590" height="62" rx="8" fill="#FFF1F2" stroke="#F43F5E" stroke-width="1.8"/>
+    <text x="589" y="643" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#9F1239" text-anchor="middle">
+      为什么 <tspan font-family="DejaVu Sans">σ</tspan> 下降？ ① 骨架阻隔曲折度 <tspan font-family="DejaVu Sans">τ↑</tspan>  +  ② 酰胺 C=O 强配位锁死 Li⁺  +  ③ TTE 微相分离盲区
+    </text>
+    <text x="589" y="666" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#BE123C" text-anchor="middle">
+      ➔ 自由载流子浓度 (n) 与有效迁移率 (<tspan font-family="DejaVu Sans">μ</tspan>) 同步降低
+    </text>
+
+    <!-- Bottom of Picture 1: Potential Energy Curve + Core Scientific Question 1 Box (y=710..938) -->
+    <rect x="22" y="710" width="878" height="226" rx="12" fill="#EFF6FF" stroke="#3B82F6" stroke-width="2"/>
+    <!-- Left Mini Energy Plot -->
+    <rect x="36" y="724" width="350" height="198" rx="8" fill="#FFFFFF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <text x="211" y="746" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#1E3A8A" text-anchor="middle">
+      Li⁺ 迁移势能面：液态 vs 传统凝胶骨架束缚
+    </text>
+    <line x1="64" y1="896" x2="366" y2="896" stroke="#475569" stroke-width="2"/>
+    <line x1="64" y1="896" x2="64" y2="762" stroke="#475569" stroke-width="2"/>
+    <text x="50" y="830" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#475569" text-anchor="middle" transform="rotate(-90 50 830)">势能 E</text>
+    <!-- Blue curve -->
+    <path d="M 76 860 Q 108 835 140 860 Q 172 882 204 860 Q 236 835 268 860 Q 300 882 332 860" fill="none" stroke="#0284C7" stroke-width="3.5"/>
+    <text x="315" y="845" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#0284C7" text-anchor="middle">液态 (ΔE₁低)</text>
+    <!-- Red curve -->
+    <path d="M 76 878 Q 108 772 140 878 Q 172 894 204 878 Q 236 772 268 878 Q 300 894 332 878" fill="none" stroke="#DC2626" stroke-width="3.5" stroke-dasharray="5,3"/>
+    <text x="211" y="772" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#DC2626" text-anchor="middle">凝胶 C=O 深势阱束缚 (ΔE₂ ≫ ΔE₁)</text>
+    <circle cx="172" cy="880" r="8" fill="url(#liG)"/>
+    <text x="172" y="883" font-family="DejaVu Sans" font-size="7" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+
+    <!-- Right Question 1 Statement -->
+    <rect x="402" y="728" width="240" height="28" rx="14" fill="#1D4ED8"/>
+    <text x="522" y="747" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      凝练核心科学问题一（体相传输）
+    </text>
+    <text x="402" y="782" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#1E3A8A">
+      如何通过 DMTFA:TTE(1:1) 调控 MBA 骨架的相容性
+    </text>
+    <text x="402" y="808" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#1E3A8A">
+      与配位环境，解耦“交联锁液”与“高电导率”矛盾？
+    </text>
+    <rect x="402" y="822" width="482" height="98" rx="8" fill="#FFFFFF" stroke="#93C5FD" stroke-width="1.5"/>
+    <text x="416" y="846" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#0F766E">
+      ✔ 破局思路 1：DMTFA 酰胺基与 MBA 氢键增塑 → 消除 TTE 微相分离；
+    </text>
+    <text x="416" y="874" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#1D4ED8">
+      ✔ 破局思路 2：弱溶剂/阴离子与 C=O 竞争配位 → 变深势阱为跳跃通道；
+    </text>
+    <text x="416" y="902" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#4338CA">
+      ✔ 破局思路 3：MBA 的 -NH- 锚定 PF₆⁻/DFOB⁻ → 释放自由 Li⁺ 提升 tLi⁺。
+    </text>
+  </g>
+
+  <!-- ========================================================================== -->
+  <!-- PICTURE 2 (RIGHT HALF: x=974..1896, w=922, y=102..1058)                      -->
+  <!-- 科学问题二：为什么凝胶/电极界面阻抗大、易长枝晶且正负极成膜失稳？              -->
+  <!-- ========================================================================== -->
+  <g transform="translate(974, 102)">
+    <rect width="922" height="956" rx="18" fill="#FFFFFF" stroke="#5EEAD4" stroke-width="2.5" filter="url(#cardShad)"/>
+    <!-- Picture 2 Title Header -->
+    <rect x="0" y="0" width="922" height="58" rx="18" fill="url(#rightPicHdr)"/>
+    <rect x="0" y="32" width="922" height="26" fill="url(#rightPicHdr)"/>
+    <circle cx="42" cy="29" r="18" fill="#FFFFFF" opacity="0.22"/>
+    <text x="42" y="36" font-family="DejaVu Sans" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">图2</text>
+    <text x="74" y="37" font-family="Noto Sans SC, DejaVu Sans" font-size="21" font-weight="bold" fill="#FFFFFF">
+      科学问题二：为什么凝胶/电极界面阻抗大、易长枝晶且成膜失稳？
+    </text>
+
+    <!-- Left Half of Picture 2: Traditional Gel/Electrode Interface Failure (x=22..452, w=430, y=74..694) -->
+    <rect x="22" y="74" width="430" height="620" rx="12" fill="url(#gelGrad)" stroke="#F87171" stroke-width="2"/>
+    <rect x="22" y="74" width="430" height="36" rx="12" fill="#B91C1C"/>
+    <rect x="22" y="94" width="430" height="16" fill="#B91C1C"/>
+    <text x="237" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      传统凝胶/电极界面：接触空隙 · 脱溶难 · 枝晶/酸蚀
+    </text>
+
+    <!-- Visual Canvas of Failing Interface -->
+    <rect x="34" y="122" width="406" height="482" rx="10" fill="#FFFFFF" fill-opacity="0.82" stroke="#FCA5A5" stroke-width="1.5"/>
+
+    <!-- Rough Anode on Left -->
+    <path d="M 34 122 L 92 122 L 92 175 L 74 205 L 94 240 L 72 285 L 94 330 L 74 380 L 94 430 L 74 480 L 92 530 L 92 604 L 34 604 Z"
+          fill="url(#anodeMetal)"/>
+    <text x="58" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 58 363)">粗糙负极表面 (Anode)</text>
+
+    <!-- Voids & Poor Contact -->
+    <ellipse cx="96" cy="205" rx="16" ry="26" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.8" stroke-dasharray="4,2"/>
+    <ellipse cx="96" cy="380" rx="16" ry="26" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.8" stroke-dasharray="4,2"/>
+    <rect x="116" y="186" width="142" height="38" rx="6" fill="#FFF1F2" stroke="#DC2626" stroke-width="1.5"/>
+    <text x="187" y="203" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#DC2626" text-anchor="middle">① 固-固界面接触空隙</text>
+    <text x="187" y="218" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#991B1B" text-anchor="middle">局部电流集中 · 接触阻抗大</text>
+
+    <!-- Li Dendrites Piercing Gel -->
+    <polygon points="92,240 205,260 92,282" fill="#94A3B8" stroke="#DC2626" stroke-width="2.2"/>
+    <polygon points="92,425 215,448 92,470" fill="#94A3B8" stroke="#DC2626" stroke-width="2.2"/>
+    <rect x="118" y="286" width="136" height="24" rx="5" fill="#DC2626"/>
+    <text x="186" y="302" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">✖ 锂枝晶刺穿凝胶骨架</text>
+
+    <!-- Broken Organic SEI -->
+    <rect x="96" y="135" width="12" height="36" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="96" y="320" width="12" height="36" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="96" y="515" width="12" height="65" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="116" y="532" width="166" height="40" rx="6" fill="#FFF1F2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="199" y="550" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#B91C1C" text-anchor="middle">③ 溶剂还原→疏松有机SEI</text>
+    <text x="199" y="566" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#991B1B" text-anchor="middle">反复破裂重构 · 消耗活性锂</text>
+
+    <!-- Rigid Gel Strands in Center -->
+    <path d="M 245 135 C 285 235, 235 365, 275 585" fill="none" stroke="#475569" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="262" cy="225" r="10" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="1.8"/>
+    <circle cx="255" cy="415" r="10" fill="url(#nodeG)" stroke="#FFFFFF" stroke-width="1.8"/>
+
+    <!-- Sluggish Interfacial Desolvation -->
+    <circle cx="245" cy="365" r="40" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" stroke-dasharray="4,2"/>
+    <circle cx="245" cy="365" r="14" fill="url(#liG)"/>
+    <text x="245" y="370" font-family="DejaVu Sans" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <rect x="172" y="395" width="146" height="22" rx="5" fill="#FFFFFF" stroke="#DC2626" stroke-width="1.2"/>
+    <text x="245" y="410" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#B91C1C" text-anchor="middle">② 界面 Li⁺ 脱溶能垒极高</text>
+
+    <!-- Cathode on Right of Failure Panel -->
+    <rect x="382" y="122" width="58" height="482" rx="6" fill="url(#cathodeMetal)"/>
+    <text x="411" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 411 363)">高电压正极 (Cathode)</text>
+    <rect x="368" y="135" width="10" height="455" fill="#FDE68A" stroke="#D97706" stroke-dasharray="8,6"/>
+
+    <!-- HF Attack & TM Dissolution -->
+    <rect x="272" y="165" width="92" height="54" rx="6" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="318" y="186" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#DC2626" text-anchor="middle">HF 酸腐蚀</text>
+    <text x="318" y="206" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#991B1B" text-anchor="middle">(LiPF₆遇水分解)</text>
+    <path d="M 345 225 L 376 225" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arrRed)"/>
+
+    <rect x="272" y="265" width="92" height="54" rx="6" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+    <text x="318" y="286" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#B45309" text-anchor="middle">TMⁿ⁺ 金属溶出</text>
+    <text x="318" y="306" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#7C2D12" text-anchor="middle">正极结构坍塌</text>
+    <path d="M 376 328 L 345 328" stroke="#DC2626" stroke-width="2.5" marker-end="url(#arrRed)"/>
+
+    <rect x="34" y="618" width="406" height="62" rx="8" fill="#FFF1F2" stroke="#F43F5E" stroke-width="1.5"/>
+    <text x="237" y="643" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#9F1239" text-anchor="middle">
+      ✘ 界面空隙大 (<tspan font-family="DejaVu Sans">R_int↑</tspan>) + 脱溶慢 (<tspan font-family="DejaVu Sans">R_ct↑</tspan>) + SEI/CEI 脆弱
+    </text>
+    <text x="237" y="666" font-family="Noto Sans SC, DejaVu Sans" font-size="12" fill="#BE123C" text-anchor="middle">
+      诱发锂枝晶短路与正极过渡金属溶出失活
+    </text>
+
+    <!-- Right Half of Picture 2: Our In-Situ MBA + DMTFA:TTE + LiDFOB Interface (x=468..900, w=432, y=74..694) -->
+    <rect x="468" y="74" width="432" height="620" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <rect x="468" y="74" width="432" height="36" rx="12" fill="#047857"/>
+    <rect x="468" y="94" width="432" height="16" fill="#047857"/>
+    <text x="684" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      本体系：原位无缝浸润 + 富阴离子鞘构筑 LiF/B-O 双界面
+    </text>
+
+    <!-- Visual Canvas of Ideal Interface -->
+    <rect x="480" y="122" width="408" height="482" rx="10" fill="#FFFFFF" fill-opacity="0.88" stroke="#6EE7B7" stroke-width="1.5"/>
+
+    <!-- Smooth Anode + Dense Hybrid SEI -->
+    <rect x="480" y="122" width="52" height="482" rx="6" fill="url(#anodeMetal)"/>
+    <text x="506" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 506 363)">平整无枝晶负极 (Anode)</text>
+
+    <rect x="532" y="122" width="34" height="482" fill="#10B981" stroke="#047857" stroke-width="1.5"/>
+    <circle cx="549" cy="152" r="9" fill="#FEF08A" stroke="#CA8A04"/>
+    <text x="549" y="155" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#854D0E" text-anchor="middle">LiF</text>
+    <circle cx="549" cy="572" r="9" fill="#FEF08A" stroke="#CA8A04"/>
+    <text x="549" y="575" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#854D0E" text-anchor="middle">LiF</text>
+    <text x="549" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 549 363)">致密富 LiF / B-O 复合 SEI 层</text>
+
+    <!-- Uniform Li+ Flux Arrows -->
+    <line x1="605" y1="185" x2="570" y2="185" stroke="#059669" stroke-width="3.5" marker-end="url(#arrGreen)"/>
+    <line x1="605" y1="295" x2="570" y2="295" stroke="#059669" stroke-width="3.5" marker-end="url(#arrGreen)"/>
+    <line x1="605" y1="435" x2="570" y2="435" stroke="#059669" stroke-width="3.5" marker-end="url(#arrGreen)"/>
+    <line x1="605" y1="535" x2="570" y2="535" stroke="#059669" stroke-width="3.5" marker-end="url(#arrGreen)"/>
+
+    <rect x="576" y="132" width="216" height="32" rx="6" fill="#D1FAE5" stroke="#059669" stroke-width="1.5"/>
+    <text x="684" y="153" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#065F46" text-anchor="middle">
+      ① 原位液态浸润成胶 · 零界面空隙
+    </text>
+
+    <!-- Plasticized Homogeneous MBA Mesh in Center -->
+    <path d="M 570 235 Q 684 210 798 235" fill="none" stroke="#2563EB" stroke-width="4" stroke-dasharray="6,3"/>
+    <path d="M 570 495 Q 684 520 798 495" fill="none" stroke="#2563EB" stroke-width="4" stroke-dasharray="6,3"/>
+    <path d="M 684 170 L 684 585" fill="none" stroke="#60A5FA" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="684" cy="224" r="8" fill="url(#nodeG)"/>
+    <circle cx="684" cy="506" r="8" fill="url(#nodeG)"/>
+
+    <!-- Central LHCE CIP/AGG Sheath -->
+    <circle cx="684" cy="345" r="56" fill="#FEF3C7" fill-opacity="0.95" stroke="#D97706" stroke-width="2.2" stroke-dasharray="5,3"/>
+    <circle cx="684" cy="345" r="16" fill="url(#liG)"/>
+    <text x="684" y="350" font-family="DejaVu Sans" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <circle cx="650" cy="318" r="14" fill="url(#dfobG)"/>
+    <text x="650" y="322" font-family="DejaVu Sans" font-size="8.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DFOB⁻</text>
+    <circle cx="718" cy="318" r="13" fill="url(#pf6G)"/>
+    <text x="718" y="322" font-family="DejaVu Sans" font-size="8.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PF₆⁻</text>
+    <rect x="642" y="368" width="84" height="18" rx="4" fill="#FFFFFF" stroke="#D97706"/>
+    <text x="684" y="381" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#92400E" text-anchor="middle">DMTFA:TTE(1:1)</text>
+
+    <rect x="588" y="258" width="192" height="24" rx="6" fill="#FFFFFF" stroke="#0D9488" stroke-width="1.5"/>
+    <text x="684" y="274" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#0F766E" text-anchor="middle">
+      ② LHCE 富阴离子鞘 (快速脱溶)
+    </text>
+
+    <!-- Anion Priority Decomposition Callouts -->
+    <path d="M 624 345 L 572 345" stroke="#059669" stroke-width="3" marker-end="url(#arrGreen)"/>
+    <rect x="574" y="412" width="104" height="48" rx="6" fill="#ECFDF5" stroke="#10B981" stroke-width="1.5"/>
+    <text x="626" y="432" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#065F46" text-anchor="middle">DFOB⁻/PF₆⁻还原</text>
+    <text x="626" y="450" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#047857" text-anchor="middle">→ 刚柔LiF/B-O膜</text>
+
+    <path d="M 744 345 L 792 345" stroke="#D97706" stroke-width="3" marker-end="url(#arrOrange)"/>
+    <rect x="690" y="412" width="104" height="48" rx="6" fill="#FFFBEB" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="742" y="432" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#92400E" text-anchor="middle">DFOB⁻氧化+除HF</text>
+    <text x="742" y="450" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#B45309" text-anchor="middle">→ 耐高压抗蚀CEI</text>
+
+    <!-- Dense CEI + Protected Cathode -->
+    <rect x="798" y="122" width="34" height="482" fill="#F59E0B" stroke="#B45309" stroke-width="1.5"/>
+    <text x="815" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 815 363)">致密富 B-O / LiF CEI 层</text>
+    <rect x="832" y="122" width="56" height="482" rx="6" fill="url(#cathodeMetal)"/>
+    <text x="860" y="363" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 860 363)">高稳定正极 (Cathode)</text>
+
+    <rect x="480" y="618" width="408" height="62" rx="8" fill="#D1FAE5" stroke="#10B981" stroke-width="1.8"/>
+    <text x="684" y="643" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#065F46" text-anchor="middle">
+      ✔ 零空隙贴合 (<tspan font-family="DejaVu Sans">R_int↓</tspan>) + 阴离子入鞘快脱溶 + 富 LiF/B-O 成膜
+    </text>
+    <text x="684" y="666" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#047857" text-anchor="middle">
+      彻底抑制锂枝晶生长与正极过渡金属溶出
+    </text>
+
+    <!-- Bottom of Picture 2: LUMO/HOMO Diagram + Core Scientific Question 2 Box (y=710..938) -->
+    <rect x="22" y="710" width="878" height="226" rx="12" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <!-- Left Mini LUMO/HOMO Plot -->
+    <rect x="36" y="724" width="350" height="198" rx="8" fill="#FFFFFF" stroke="#A7F3D0" stroke-width="1.5"/>
+    <text x="211" y="746" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#065F46" text-anchor="middle">
+      前线轨道能级：DFOB⁻/PF₆⁻ 正负极优先成膜
+    </text>
+    <text x="52" y="776" font-family="DejaVu Sans, Noto Sans SC" font-size="10.5" font-weight="bold" fill="#DC2626">LUMO</text>
+    <line x1="105" y1="774" x2="150" y2="774" stroke="#0284C7" stroke-width="4"/>
+    <text x="127" y="766" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#0284C7" text-anchor="middle">DMTFA</text>
+    <line x1="168" y1="780" x2="212" y2="780" stroke="#0891B2" stroke-width="4"/>
+    <text x="190" y="772" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#0891B2" text-anchor="middle">TTE</text>
+    <line x1="230" y1="790" x2="278" y2="790" stroke="#7C3AED" stroke-width="4"/>
+    <text x="254" y="782" font-family="DejaVu Sans" font-size="9.5" font-weight="bold" fill="#7C3AED" text-anchor="middle">PF₆⁻</text>
+    <line x1="296" y1="810" x2="368" y2="810" stroke="#059669" stroke-width="5"/>
+    <text x="332" y="802" font-family="DejaVu Sans" font-size="10" font-weight="bold" fill="#059669" text-anchor="middle">DFOB⁻(最低)</text>
+    <text x="332" y="826" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#065F46" text-anchor="middle">优先还原成SEI</text>
+
+    <text x="52" y="892" font-family="DejaVu Sans, Noto Sans SC" font-size="10.5" font-weight="bold" fill="#B45309">HOMO</text>
+    <line x1="105" y1="896" x2="150" y2="896" stroke="#0284C7" stroke-width="4"/>
+    <line x1="168" y1="902" x2="212" y2="902" stroke="#0891B2" stroke-width="4"/>
+    <line x1="230" y1="908" x2="278" y2="908" stroke="#7C3AED" stroke-width="4"/>
+    <line x1="296" y1="872" x2="368" y2="872" stroke="#D97706" stroke-width="5"/>
+    <text x="332" y="862" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#B45309" text-anchor="middle">优先氧化成CEI</text>
+    <text x="332" y="888" font-family="DejaVu Sans" font-size="10" font-weight="bold" fill="#D97706" text-anchor="middle">DFOB⁻(最高)</text>
+
+    <!-- Right Question 2 Statement -->
+    <rect x="402" y="728" width="240" height="28" rx="14" fill="#047857"/>
+    <text x="522" y="747" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      凝练核心科学问题二（界面成膜）
+    </text>
+    <text x="402" y="782" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#065F46">
+      原位 MBA 凝胶骨架如何协同富阴离子鞘 (DFOB⁻/PF₆⁻)，
+    </text>
+    <text x="402" y="808" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#065F46">
+      消除界面接触阻力并原位构筑富 LiF/B-O 稳定双界面？
+    </text>
+    <rect x="402" y="822" width="482" height="98" rx="8" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.5"/>
+    <text x="416" y="846" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#065F46">
+      ✔ 破局思路 1：低粘度液态浸润—原位交联 → 消除固-固空隙均化 Li⁺ 通量；
+    </text>
+    <text x="416" y="874" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#047857">
+      ✔ 破局思路 2：LHCE 促阴离子入鞘优先还原 → 构筑刚柔并济 LiF/B-O SEI；
+    </text>
+    <text x="416" y="902" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#B45309">
+      ✔ 破局思路 3：DFOB⁻ 优先氧化与酰胺除酸 → 构筑抗蚀 CEI 抑制 TMⁿ⁺ 溶出。
+    </text>
+  </g>
+</svg>

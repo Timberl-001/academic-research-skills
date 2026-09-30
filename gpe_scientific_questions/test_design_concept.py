@@ -8,6 +8,8 @@ These checks validate the saved files, not the chemistry or PowerPoint's visual
 rendering. The proposed mechanisms still require experimental verification.
 """
 from pathlib import Path
+import hashlib
+from io import BytesIO
 import unittest
 from xml.etree import ElementTree as ET
 from zipfile import ZipFile
@@ -102,6 +104,56 @@ class DesignConceptSlideTest(unittest.TestCase):
                 with Image.open(HERE / name) as image:
                     self.assertEqual(image.size, size)
                     image.verify()
+
+
+class EarlierPresentationsTest(unittest.TestCase):
+    def test_historical_collection_retains_all_five_figures(self):
+        from build_earlier_presentations import FIGURES
+
+        prs = Presentation(HERE / "MBA_GPE_Earlier_Schematics_Collection.pptx")
+        self.assertEqual(len(prs.slides), 5)
+        for slide, (title, stem) in zip(prs.slides, FIGURES):
+            with self.subTest(figure=stem):
+                pictures = [s for s in slide.shapes if s.shape_type == MSO_SHAPE_TYPE.PICTURE]
+                self.assertEqual(len(pictures), 1)
+                self.assertEqual(
+                    pictures[0].image.sha1,
+                    hashlib.sha1((HERE / f"{stem}.png").read_bytes()).hexdigest(),
+                )
+                text = "\n".join(s.text for s in slide.shapes if s.has_text_frame)
+                self.assertIn(title, text)
+                self.assertIn("早期概念草稿", text)
+                self.assertIn("不能证明", slide.notes_slide.notes_text_frame.text)
+                for shape in slide.shapes:
+                    self.assertGreaterEqual(shape.left, 0)
+                    self.assertGreaterEqual(shape.top, 0)
+                    self.assertLessEqual(shape.left + shape.width, prs.slide_width)
+                    self.assertLessEqual(shape.top + shape.height, prs.slide_height)
+
+    def test_old_deck_alias_is_explicitly_a_duplicate(self):
+        common = HERE / "Traditional_GPE_Scientific_Questions_Slide.pptx"
+        alias = HERE / "MBA_GPE_Scientific_Questions_Presentation.pptx"
+        self.assertEqual(common.read_bytes(), alias.read_bytes())
+        self.assertEqual(len(Presentation(common).slides), 5)
+
+    def test_common_problem_page_does_not_show_the_user_formulation(self):
+        root = ET.parse(HERE / "Traditional_GPE_Two_Common_Problems_Slide.svg").getroot()
+        text = "".join(root.itertext())
+        for name in ("MBA", "DMTFA", "TTE", "LiDFOB"):
+            self.assertNotIn(name, text)
+
+    def test_bundle_contains_distinct_decks_and_editable_sources(self):
+        with ZipFile(HERE / "GPE_PPT_Collection.zip") as archive:
+            self.assertIsNone(archive.testzip())
+            self.assertEqual(len(archive.namelist()), len(set(archive.namelist())))
+            decks = [n for n in archive.namelist() if n.endswith(".pptx")]
+            self.assertEqual(len(decks), 3)
+            self.assertEqual(len([n for n in archive.namelist() if n.endswith(".svg")]), 10)
+            self.assertIn("README_PPT_File_Index.md", archive.namelist())
+            for name in decks:
+                prs = Presentation(BytesIO(archive.read(name)))
+                expected = 1 if name.startswith("03_") else 5
+                self.assertEqual(len(prs.slides), expected)
 
 
 if __name__ == "__main__":

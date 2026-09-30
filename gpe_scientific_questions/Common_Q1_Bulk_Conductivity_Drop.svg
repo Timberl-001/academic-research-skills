@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="860" viewBox="0 0 900 860">
+  <defs>
+    <linearGradient id="q1Hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="liqBoxBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0F9FF"/>
+      <stop offset="100%" stop-color="#E0F2FE"/>
+    </linearGradient>
+    <linearGradient id="gelBoxBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB"/>
+      <stop offset="100%" stop-color="#FEF2F2"/>
+    </linearGradient>
+    <radialGradient id="liIon" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="anionIon" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#DDD6FE"/>
+      <stop offset="60%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </radialGradient>
+    <radialGradient id="polarGroup" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FCA5A5"/>
+      <stop offset="60%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#991B1B"/>
+    </radialGradient>
+    <radialGradient id="crossPoint" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="60%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </radialGradient>
+    <filter id="sh1" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.09"/>
+    </filter>
+    <marker id="arrFast" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#0284C7"/>
+    </marker>
+    <marker id="arrSlow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#D97706"/>
+    </marker>
+    <marker id="arrStop" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="arrPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#7C3AED"/>
+    </marker>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="900" height="860" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+
+  <!-- Top Header -->
+  <rect x="0" y="0" width="900" height="58" rx="18" fill="url(#q1Hdr)"/>
+  <rect x="0" y="30" width="900" height="28" fill="url(#q1Hdr)"/>
+  <circle cx="40" cy="29" r="17" fill="#FFFFFF" opacity="0.22"/>
+  <text x="40" y="36" font-family="DejaVu Sans" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle">01</text>
+  <text x="70" y="37" font-family="Noto Sans SC, DejaVu Sans" font-size="21" font-weight="bold" fill="#FFFFFF">
+    共性问题一（体相）：为什么凝胶化后离子电导率 (<tspan font-family="DejaVu Sans">σ</tspan>) 与迁移数 (<tspan font-family="DejaVu Sans">t</tspan><tspan font-size="14" dy="4">Li⁺</tspan><tspan dy="-4">) 显著下降？</tspan>
+  </text>
+
+  <!-- ==================== MAIN VISUAL SCHEMATIC AREA (y=74..634, height=560) ==================== -->
+  <!-- Left Sub-box: Liquid Electrolyte (Reference) (x=20..240, w=220) -->
+  <rect x="20" y="74" width="220" height="556" rx="12" fill="url(#liqBoxBg)" stroke="#38BDF8" stroke-width="2"/>
+  <rect x="20" y="74" width="220" height="36" rx="12" fill="#0284C7"/>
+  <rect x="20" y="94" width="220" height="16" fill="#0284C7"/>
+  <text x="130" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    液态电解液 (凝胶化前)
+  </text>
+
+  <!-- Straight Fast Channels -->
+  <rect x="58" y="130" width="40" height="410" rx="20" fill="#BAE6FD" opacity="0.55"/>
+  <rect x="162" y="130" width="40" height="410" rx="20" fill="#BAE6FD" opacity="0.55"/>
+  <line x1="78" y1="525" x2="78" y2="145" stroke="#0284C7" stroke-width="4.5" stroke-dasharray="8,4" marker-end="url(#arrFast)"/>
+  <line x1="182" y1="525" x2="182" y2="145" stroke="#0284C7" stroke-width="4.5" stroke-dasharray="8,4" marker-end="url(#arrFast)"/>
+
+  <!-- Free Li+ Ions in Liquid -->
+  <g transform="translate(78, 250)">
+    <circle cx="0" cy="0" r="32" fill="#FFFFFF" fill-opacity="0.85" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <circle cx="0" cy="0" r="15" fill="url(#liIon)"/>
+    <text x="0" y="5" font-family="DejaVu Sans" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <circle cx="-18" cy="-14" r="7" fill="#38BDF8"/>
+    <circle cx="18" cy="-14" r="7" fill="#38BDF8"/>
+    <circle cx="0" cy="20" r="7" fill="#38BDF8"/>
+  </g>
+  <g transform="translate(182, 390)">
+    <circle cx="0" cy="0" r="32" fill="#FFFFFF" fill-opacity="0.85" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <circle cx="0" cy="0" r="15" fill="url(#liIon)"/>
+    <text x="0" y="5" font-family="DejaVu Sans" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <circle cx="-18" cy="14" r="7" fill="#38BDF8"/>
+    <circle cx="18" cy="14" r="7" fill="#38BDF8"/>
+    <circle cx="0" cy="-20" r="7" fill="#38BDF8"/>
+  </g>
+
+  <rect x="30" y="554" width="200" height="62" rx="8" fill="#FFFFFF" stroke="#38BDF8" stroke-width="1.5"/>
+  <text x="130" y="578" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#0369A1" text-anchor="middle">
+    连续液相直通 (<tspan font-family="DejaVu Sans">τ ≈ 1</tspan>)
+  </text>
+  <text x="130" y="600" font-family="Noto Sans SC, DejaVu Sans" font-size="12" fill="#475569" text-anchor="middle">
+    无骨架阻隔 · 离子快速迁移
+  </text>
+
+  <!-- Right Main Box: Conventional Gel Skeleton + Solvent (x=256..880, w=624) -->
+  <rect x="256" y="74" width="624" height="556" rx="12" fill="url(#gelBoxBg)" stroke="#F87171" stroke-width="2"/>
+  <rect x="256" y="74" width="624" height="36" rx="12" fill="#B91C1C"/>
+  <rect x="256" y="94" width="624" height="16" fill="#B91C1C"/>
+  <text x="568" y="98" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    传统凝胶电解质（聚合物骨架 + 溶剂）：三重微观受阻机制
+  </text>
+
+  <!-- Inner Illustration Canvas -->
+  <rect x="272" y="120" width="592" height="422" rx="10" fill="#FFFFFF" fill-opacity="0.82" stroke="#FCA5A5" stroke-width="1.5"/>
+
+  <!-- 1. Micro-phase Separation / Dead Zone Cloud (Top-Right) -->
+  <ellipse cx="755" cy="205" rx="90" ry="56" fill="#E2E8F0" stroke="#64748B" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="755" y="190" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#334155" text-anchor="middle">
+    ③ 骨架团聚与微相分离
+  </text>
+  <text x="755" y="212" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#DC2626" text-anchor="middle">
+    (极性差异导致局部析液/孔道窄化)
+  </text>
+  <text x="755" y="232" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#475569" text-anchor="middle">
+    有效导离子通道不连续
+  </text>
+
+  <!-- 2. 3D Intertwined Polymer Skeleton Chains -->
+  <path d="M 278 185 C 395 145, 505 235, 625 175 C 715 135, 795 195, 858 165" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 278 315 C 405 365, 520 265, 650 330 C 745 375, 810 295, 858 330" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+  <path d="M 278 435 C 395 390, 530 485, 655 425 C 750 380, 810 455, 858 425" fill="none" stroke="#334155" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Vertical Cross-linked Polymer Chains -->
+  <path d="M 385 130 C 420 215, 370 325, 430 425 C 460 485, 440 510, 455 535" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 575 128 C 540 225, 605 315, 560 435 C 535 495, 575 515, 565 535" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 715 265 C 685 345, 735 435, 695 535" fill="none" stroke="#475569" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Crosslink Nodes -->
+  <circle cx="400" cy="176" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="565" cy="195" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="395" cy="326" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="582" cy="304" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="704" cy="342" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="425" cy="422" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="564" cy="442" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="712" cy="416" r="11.5" fill="url(#crossPoint)" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Skeleton Badge -->
+  <rect x="284" y="128" width="186" height="28" rx="6" fill="#0F172A"/>
+  <text x="377" y="147" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    交联聚合物三维刚性骨架
+  </text>
+
+  <!-- Mechanism 2 Callout: Polymer Polar Groups Trapping Li+ -->
+  <circle cx="490" cy="252" r="54" fill="#FEE2E2" fill-opacity="0.92" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <line x1="458" y1="196" x2="472" y2="228" stroke="#991B1B" stroke-width="3.5"/>
+  <circle cx="472" cy="228" r="9.5" fill="url(#polarGroup)"/>
+  <line x1="522" y1="200" x2="508" y2="230" stroke="#991B1B" stroke-width="3.5"/>
+  <circle cx="508" cy="230" r="9.5" fill="url(#polarGroup)"/>
+  <line x1="490" y1="304" x2="490" y2="278" stroke="#991B1B" stroke-width="3.5"/>
+  <circle cx="490" cy="278" r="9.5" fill="url(#polarGroup)"/>
+
+  <circle cx="490" cy="252" r="16" fill="url(#liIon)" stroke="#DC2626" stroke-width="2"/>
+  <text x="490" y="257" font-family="DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+
+  <rect x="415" y="312" width="188" height="42" rx="8" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <text x="509" y="330" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#DC2626" text-anchor="middle">
+    ② 骨架极性基团“锁死” Li⁺
+  </text>
+  <text x="509" y="347" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" fill="#991B1B" text-anchor="middle">
+    链段运动受限 · Li⁺ 陷入深势阱难解离
+  </text>
+
+  <!-- Mechanism 1 Callout: Tortuous Path & Steric Blocking -->
+  <path d="M 510 525 C 510 475, 465 455, 495 415 C 525 375, 445 355, 365 365 C 305 370, 315 255, 375 235 C 405 225, 365 185, 345 162"
+        fill="none" stroke="#D97706" stroke-width="4" stroke-dasharray="7,4" marker-end="url(#arrSlow)"/>
+  <rect x="284" y="366" width="176" height="42" rx="8" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+  <text x="372" y="384" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#92400E" text-anchor="middle">
+    ① 骨架空间阻隔 (<tspan font-family="DejaVu Sans">τ ≫ 1</tspan>)
+  </text>
+  <text x="372" y="401" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" fill="#B45309" text-anchor="middle">
+    直通路径受阻 · 迁移被迫绕行
+  </text>
+
+  <!-- Bulky Solvated SSIP Cluster & Free Anion Migration (Low t_Li+) -->
+  <g transform="translate(775, 468)">
+    <circle cx="0" cy="0" r="44" fill="#FEF3C7" fill-opacity="0.92" stroke="#D97706" stroke-width="2" stroke-dasharray="4,2"/>
+    <circle cx="0" cy="0" r="14" fill="url(#liIon)"/>
+    <text x="0" y="5" font-family="DejaVu Sans" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <circle cx="-22" cy="-14" r="8" fill="#38BDF8"/>
+    <circle cx="22" cy="-14" r="8" fill="#38BDF8"/>
+    <circle cx="-18" cy="18" r="8" fill="#38BDF8"/>
+    <circle cx="18" cy="18" r="8" fill="#38BDF8"/>
+    <rect x="-78" y="42" width="156" height="22" rx="5" fill="#FFFFFF" stroke="#D97706"/>
+    <text x="0" y="57" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#92400E" text-anchor="middle">
+      庞大溶剂化簇 (SSIP) 迁移慢
+    </text>
+  </g>
+
+  <!-- Free Anion migrating rapidly in opposite direction -> Low t_Li+ -->
+  <g transform="translate(635, 485)">
+    <ellipse cx="0" cy="0" rx="24" ry="14" fill="url(#anionIon)"/>
+    <text x="0" y="4" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">阴离子⁻</text>
+    <line x1="0" y1="16" x2="0" y2="44" stroke="#7C3AED" stroke-width="3.5" marker-end="url(#arrPurple)"/>
+    <rect x="-66" y="-36" width="132" height="20" rx="4" fill="#F3E8FF" stroke="#9333EA"/>
+    <text x="0" y="-22" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#6B21A8" text-anchor="middle">
+      阴离子无锚定自由迁移(tLi⁺低)
+    </text>
+  </g>
+
+  <!-- Sub-caption inside Gel Box -->
+  <rect x="272" y="554" width="592" height="62" rx="8" fill="#FFF1F2" stroke="#F43F5E" stroke-width="1.8"/>
+  <text x="568" y="578" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#9F1239" text-anchor="middle">
+    体相传输瓶颈：三维网格阻隔 (<tspan font-family="DejaVu Sans">τ↑</tspan>) + 极性位点束缚 Li⁺ (<tspan font-family="DejaVu Sans">ΔE↑</tspan>) + 阴离子自由迁移
+  </text>
+  <text x="568" y="601" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#BE123C" text-anchor="middle">
+    ➔ 导致凝胶化后室温离子电导率 (<tspan font-family="DejaVu Sans">σ</tspan>) 与锂离子迁移数 (<tspan font-family="DejaVu Sans">t</tspan><tspan font-size="9.5" dy="3">Li⁺</tspan><tspan dy="-3">) 双双下降</tspan>
+  </text>
+
+  <!-- ==================== BOTTOM CONCISE SUMMARY (3 SHORT BULLETS, y=646..842) ==================== -->
+  <rect x="20" y="646" width="860" height="196" rx="14" fill="#F8FAFC" stroke="#93C5FD" stroke-width="2"/>
+  <rect x="36" y="660" width="320" height="28" rx="14" fill="#1D4ED8"/>
+  <text x="196" y="679" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    传统凝胶电解质【体相共性问题】提炼
+  </text>
+
+  <circle cx="48" cy="712" r="5" fill="#DC2626"/>
+  <text x="64" y="717" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#1E293B">
+    空间阻隔与相分离：
+  </text>
+  <text x="204" y="717" font-family="Noto Sans SC, DejaVu Sans" font-size="14.5" fill="#334155">
+    交联聚合物骨架分割连续液相（曲折度 <tspan font-family="DejaVu Sans">τ↑</tspan>），且与低极性溶剂易发生微相分离堵塞通道；
+  </text>
+
+  <circle cx="48" cy="756" r="5" fill="#DC2626"/>
+  <text x="64" y="761" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#1E293B">
+    极性基团强束缚 Li⁺：
+  </text>
+  <text x="214" y="761" font-family="Noto Sans SC, DejaVu Sans" font-size="14.5" fill="#334155">
+    刚性骨架极性基团对 Li⁺ 配位过强，链段运动受限导致 Li⁺ 陷入深势阱难以解离跳跃；
+  </text>
+
+  <circle cx="48" cy="800" r="5" fill="#DC2626"/>
+  <text x="64" y="805" font-family="Noto Sans SC, DejaVu Sans" font-size="15" font-weight="bold" fill="#1E293B">
+    溶剂化簇庞大与低迁移数：
+  </text>
+  <text x="244" y="805" font-family="Noto Sans SC, DejaVu Sans" font-size="14.5" fill="#334155">
+    常规强溶剂包裹 Li⁺（SSIP）迁移慢，阴离子无骨架锚定自由移动，造成 <tspan font-family="DejaVu Sans">σ</tspan> 与 <tspan font-family="DejaVu Sans">t</tspan><tspan font-size="11" dy="3">Li⁺</tspan><tspan dy="-3"> 双低。</tspan>
+  </text>
+</svg>
