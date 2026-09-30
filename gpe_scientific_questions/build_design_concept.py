@@ -151,15 +151,17 @@ class Scene:
         for offset, fill in enumerate(palette):
             self.ellipse(cx, cy, r - offset * 3.2, r - offset * 3.2, fill)
 
-    def svg(self, elements=None, view=None):
+    def svg(self, elements=None, view=None, *,
+            title='MBA-based GPE design concept — original schematic',
+            description='Proposed network, solvation and interphase design. All mechanistic benefits are hypotheses, not measured results. No literature imagery is embedded.'):
         elements = elements or self.elements
         if view is None:
             vx, vy, vw, vh = 0, 0, self.width, self.height
         else:
             vx, vy, vw, vh = view
         out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{vw}" height="{vh}" viewBox="{vx} {vy} {vw} {vh}">',
-               '<title>MBA-based GPE design concept — original schematic</title>',
-               '<desc>Proposed network, solvation and interphase design. All mechanistic benefits are hypotheses, not measured results. No literature imagery is embedded.</desc>']
+               f'<title>{escape(title)}</title>',
+               f'<desc>{escape(description)}</desc>']
         for el in elements:
             a = el.attr
             style = ''
@@ -200,14 +202,14 @@ class Scene:
                 assert a['x'] >= 0 and a['y'] >= 0
                 assert a['x'] + a['w'] <= self.width + 1 and a['y'] + a['h'] <= self.height + 1, e.name
 
-    def powerpoint(self, path: Path, notes: str):
+    def powerpoint(self, path: Path, notes: str, *, title=None, subject=None, keywords=None):
         prs = Presentation()
         prs.slide_width = Inches(13.3333333333)
         prs.slide_height = Inches(7.5)
-        prs.core_properties.title = '体系设计思路：网络—溶剂化—界面协同调控'
-        prs.core_properties.subject = 'MBA / LiPF6–LiDFOB / DMTFA:TTE — proposed GPE design'
+        prs.core_properties.title = title or '体系设计思路：网络—溶剂化—界面协同调控'
+        prs.core_properties.subject = subject or 'MBA / LiPF6–LiDFOB / DMTFA:TTE — proposed GPE design'
         prs.core_properties.author = 'Original schematic for the research project'
-        prs.core_properties.keywords = 'MBA, GPE, DMTFA, TTE, LiDFOB, design hypothesis, editable vector'
+        prs.core_properties.keywords = keywords or 'MBA, GPE, DMTFA, TTE, LiDFOB, design hypothesis, editable vector'
         sl = prs.slides.add_slide(prs.slide_layouts[6])
         k = prs.slide_width / self.width
         emu = lambda v: int(round(v * k))
