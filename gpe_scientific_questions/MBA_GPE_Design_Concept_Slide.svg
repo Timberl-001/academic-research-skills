@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<title>MBA-based GPE design concept — original schematic</title>
+<desc>Proposed network, solvation and interphase design. All mechanistic benefits are hypotheses, not measured results. No literature imagery is embedded.</desc>
+<rect x="0" y="0" width="1920" height="1080" rx="0" fill="#F7F9FC" data-name="页面背景"/>
+<rect x="50" y="36" width="7" height="65" rx="3" fill="#148F84" data-name="标题强调线"/>
+<text x="76" y="59" font-size="20" font-weight="700" fill="#087469" text-anchor="start" data-name="英文页眉"><tspan font-family="DejaVu Sans">DESIGN CONCEPT</tspan></text>
+<text x="76" y="111" font-size="49" font-weight="700" fill="#172B46" text-anchor="start" data-name="主标题"><tspan font-family="Noto Sans SC">体系设计思路：网络</tspan><tspan font-family="DejaVu Sans">—</tspan><tspan font-family="Noto Sans SC">溶剂化</tspan><tspan font-family="DejaVu Sans">—</tspan><tspan font-family="Noto Sans SC">界面协同调控</tspan></text>
+<rect x="50" y="142" width="1820" height="62" rx="14" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="配方栏"/>
+<text x="74" y="183" font-size="29" font-weight="700" fill="#087469" text-anchor="start" data-name="配方-MBA"><tspan font-family="DejaVu Sans">MBA </tspan><tspan font-family="Noto Sans SC">交联网络</tspan></text>
+<line x1="317" y1="158" x2="317" y2="187" fill="none" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="配方分隔线-1"/>
+<text x="344" y="183" font-size="29" font-weight="700" fill="#172B46" text-anchor="start" data-name="配方-双盐浓度"><tspan font-family="DejaVu Sans">1.0 M LiPF₆ + 0.2 M LiDFOB</tspan></text>
+<line x1="828" y1="158" x2="828" y2="187" fill="none" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="配方分隔线-2"/>
+<text x="855" y="183" font-size="29" font-weight="700" fill="#172B46" text-anchor="start" data-name="配方-溶剂比例"><tspan font-family="DejaVu Sans">DMTFA : TTE = 1 : 1</tspan></text>
+<rect x="1600.0" y="156.0" width="246" height="34" rx="17.0" fill="#FCF0EB" stroke="#E9C9BE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计假设标记"/>
+<text x="1723" y="180.56" font-size="21" font-weight="700" fill="#D67661" text-anchor="middle" data-name="设计假设标记-标签"><tspan font-family="Noto Sans SC">设计预期</tspan><tspan font-family="DejaVu Sans"> · </tspan><tspan font-family="Noto Sans SC">待验证</tspan></text>
+<rect x="50" y="230" width="875" height="511" rx="20" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统体系面板"/>
+<rect x="995" y="230" width="875" height="511" rx="20" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系设计面板"/>
+<rect x="50" y="230" width="875" height="74" rx="20" fill="#EFF5FB" data-name="传统面板标题底色"/>
+<rect x="50" y="267" width="875" height="37" rx="0" fill="#EFF5FB" data-name="传统面板标题底色-平底"/>
+<rect x="995" y="230" width="875" height="74" rx="20" fill="#FCF0EB" data-name="设计面板标题底色"/>
+<rect x="995" y="267" width="875" height="37" rx="0" fill="#FCF0EB" data-name="设计面板标题底色-平底"/>
+<text x="79" y="278" font-size="35" font-weight="700" fill="#497FB5" text-anchor="start" data-name="传统面板标题"><tspan font-family="Noto Sans SC">传统凝胶</tspan></text>
+<text x="895" y="277" font-size="24" font-weight="400" fill="#68798D" text-anchor="end" data-name="传统面板提示"><tspan font-family="Noto Sans SC">典型瓶颈（示意）</tspan></text>
+<text x="1024" y="278" font-size="34" font-weight="700" fill="#087469" text-anchor="start" data-name="本体系面板标题"><tspan font-family="Noto Sans SC">本工作：</tspan><tspan font-family="DejaVu Sans">MBA </tspan><tspan font-family="Noto Sans SC">协同凝胶体系</tspan></text>
+<text x="1840" y="277" font-size="23" font-weight="700" fill="#D67661" text-anchor="end" data-name="本体系面板提示"><tspan font-family="Noto Sans SC">设计预期</tspan></text>
+<rect x="85" y="360" width="28" height="273" rx="3" fill="#6E7D91" data-name="传统-正极-电极主体"/>
+<rect x="87" y="362" width="4" height="269" rx="2" fill="#8999AB" data-name="传统-正极-电极高光"/>
+<rect x="126" y="360" width="9" height="273" rx="0" fill="#D3E3F1" data-name="传统-正极-常规膜底层"/>
+<path d="M 125 360 C 148 364.2 147 382.96 125 388 L 122 388 L 122 360 Z" fill="#A7C7E3" data-name="传统-正极-不均匀膜-0"/>
+<path d="M 125 392 C 140 394.55 139 405.94 125 409 L 122 409 L 122 392 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-1"/>
+<path d="M 125 413 C 153 418.55 152 443.34 125 450 L 122 450 L 122 413 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-2"/>
+<path d="M 125 454 C 144 457.15 143 471.22 125 475 L 122 475 L 122 454 Z" fill="#A7C7E3" data-name="传统-正极-不均匀膜-3"/>
+<path d="M 125 479 C 150 483.8 149 505.24 125 511 L 122 511 L 122 479 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-4"/>
+<path d="M 125 515 C 138 517.4 137 528.12 125 531 L 122 531 L 122 515 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-5"/>
+<path d="M 125 535 C 147 538.75 146 555.5 125 560 L 122 560 L 122 535 Z" fill="#A7C7E3" data-name="传统-正极-不均匀膜-6"/>
+<path d="M 125 564 C 158 570.0 157 596.8 125 604 L 122 604 L 122 564 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-7"/>
+<path d="M 125 608 C 142 611.15 141 625.22 125 629 L 122 629 L 122 608 Z" fill="#B7CDDF" data-name="传统-正极-不均匀膜-8"/>
+<text x="99.0" y="670" font-size="24" font-weight="700" fill="#68798D" text-anchor="middle" data-name="传统-正极-电极标签"><tspan font-family="Noto Sans SC">正极</tspan></text>
+<rect x="865" y="360" width="28" height="273" rx="3" fill="#C6AD94" data-name="传统-负极-电极主体"/>
+<rect x="867" y="362" width="4" height="269" rx="2" fill="#D5C1AC" data-name="传统-负极-电极高光"/>
+<rect x="844" y="360" width="9" height="273" rx="0" fill="#D3E3F1" data-name="传统-负极-常规膜底层"/>
+<path d="M 853 360 C 822 365.04 822 382.4 853 388 L 857 388 L 857 360 Z" fill="#A7C7E3" data-name="传统-负极-不均匀膜-0"/>
+<path d="M 853 392 C 830 395.06 830 405.6 853 409 L 857 409 L 857 392 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-1"/>
+<path d="M 853 413 C 817 419.66 817 442.6 853 450 L 857 450 L 857 413 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-2"/>
+<path d="M 853 454 C 826 457.78 826 470.8 853 475 L 857 475 L 857 454 Z" fill="#A7C7E3" data-name="传统-负极-不均匀膜-3"/>
+<path d="M 853 479 C 820 484.76 820 504.6 853 511 L 857 511 L 857 479 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-4"/>
+<path d="M 853 515 C 832 517.88 832 527.8 853 531 L 857 531 L 857 515 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-5"/>
+<path d="M 853 535 C 823 539.5 823 555.0 853 560 L 857 560 L 857 535 Z" fill="#A7C7E3" data-name="传统-负极-不均匀膜-6"/>
+<path d="M 853 564 C 812 571.2 812 596.0 853 604 L 857 604 L 857 564 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-7"/>
+<path d="M 853 608 C 828 611.78 828 624.8 853 629 L 857 629 L 857 608 Z" fill="#B7CDDF" data-name="传统-负极-不均匀膜-8"/>
+<text x="879.0" y="670" font-size="24" font-weight="700" fill="#68798D" text-anchor="middle" data-name="传统-负极-电极标签"><tspan font-family="Noto Sans SC">负极</tspan></text>
+<rect x="1030" y="360" width="28" height="273" rx="3" fill="#6E7D91" data-name="设计-正极-电极主体"/>
+<rect x="1032" y="362" width="4" height="269" rx="2" fill="#8999AB" data-name="设计-正极-电极高光"/>
+<rect x="1063" y="360" width="24" height="273" rx="0" fill="#DAEEE8" stroke="#7DCABB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="设计-正极-连续界面膜底层"/>
+<rect x="1064" y="361.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-0-0"/>
+<rect x="1076" y="361.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-正极-成膜组分-0-1"/>
+<rect x="1064" y="380.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-1-0"/>
+<rect x="1076" y="380.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-1-1"/>
+<rect x="1064" y="400.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-正极-成膜组分-2-0"/>
+<rect x="1076" y="400.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-2-1"/>
+<rect x="1064" y="419.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-3-0"/>
+<rect x="1076" y="419.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-正极-成膜组分-3-1"/>
+<rect x="1064" y="439.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-4-0"/>
+<rect x="1076" y="439.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-4-1"/>
+<rect x="1064" y="458.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-正极-成膜组分-5-0"/>
+<rect x="1076" y="458.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-5-1"/>
+<rect x="1064" y="478.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-6-0"/>
+<rect x="1076" y="478.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-正极-成膜组分-6-1"/>
+<rect x="1064" y="497.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-7-0"/>
+<rect x="1076" y="497.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-7-1"/>
+<rect x="1064" y="517.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-正极-成膜组分-8-0"/>
+<rect x="1076" y="517.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-8-1"/>
+<rect x="1064" y="536.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-9-0"/>
+<rect x="1076" y="536.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-正极-成膜组分-9-1"/>
+<rect x="1064" y="556.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-10-0"/>
+<rect x="1076" y="556.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-10-1"/>
+<rect x="1064" y="575.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-正极-成膜组分-11-0"/>
+<rect x="1076" y="575.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-11-1"/>
+<rect x="1064" y="595.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-正极-成膜组分-12-0"/>
+<rect x="1076" y="595.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-正极-成膜组分-12-1"/>
+<rect x="1064" y="614.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-13-0"/>
+<rect x="1076" y="614.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-正极-成膜组分-13-1"/>
+<line x1="1089" y1="360" x2="1089" y2="633" fill="none" stroke="#148F84" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计-正极-均匀界面边界"/>
+<text x="1044.0" y="670" font-size="24" font-weight="700" fill="#68798D" text-anchor="middle" data-name="设计-正极-电极标签"><tspan font-family="Noto Sans SC">正极</tspan></text>
+<rect x="1810" y="360" width="28" height="273" rx="3" fill="#C6AD94" data-name="设计-负极-电极主体"/>
+<rect x="1812" y="362" width="4" height="269" rx="2" fill="#D5C1AC" data-name="设计-负极-电极高光"/>
+<rect x="1781" y="360" width="24" height="273" rx="0" fill="#DAEEE8" stroke="#7DCABB" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" data-name="设计-负极-连续界面膜底层"/>
+<rect x="1782" y="361.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-0-0"/>
+<rect x="1794" y="361.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-负极-成膜组分-0-1"/>
+<rect x="1782" y="380.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-1-0"/>
+<rect x="1794" y="380.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-1-1"/>
+<rect x="1782" y="400.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-负极-成膜组分-2-0"/>
+<rect x="1794" y="400.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-2-1"/>
+<rect x="1782" y="419.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-3-0"/>
+<rect x="1794" y="419.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-负极-成膜组分-3-1"/>
+<rect x="1782" y="439.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-4-0"/>
+<rect x="1794" y="439.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-4-1"/>
+<rect x="1782" y="458.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-负极-成膜组分-5-0"/>
+<rect x="1794" y="458.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-5-1"/>
+<rect x="1782" y="478.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-6-0"/>
+<rect x="1794" y="478.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-负极-成膜组分-6-1"/>
+<rect x="1782" y="497.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-7-0"/>
+<rect x="1794" y="497.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-7-1"/>
+<rect x="1782" y="517.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-负极-成膜组分-8-0"/>
+<rect x="1794" y="517.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-8-1"/>
+<rect x="1782" y="536.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-9-0"/>
+<rect x="1794" y="536.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-负极-成膜组分-9-1"/>
+<rect x="1782" y="556.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-10-0"/>
+<rect x="1794" y="556.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-10-1"/>
+<rect x="1782" y="575.5" width="10.5" height="17.5" rx="0" fill="#B0D5C9" data-name="设计-负极-成膜组分-11-0"/>
+<rect x="1794" y="575.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-11-1"/>
+<rect x="1782" y="595.0" width="10.5" height="17.5" rx="0" fill="#E9B943" data-name="设计-负极-成膜组分-12-0"/>
+<rect x="1794" y="595.0" width="10.5" height="17.5" rx="0" fill="#D8DBE7" data-name="设计-负极-成膜组分-12-1"/>
+<rect x="1782" y="614.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-13-0"/>
+<rect x="1794" y="614.5" width="10.5" height="17.5" rx="0" fill="#7DCABB" data-name="设计-负极-成膜组分-13-1"/>
+<line x1="1779" y1="360" x2="1779" y2="633" fill="none" stroke="#148F84" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计-负极-均匀界面边界"/>
+<text x="1824.0" y="670" font-size="24" font-weight="700" fill="#68798D" text-anchor="middle" data-name="设计-负极-电极标签"><tspan font-family="Noto Sans SC">负极</tspan></text>
+<text x="188" y="340" font-size="22" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统正极界面标签"><tspan font-family="Noto Sans SC">不均匀</tspan><tspan font-family="DejaVu Sans"> CEI</tspan></text>
+<text x="793" y="340" font-size="22" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统负极界面标签"><tspan font-family="Noto Sans SC">不均匀</tspan><tspan font-family="DejaVu Sans"> SEI</tspan></text>
+<text x="1150" y="340" font-size="22" font-weight="700" fill="#087469" text-anchor="middle" data-name="预期CEI组分"><tspan font-family="DejaVu Sans">LiF / B–O CEI</tspan></text>
+<text x="1739" y="340" font-size="22" font-weight="700" fill="#087469" text-anchor="middle" data-name="预期SEI组分"><tspan font-family="DejaVu Sans">LiF / B–O SEI</tspan></text>
+<ellipse cx="487" cy="486" rx="185.0" ry="185.0" fill="#E7EFF7" data-name="ellipse-118"/>
+<ellipse cx="487" cy="486" rx="181.8" ry="181.8" fill="#EAF1F8" data-name="ellipse-119"/>
+<ellipse cx="487" cy="486" rx="178.6" ry="178.6" fill="#EDF3F9" data-name="ellipse-120"/>
+<ellipse cx="487" cy="486" rx="175.4" ry="175.4" fill="#F1F6FA" data-name="ellipse-121"/>
+<ellipse cx="487" cy="486" rx="172.2" ry="172.2" fill="#F5F8FB" data-name="ellipse-122"/>
+<ellipse cx="487" cy="486" rx="169.0" ry="169.0" fill="#F8FAFC" data-name="ellipse-123"/>
+<ellipse cx="1437" cy="486" rx="185.0" ry="185.0" fill="#F9E4DE" data-name="ellipse-124"/>
+<ellipse cx="1437" cy="486" rx="181.8" ry="181.8" fill="#F9E9E3" data-name="ellipse-125"/>
+<ellipse cx="1437" cy="486" rx="178.6" ry="178.6" fill="#FBECE7" data-name="ellipse-126"/>
+<ellipse cx="1437" cy="486" rx="175.4" ry="175.4" fill="#FCF0EB" data-name="ellipse-127"/>
+<ellipse cx="1437" cy="486" rx="172.2" ry="172.2" fill="#FDF4EF" data-name="ellipse-128"/>
+<ellipse cx="1437" cy="486" rx="169.0" ry="169.0" fill="#FEF7F4" data-name="ellipse-129"/>
+<text x="487" y="366" font-size="23" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统网络说明"><tspan font-family="Noto Sans SC">常规聚合物网络</tspan></text>
+<text x="1437" y="360" font-size="23" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA网络说明"><tspan font-family="DejaVu Sans">MBA </tspan><tspan font-family="Noto Sans SC">酰胺交联网络</tspan></text>
+<path d="M 328 418 C 370 395 408 421 451 413 C 504 403 552 431 645 411" fill="none" stroke="#8EA5B9" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统骨架-上链"/>
+<path d="M 322 560 C 365 537 415 566 468 546 C 514 530 577 563 648 549" fill="none" stroke="#8EA5B9" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统骨架-下链"/>
+<path d="M 370 390 C 347 444 396 480 371 520 C 351 551 368 586 384 604" fill="none" stroke="#8EA5B9" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统骨架-左交联链"/>
+<path d="M 601 393 C 564 435 608 480 584 532 C 572 558 586 589 603 613" fill="none" stroke="#8EA5B9" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统骨架-右交联链"/>
+<ellipse cx="373" cy="418" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#8EA5B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="传统交联节点"/>
+<ellipse cx="374" cy="548" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#8EA5B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="传统交联节点"/>
+<ellipse cx="593" cy="419" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#8EA5B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="传统交联节点"/>
+<ellipse cx="586" cy="549" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#8EA5B9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="传统交联节点"/>
+<ellipse cx="487" cy="486" rx="67" ry="67" fill="#FFFFFF" stroke="#D7E7F7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 5" data-name="传统溶剂化鞘-示意"/>
+<path d="M 376 476 C 389 471 399 470 409 473" fill="none" stroke="#8EA5B9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-name="传统极性基团-支链"/>
+<line x1="409" y1="470" x2="420" y2="474" fill="none" stroke="#D67661" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统羰基-双键1"/>
+<line x1="408" y1="476" x2="419" y2="480" fill="none" stroke="#D67661" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统羰基-双键2"/>
+<ellipse cx="427" cy="479" rx="9" ry="9" fill="#D67661" data-name="传统羰基氧"/>
+<text x="427" y="484" font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="传统氧-标记"><tspan font-family="DejaVu Sans">O</tspan></text>
+<text x="395" y="450" font-size="18" font-weight="700" fill="#D67661" text-anchor="middle" data-name="传统极性基团-说明"><tspan font-family="DejaVu Sans">C=O</tspan></text>
+<line x1="438" y1="480" x2="466" y2="486" fill="none" stroke="#D67661" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="传统Li配位束缚-示意"/>
+<ellipse cx="472" cy="442" rx="20" ry="13" fill="#D7E7F7" stroke="#A8C5E1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="常规溶剂-0"/>
+<text x="472" y="447" font-size="15" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="常规溶剂-标签-0"><tspan font-family="DejaVu Sans">S</tspan></text>
+<line x1="481.45" y1="469.72" x2="476.5" y2="455.2" fill="none" stroke="#497FB5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="常规溶剂配位-0"/>
+<ellipse cx="533" cy="467" rx="20" ry="13" fill="#D7E7F7" stroke="#A8C5E1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="常规溶剂-1"/>
+<text x="533" y="472" font-size="15" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="常规溶剂-标签-1"><tspan font-family="DejaVu Sans">S</tspan></text>
+<line x1="504.02" y1="478.97" x2="519.2" y2="472.7" fill="none" stroke="#497FB5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="常规溶剂配位-1"/>
+<ellipse cx="511" cy="530" rx="20" ry="13" fill="#D7E7F7" stroke="#A8C5E1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="常规溶剂-2"/>
+<text x="511" y="535" font-size="15" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="常规溶剂-标签-2"><tspan font-family="DejaVu Sans">S</tspan></text>
+<line x1="495.88" y1="502.28" x2="503.8" y2="516.8" fill="none" stroke="#497FB5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="常规溶剂配位-2"/>
+<ellipse cx="447" cy="514" rx="20" ry="13" fill="#D7E7F7" stroke="#A8C5E1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="常规溶剂-3"/>
+<text x="447" y="519" font-size="15" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="常规溶剂-标签-3"><tspan font-family="DejaVu Sans">S</tspan></text>
+<line x1="472.2" y1="496.36" x2="459.0" y2="505.6" fill="none" stroke="#497FB5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="常规溶剂配位-3"/>
+<ellipse cx="487" cy="486" rx="20" ry="20" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="传统Li离子"/>
+<ellipse cx="482.0" cy="480.0" rx="6.2" ry="4.6000000000000005" fill="#FFE3A3" data-name="传统Li离子-高光"/>
+<text x="487" y="492.8" font-size="15.600000000000001" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="传统Li离子-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<text x="487" y="577" font-size="23" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统体相瓶颈"><tspan font-family="Noto Sans SC">强束缚</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">交换受限</tspan></text>
+<path d="M 1323 390 C 1310 428 1338 462 1322 502 C 1308 544 1323 579 1318 610" fill="none" stroke="#148F84" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="MBA网络-左聚合物主链"/>
+<path d="M 1551 391 C 1567 427 1538 465 1557 503 C 1573 543 1551 580 1558 608" fill="none" stroke="#148F84" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round" data-name="MBA网络-右聚合物主链"/>
+<path d="M 1319 573 C 1360 561 1401 582 1440 568 C 1485 554 1530 580 1559 569" fill="none" stroke="#148F84" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" data-name="MBA网络-下交联连接"/>
+<line x1="1323" y1="411" x2="1339" y2="411" fill="none" stroke="#148F84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-左端"/>
+<line x1="1535" y1="411" x2="1554" y2="411" fill="none" stroke="#148F84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-右端"/>
+<text x="1349" y="419" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA酰胺桥-左羰基碳"><tspan font-family="DejaVu Sans">C</tspan></text>
+<text x="1387" y="419" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA酰胺桥-左酰胺"><tspan font-family="DejaVu Sans">NH</tspan></text>
+<text x="1437" y="419" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA酰胺桥-亚甲基"><tspan font-family="DejaVu Sans">CH₂</tspan></text>
+<text x="1487" y="419" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA酰胺桥-右酰胺"><tspan font-family="DejaVu Sans">NH</tspan></text>
+<text x="1525" y="419" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="MBA酰胺桥-右羰基碳"><tspan font-family="DejaVu Sans">C</tspan></text>
+<line x1="1358" y1="411" x2="1371" y2="411" fill="none" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-单键"/>
+<line x1="1403" y1="411" x2="1418" y2="411" fill="none" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-单键"/>
+<line x1="1456" y1="411" x2="1471" y2="411" fill="none" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-单键"/>
+<line x1="1503" y1="411" x2="1516" y2="411" fill="none" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA酰胺桥-单键"/>
+<line x1="1346" y1="398" x2="1346" y2="384" fill="none" stroke="#D67661" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA羰基-左双键1"/>
+<line x1="1352" y1="398" x2="1352" y2="384" fill="none" stroke="#D67661" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA羰基-左双键2"/>
+<text x="1349" y="379" font-size="21" font-weight="700" fill="#D67661" text-anchor="middle" data-name="MBA羰基氧-左"><tspan font-family="DejaVu Sans">O</tspan></text>
+<line x1="1522" y1="398" x2="1522" y2="384" fill="none" stroke="#D67661" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA羰基-右双键1"/>
+<line x1="1528" y1="398" x2="1528" y2="384" fill="none" stroke="#D67661" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA羰基-右双键2"/>
+<text x="1525" y="379" font-size="21" font-weight="700" fill="#D67661" text-anchor="middle" data-name="MBA羰基氧-右"><tspan font-family="DejaVu Sans">O</tspan></text>
+<ellipse cx="1323" cy="411" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA交联节点"/>
+<ellipse cx="1553" cy="411" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA交联节点"/>
+<ellipse cx="1319" cy="573" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA交联节点"/>
+<ellipse cx="1559" cy="569" rx="7.5" ry="7.5" fill="#FFFFFF" stroke="#148F84" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-name="MBA交联节点"/>
+<ellipse cx="1437" cy="499" rx="79" ry="79" fill="#FFFFFF" stroke="#EAD0C6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5" data-name="候选溶剂化鞘-非实测配位数"/>
+<line x1="1421.25" y1="487.1" x2="1402.35" y2="472.82" fill="none" stroke="#D67661" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="本体系候选配位-DMTFA-0"/>
+<rect x="1350.0" y="450.0" width="84" height="30" rx="15.0" fill="#F6DCD0" stroke="#D69985" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系配位物种-DMTFA-0"/>
+<text x="1392" y="471.12" font-size="17" font-weight="700" fill="#D67661" text-anchor="middle" data-name="本体系配位物种-DMTFA-0-标签"><tspan font-family="DejaVu Sans">DMTFA</tspan></text>
+<line x1="1447.85" y1="514.05" x2="1460.87" y2="532.11" fill="none" stroke="#D67661" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="本体系候选配位-DMTFA-1"/>
+<rect x="1426.0" y="527.0" width="84" height="30" rx="15.0" fill="#F6DCD0" stroke="#D69985" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系配位物种-DMTFA-1"/>
+<text x="1468" y="548.12" font-size="17" font-weight="700" fill="#D67661" text-anchor="middle" data-name="本体系配位物种-DMTFA-1-标签"><tspan font-family="DejaVu Sans">DMTFA</tspan></text>
+<line x1="1458.0" y1="488.85" x2="1483.2" y2="476.67" fill="none" stroke="#148F84" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="本体系候选配位-DFOB⁻-2"/>
+<rect x="1459.0" y="454.5" width="76" height="31" rx="15.5" fill="#62AD98" stroke="#4C947F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系配位物种-DFOB⁻-2"/>
+<text x="1497" y="476.12" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="本体系配位物种-DFOB⁻-2-标签"><tspan font-family="DejaVu Sans">DFOB⁻</tspan></text>
+<line x1="1420.2" y1="513.0" x2="1400.04" y2="529.8" fill="none" stroke="#148F84" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4" data-name="本体系候选配位-PF₆⁻-3"/>
+<rect x="1357.0" y="524.0" width="64" height="30" rx="15.0" fill="#A69DCB" stroke="#8F85B7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系配位物种-PF₆⁻-3"/>
+<text x="1389" y="545.12" font-size="17" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="本体系配位物种-PF₆⁻-3-标签"><tspan font-family="DejaVu Sans">PF₆⁻</tspan></text>
+<ellipse cx="1437" cy="499" rx="20" ry="20" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="本体系Li离子"/>
+<ellipse cx="1432.0" cy="493.0" rx="6.2" ry="4.6000000000000005" fill="#FFE3A3" data-name="本体系Li离子-高光"/>
+<text x="1437" y="505.8" font-size="15.600000000000001" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="本体系Li离子-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<line x1="1392" y1="427" x2="1392" y2="447" fill="none" stroke="#D67661" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4" data-name="MBA-DMTFA候选氢键"/>
+<ellipse cx="1392" cy="448" rx="4" ry="4" fill="#D67661" data-name="DMTFA候选氢键受体-氧位点"/>
+<text x="1359" y="443" font-size="16" font-weight="400" fill="#D67661" text-anchor="middle" data-name="MBA-DMTFA氢键-说明"><tspan font-family="Noto Sans SC">氢键</tspan></text>
+<rect x="1295.5" y="461.0" width="65" height="28" rx="14.0" fill="#DCEFEF" stroke="#8EBBBE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="TTE稀释剂-外侧-0"/>
+<text x="1328" y="481.12" font-size="17" font-weight="700" fill="#527F83" text-anchor="middle" data-name="TTE稀释剂-外侧-0-标签"><tspan font-family="DejaVu Sans">TTE</tspan></text>
+<rect x="1530.5" y="511.0" width="65" height="28" rx="14.0" fill="#DCEFEF" stroke="#8EBBBE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="TTE稀释剂-外侧-1"/>
+<text x="1563" y="531.12" font-size="17" font-weight="700" fill="#527F83" text-anchor="middle" data-name="TTE稀释剂-外侧-1-标签"><tspan font-family="DejaVu Sans">TTE</tspan></text>
+<rect x="1404.5" y="614.0" width="65" height="28" rx="14.0" fill="#DCEFEF" stroke="#8EBBBE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="TTE稀释剂-外侧-2"/>
+<text x="1437" y="634.12" font-size="17" font-weight="700" fill="#527F83" text-anchor="middle" data-name="TTE稀释剂-外侧-2-标签"><tspan font-family="DejaVu Sans">TTE</tspan></text>
+<text x="1437" y="597" font-size="22" font-weight="700" fill="#087469" text-anchor="middle" data-name="候选溶剂化结构-说明"><tspan font-family="Noto Sans SC">溶剂</tspan><tspan font-family="DejaVu Sans"> / </tspan><tspan font-family="Noto Sans SC">阴离子协同配位</tspan></text>
+<path d="M 1370 498 C 1377 516 1400 525 1419 516" fill="none" stroke="#148F84" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-name="动态配位交换-示意"/>
+<path d="M 1419 516 L 1411.9549141531836 523.0969546575265 L 1409.0413166153849 515.0919112130462 Z" fill="#148F84" data-name="动态配位交换-示意-箭头"/>
+<path d="M 157 517 C 173 517 180 517 185 499 C 199 452 210 448 223 494 C 233 530 248 532 273 512" fill="none" stroke="#497FB5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="传统-迁移受限箭头"/>
+<path d="M 273 512 L 265.2145361208401 522.4108862344325 L 260.01540799660535 512.6327483744577 Z" fill="#497FB5" data-name="传统-迁移受限箭头-箭头"/>
+<text x="216" y="432" font-size="22" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统-传输标注"><tspan font-family="Noto Sans SC">迁移受限</tspan></text>
+<path d="M 684 518 C 706 519 715 518 722 490 C 735 442 749 443 759 493 C 767 532 797 532 827 511" fill="none" stroke="#497FB5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="传统-脱溶剂化受阻箭头"/>
+<path d="M 827 511 L 817.8413883991386 520.2260410547844 L 814.0537116000004 509.81948457695995 Z" fill="#497FB5" data-name="传统-脱溶剂化受阻箭头-箭头"/>
+<text x="754" y="430" font-size="21" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统-脱溶剂化标注"><tspan font-family="Noto Sans SC">脱溶剂化受阻</tspan></text>
+<path d="M 1095 512 C 1122 512 1137 503 1160 501 C 1180 499 1193 510 1220 508" fill="none" stroke="#148F84" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="设计-配位交换箭头"/>
+<path d="M 1220 508 L 1208.2382283781405 513.537213045858 L 1208.2382283781405 502.462786954142 Z" fill="#148F84" data-name="设计-配位交换箭头-箭头"/>
+<text x="1160" y="432" font-size="21" font-weight="700" fill="#087469" text-anchor="middle" data-name="设计-交换标注"><tspan font-family="Noto Sans SC">促进动态交换</tspan></text>
+<path d="M 1651 512 C 1673 512 1684 500 1704 500 C 1730 500 1748 512 1774 509" fill="none" stroke="#D67661" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 6" data-name="设计-脱溶剂化调控箭头"/>
+<path d="M 1774 509 L 1762.2382283781405 514.537213045858 L 1762.2382283781405 503.462786954142 Z" fill="#D67661" data-name="设计-脱溶剂化调控箭头-箭头"/>
+<text x="1704" y="432" font-size="21" font-weight="700" fill="#D67661" text-anchor="middle" data-name="设计-脱溶剂化标注"><tspan font-family="Noto Sans SC">脱溶剂化调控</tspan></text>
+<text x="211" y="605" font-size="21" font-weight="400" fill="#68798D" text-anchor="middle" data-name="传统正极-副反应"><tspan font-family="Noto Sans SC">界面副反应</tspan></text>
+<text x="754" y="605" font-size="21" font-weight="400" fill="#68798D" text-anchor="middle" data-name="传统负极-通量"><tspan font-family="Noto Sans SC">局部通量不均</tspan></text>
+<text x="1151" y="605" font-size="21" font-weight="400" fill="#087469" text-anchor="middle" data-name="设计正极-成膜"><tspan font-family="Noto Sans SC">界面成膜调控</tspan></text>
+<text x="1704" y="605" font-size="20" font-weight="400" fill="#087469" text-anchor="middle" data-name="设计负极-通量"><tspan font-family="Noto Sans SC">均匀</tspan><tspan font-family="DejaVu Sans"> Li⁺ </tspan><tspan font-family="Noto Sans SC">通量</tspan></text>
+<line x1="77" y1="687" x2="898" y2="687" fill="none" stroke="#DFE7EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="传统总结分隔线"/>
+<line x1="1022" y1="687" x2="1843" y2="687" fill="none" stroke="#DFE7EF" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="设计总结分隔线"/>
+<text x="487" y="721" font-size="26" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="传统瓶颈总结"><tspan font-family="Noto Sans SC">配位束缚</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">非均匀传输</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">界面失稳</tspan></text>
+<text x="1437" y="721" font-size="26" font-weight="700" fill="#087469" text-anchor="middle" data-name="设计目标总结"><tspan font-family="Noto Sans SC">锁液稳网</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">动态配位</tspan><tspan font-family="DejaVu Sans"> + </tspan><tspan font-family="Noto Sans SC">双界面稳定</tspan></text>
+<ellipse cx="960" cy="484" rx="24" ry="24" fill="#E5EEED" data-name="对比转向圆底"/>
+<line x1="947" y1="484" x2="970" y2="484" fill="none" stroke="#148F84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" data-name="对比转向箭杆"/>
+<path d="M 974 484 L 963.1429800413605 489.111273580792 L 963.1429800413605 478.888726419208 Z" fill="#148F84" data-name="对比转向箭头"/>
+<line x1="76" y1="784" x2="114" y2="784" fill="none" stroke="#148F84" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" data-name="图例-MBA网络"/>
+<text x="127" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-MBA文字"><tspan font-family="DejaVu Sans">MBA </tspan><tspan font-family="Noto Sans SC">网络</tspan></text>
+<ellipse cx="302" cy="784" rx="12" ry="12" fill="#EBAE3E" stroke="#C28723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="图例-Li"/>
+<ellipse cx="299.0" cy="780.4" rx="3.7199999999999998" ry="2.7600000000000002" fill="#FFE3A3" data-name="图例-Li-高光"/>
+<text x="302" y="788.08" font-size="9.36" font-weight="700" fill="#FFFFFF" text-anchor="middle" data-name="图例-Li-文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<text x="323" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-Li文字"><tspan font-family="DejaVu Sans">Li⁺</tspan></text>
+<ellipse cx="453" cy="784" rx="25" ry="11" fill="#F6DCD0" stroke="#D69985" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="图例-DMTFA"/>
+<text x="490" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-DMTFA文字"><tspan font-family="DejaVu Sans">DMTFA</tspan></text>
+<rect x="677" y="773" width="45" height="22" rx="11" fill="#DCEFEF" stroke="#8EBBBE" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" data-name="图例-TTE"/>
+<text x="736" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-TTE文字"><tspan font-family="DejaVu Sans">TTE</tspan></text>
+<ellipse cx="903" cy="784" rx="12" ry="12" fill="#A69DCB" data-name="图例-PF6"/>
+<ellipse cx="934" cy="784" rx="12" ry="12" fill="#62AD98" data-name="图例-DFOB"/>
+<text x="958" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-阴离子文字"><tspan font-family="DejaVu Sans">PF₆⁻ / DFOB⁻</tspan></text>
+<rect x="1267" y="773" width="22" height="22" rx="3" fill="#E9B943" data-name="图例-LiF"/>
+<rect x="1296" y="773" width="22" height="22" rx="3" fill="#7DCABB" data-name="图例-BO"/>
+<text x="1331" y="791" font-size="23" font-weight="400" fill="#68798D" text-anchor="start" data-name="图例-界面组分文字"><tspan font-family="DejaVu Sans">LiF / B–O </tspan><tspan font-family="Noto Sans SC">成膜组分（预期）</tspan></text>
+<rect x="50.0" y="824" width="589.3333333333334" height="171" rx="16" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-1-卡片"/>
+<rect x="50.0" y="842" width="5" height="132" rx="2" fill="#148F84" data-name="设计抓手-1-强调线"/>
+<rect x="76.0" y="842.0" width="42" height="30" rx="15.0" fill="#E7F5F1" stroke="#E7F5F1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-1-编号"/>
+<text x="97.0" y="863.84" font-size="19" font-weight="700" fill="#148F84" text-anchor="middle" data-name="设计抓手-1-编号-标签"><tspan font-family="DejaVu Sans">01</tspan></text>
+<text x="133.0" y="868" font-size="29" font-weight="700" fill="#148F84" text-anchor="start" data-name="设计抓手-1-标题"><tspan font-family="DejaVu Sans">MBA</tspan><tspan font-family="Noto Sans SC">：交联锁液与相容</tspan></text>
+<text x="75.0" y="918" font-size="24" font-weight="400" fill="#68798D" text-anchor="start" data-name="设计抓手-1-化学依据"><tspan font-family="DejaVu Sans">CH₂=CH–CO–NH–CH₂–NH–CO–CH=CH₂</tspan></text>
+<text x="75.0" y="966" font-size="25" font-weight="700" fill="#172B46" text-anchor="start" data-name="设计抓手-1-作用目标"><tspan font-family="Noto Sans SC">双键交联；</tspan><tspan font-family="DejaVu Sans">N–H···O=C </tspan><tspan font-family="Noto Sans SC">辅助相容</tspan></text>
+<rect x="665.3333333333334" y="824" width="589.3333333333334" height="171" rx="16" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-2-卡片"/>
+<rect x="665.3333333333334" y="842" width="5" height="132" rx="2" fill="#D67661" data-name="设计抓手-2-强调线"/>
+<rect x="691.3333333333334" y="842.0" width="42" height="30" rx="15.0" fill="#FCF0EB" stroke="#FCF0EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-2-编号"/>
+<text x="712.3333333333334" y="863.84" font-size="19" font-weight="700" fill="#D67661" text-anchor="middle" data-name="设计抓手-2-编号-标签"><tspan font-family="DejaVu Sans">02</tspan></text>
+<text x="748.3333333333334" y="868" font-size="29" font-weight="700" fill="#D67661" text-anchor="start" data-name="设计抓手-2-标题"><tspan font-family="DejaVu Sans">DMTFA/TTE</tspan><tspan font-family="Noto Sans SC">：溶剂化调控</tspan></text>
+<text x="690.3333333333334" y="918" font-size="24" font-weight="400" fill="#68798D" text-anchor="start" data-name="设计抓手-2-化学依据"><tspan font-family="DejaVu Sans">DMTFA (CF₃CON(CH₃)₂) + TTE</tspan></text>
+<text x="690.3333333333334" y="966" font-size="25" font-weight="700" fill="#172B46" text-anchor="start" data-name="设计抓手-2-作用目标"><tspan font-family="Noto Sans SC">调节配位平衡，促进</tspan><tspan font-family="DejaVu Sans"> Li⁺ </tspan><tspan font-family="Noto Sans SC">动态交换</tspan></text>
+<rect x="1280.6666666666667" y="824" width="589.3333333333334" height="171" rx="16" fill="#FFFFFF" stroke="#DFE7EF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-3-卡片"/>
+<rect x="1280.6666666666667" y="842" width="5" height="132" rx="2" fill="#497FB5" data-name="设计抓手-3-强调线"/>
+<rect x="1306.6666666666667" y="842.0" width="42" height="30" rx="15.0" fill="#EFF5FB" stroke="#EFF5FB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" data-name="设计抓手-3-编号"/>
+<text x="1327.6666666666667" y="863.84" font-size="19" font-weight="700" fill="#497FB5" text-anchor="middle" data-name="设计抓手-3-编号-标签"><tspan font-family="DejaVu Sans">03</tspan></text>
+<text x="1363.6666666666667" y="868" font-size="29" font-weight="700" fill="#497FB5" text-anchor="start" data-name="设计抓手-3-标题"><tspan font-family="DejaVu Sans">LiDFOB</tspan><tspan font-family="Noto Sans SC">：双界面成膜调控</tspan></text>
+<text x="1305.6666666666667" y="918" font-size="24" font-weight="400" fill="#68798D" text-anchor="start" data-name="设计抓手-3-化学依据"><tspan font-family="Noto Sans SC">阴离子参与溶剂化与界面反应</tspan></text>
+<text x="1305.6666666666667" y="966" font-size="25" font-weight="700" fill="#172B46" text-anchor="start" data-name="设计抓手-3-作用目标"><tspan font-family="Noto Sans SC">预期构筑</tspan><tspan font-family="DejaVu Sans"> LiF / B–O </tspan><tspan font-family="Noto Sans SC">富集</tspan><tspan font-family="DejaVu Sans"> SEI / CEI</tspan></text>
+<text x="50" y="1043" font-size="21" font-weight="400" fill="#68798D" text-anchor="start" data-name="科学边界说明"><tspan font-family="Noto Sans SC">注：图示为设计机理假设，非实测配位数、能垒或界面组成；需结合光谱</tspan><tspan font-family="DejaVu Sans">/</tspan><tspan font-family="Noto Sans SC">模拟、传输测试及</tspan><tspan font-family="DejaVu Sans"> XPS </tspan><tspan font-family="Noto Sans SC">等验证。</tspan></text>
+</svg>
