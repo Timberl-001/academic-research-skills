@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980">
+  <defs>
+    <linearGradient id="hdrTeal" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E3A8A"/>
+      <stop offset="100%" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="badIntBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5F5"/>
+      <stop offset="100%" stop-color="#FEF2F2"/>
+    </linearGradient>
+    <linearGradient id="goodIntBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#64748B"/>
+    </linearGradient>
+    <linearGradient id="cathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+    <radialGradient id="liBall" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="55%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+    <radialGradient id="pf6Ball" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#DDD6FE"/>
+      <stop offset="60%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </radialGradient>
+    <radialGradient id="dfobBall" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A7F3D0"/>
+      <stop offset="60%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </radialGradient>
+    <radialGradient id="nodeOrange" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FDBA74"/>
+      <stop offset="60%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </radialGradient>
+    <filter id="shadow2" x="-4%" y="-4%" width="108%" height="110%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.10"/>
+    </filter>
+    <marker id="redArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#DC2626"/>
+    </marker>
+    <marker id="greenArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#059669"/>
+    </marker>
+    <marker id="goldArr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#D97706"/>
+    </marker>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect width="1400" height="980" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+
+  <!-- Top Question Banner -->
+  <rect x="20" y="18" width="1360" height="64" rx="12" fill="url(#hdrTeal)" filter="url(#shadow2)"/>
+  <circle cx="54" cy="50" r="18" fill="#34D399" opacity="0.25"/>
+  <text x="54" y="57" font-family="DejaVu Sans, Noto Sans SC" font-size="19" font-weight="bold" fill="#34D399" text-anchor="middle">Q2</text>
+  <text x="86" y="46" font-family="Noto Sans SC, DejaVu Sans" font-size="21" font-weight="bold" fill="#FFFFFF">
+    科学问题二：为什么凝胶电解质/电极界面易发生高传质阻抗、枝晶刺穿与正负极界面失稳？
+  </text>
+  <text x="86" y="70" font-family="Noto Sans SC, DejaVu Sans" font-size="13.5" fill="#A7F3D0">
+    界面演化矛盾：凝胶骨架与粗糙电极接触空隙、界面 Li⁺ 脱溶受阻及溶剂优先分解成膜脆弱 vs 原位成胶与富阴离子鞘协同成膜
+  </text>
+
+  <!-- ==================== LEFT SIDE: TRADITIONAL GEL/ELECTRODE INTERFACE BOTTLENECKS ==================== -->
+  <g transform="translate(24, 98)">
+    <rect width="664" height="585" rx="14" fill="url(#badIntBg)" stroke="#F87171" stroke-width="2" filter="url(#shadow2)"/>
+    <rect x="0" y="0" width="664" height="42" rx="14" fill="#B91C1C"/>
+    <rect x="0" y="22" width="664" height="20" fill="#B91C1C"/>
+    <text x="332" y="28" font-family="Noto Sans SC, DejaVu Sans" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      传统凝胶/电极界面：为什么界面阻抗大且易长枝晶？（三重界面失效）
+    </text>
+
+    <!-- Microscopic Schematic of Failing Gel-Electrode Interface (x=20..644, y=54..384) -->
+    <rect x="20" y="54" width="624" height="330" rx="10" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.5"/>
+
+    <!-- Left Electrode: Rough Anode with Micro-Voids & Dendrites -->
+    <path d="M 20 54 L 90 54 L 90 95 L 72 115 L 92 140 L 70 170 L 92 205 L 72 240 L 92 275 L 72 310 L 90 345 L 90 384 L 20 384 Z"
+          fill="url(#metalGrad)"/>
+    <text x="48" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 48 220)">粗糙负极表面 (Anode)</text>
+
+    <!-- Interfacial Contact Voids (Air/Vacuum gaps between rigid gel and rough electrode) -->
+    <ellipse cx="95" cy="115" rx="16" ry="20" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <text x="138" y="112" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#DC2626">① 固-固接触空隙</text>
+    <text x="138" y="126" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" fill="#991B1B">(界面接触电阻 Rct 激增)</text>
+
+    <ellipse cx="95" cy="240" rx="16" ry="22" fill="#FEE2E2" stroke="#DC2626" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <rect x="114" y="229" width="136" height="20" rx="4" fill="#FFFFFF" stroke="#FCA5A5"/><text x="182" y="243" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#DC2626" text-anchor="middle">界面微孔盲区(无Li⁺传输)</text>
+
+    <!-- Sharp Li Dendrites growing from contact hotspots -->
+    <polygon points="90,140 195,156 90,172" fill="#94A3B8" stroke="#DC2626" stroke-width="2"/>
+    <polygon points="90,275 215,292 90,312" fill="#94A3B8" stroke="#DC2626" stroke-width="2"/>
+    <rect x="122" y="175" width="115" height="22" rx="5" fill="#DC2626"/>
+    <text x="179" y="190" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">局部电流集中 → 锂枝晶</text>
+
+    <!-- Fragile Organic SEI Layer (Broken pieces) -->
+    <rect x="96" y="64" width="12" height="32" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="96" y="192" width="12" height="28" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="96" y="325" width="12" height="42" rx="3" fill="#FCA5A5" stroke="#EF4444"/>
+    <rect x="114" y="336" width="168" height="22" rx="4" fill="#FFFFFF" stroke="#FCA5A5"/><text x="198" y="351" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#B91C1C" text-anchor="middle">③ 溶剂还原→疏松有机SEI破裂</text>
+
+    <!-- Center: Rigid Gel Skeleton at Interface Blocking Desolvation -->
+    <path d="M 225 75 C 275 145, 235 235, 285 365" fill="none" stroke="#475569" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 355 75 C 315 165, 375 245, 335 365" fill="none" stroke="#475569" stroke-width="9" stroke-linecap="round"/>
+    <path d="M 210 150 C 285 125, 345 175, 420 145" fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 210 285 C 285 310, 345 260, 420 290" fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="252" cy="144" r="9.5" fill="url(#nodeOrange)" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="342" cy="155" r="9.5" fill="url(#nodeOrange)" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="265" cy="292" r="9.5" fill="url(#nodeOrange)" stroke="#FFFFFF" stroke-width="1.5"/>
+    <circle cx="348" cy="278" r="9.5" fill="url(#nodeOrange)" stroke="#FFFFFF" stroke-width="1.5"/>
+
+    <!-- Sluggish Desolvation Cluster in Center -->
+    <circle cx="305" cy="215" r="42" fill="#FEE2E2" stroke="#DC2626" stroke-width="2" stroke-dasharray="4,2"/>
+    <circle cx="305" cy="215" r="14" fill="url(#liBall)"/>
+    <text x="305" y="220" font-family="DejaVu Sans" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <rect x="275" y="178" width="60" height="15" rx="4" fill="#FCA5A5"/>
+    <text x="305" y="189" font-family="Noto Sans SC, DejaVu Sans" font-size="9" font-weight="bold" fill="#7F1D1D" text-anchor="middle">溶剂+链段束缚</text>
+    <rect x="252" y="233" width="106" height="18" rx="4" fill="#FFFFFF" stroke="#EF4444"/><text x="305" y="246" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#B91C1C" text-anchor="middle">② 界面脱溶能垒高</text>
+
+    <!-- Right Electrode: Cathode with HF Attack & TM Dissolution -->
+    <rect x="568" y="54" width="76" height="330" rx="6" fill="url(#cathGrad)"/>
+    <text x="606" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 606 220)">高电压正极 (Cathode)</text>
+    <!-- Broken CEI -->
+    <rect x="552" y="68" width="12" height="295" fill="#FDE68A" stroke="#D97706" stroke-dasharray="8,6"/>
+    <!-- HF Attack & TMn+ Dissolution -->
+    <rect x="432" y="105" width="108" height="52" rx="8" fill="#FEF2F2" stroke="#EF4444" stroke-width="1.5"/>
+    <text x="486" y="125" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#DC2626" text-anchor="middle">LiPF₆ + H₂O → HF↑</text>
+    <text x="486" y="145" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#991B1B" text-anchor="middle">腐蚀正极与CEI膜</text>
+    <path d="M 540 132 L 564 132" stroke="#DC2626" stroke-width="2.5" marker-end="url(#redArr)"/>
+
+    <rect x="432" y="215" width="108" height="52" rx="8" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+    <text x="486" y="235" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#B45309" text-anchor="middle">TMⁿ⁺ 过渡金属溶出</text>
+    <text x="486" y="255" font-family="Noto Sans SC, DejaVu Sans" font-size="10" fill="#7C2D12" text-anchor="middle">正极结构坍塌失活</text>
+    <path d="M 564 242 L 542 242" stroke="#DC2626" stroke-width="2.5" marker-end="url(#redArr)"/>
+
+    <!-- Three Bottleneck Summary Strips at Bottom of Left Panel -->
+    <rect x="20" y="396" width="624" height="52" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.5"/>
+    <text x="34" y="418" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#991B1B">
+      界面痛点 ① 物理接触差：
+    </text>
+    <text x="195" y="418" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" fill="#334155">
+      非原位/高刚性凝胶难以浸润电极微孔，界面存在大量空隙，导致局部电流集中与枝晶刺穿。
+    </text>
+    <text x="34" y="439" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#DC2626">
+      ➔ 界面接触阻抗 (R_int) 大，有效反应面积显著缩减。
+    </text>
+
+    <rect x="20" y="456" width="624" height="52" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.5"/>
+    <text x="34" y="478" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#991B1B">
+      界面痛点 ② 脱溶与成膜差：
+    </text>
+    <text x="202" y="478" font-family="Noto Sans SC, DejaVu Sans" font-size="11.2" fill="#334155">
+      界面处 Li⁺ 受溶剂与骨架双重束缚难脱溶；溶剂优先还原生成疏松有机 SEI，易破裂重构。
+    </text>
+    <text x="34" y="499" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#DC2626">
+      ➔ 电荷转移阻抗 (R_ct) 高，负极持续消耗活性锂生成“死锂”。
+    </text>
+
+    <rect x="20" y="516" width="624" height="54" rx="8" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="1.5"/>
+    <text x="34" y="538" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#991B1B">
+      界面痛点 ③ 正极氧化与酸蚀：
+    </text>
+    <text x="220" y="538" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" fill="#334155">
+      高电压下常规组分氧化分解，且 LiPF₆ 遇痕量水生成 HF 腐蚀正极，引发过渡金属溶出。
+    </text>
+    <text x="34" y="559" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#DC2626">
+      ➔ 正负极界面双双退化，导致全电池库仑效率与循环寿命急剧衰减。
+    </text>
+  </g>
+
+  <!-- ==================== RIGHT SIDE: OUR IN-SITU MBA + DMTFA:TTE + LiDFOB INTERFACE SOLUTION ==================== -->
+  <g transform="translate(712, 98)">
+    <rect width="664" height="585" rx="14" fill="url(#goodIntBg)" stroke="#34D399" stroke-width="2" filter="url(#shadow2)"/>
+    <rect x="0" y="0" width="664" height="42" rx="14" fill="#047857"/>
+    <rect x="0" y="22" width="664" height="20" fill="#047857"/>
+    <text x="332" y="28" font-family="Noto Sans SC, DejaVu Sans" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      本体系破局：原位浸润成胶 + 富阴离子鞘协同构筑富 LiF/B-O 双界面
+    </text>
+
+    <!-- Microscopic Schematic of Ideal In-Situ Gel-Electrode Interface (x=20..644, y=54..384) -->
+    <rect x="20" y="54" width="624" height="330" rx="10" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.5"/>
+
+    <!-- Left Electrode: Smooth Anode + Dense LiF/B-O SEI -->
+    <rect x="20" y="54" width="64" height="330" rx="6" fill="url(#metalGrad)"/>
+    <text x="52" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 52 220)">平整无枝晶负极 (Anode)</text>
+
+    <!-- Dense Hybrid LiF + B-O SEI Layer -->
+    <rect x="84" y="54" width="38" height="330" fill="#10B981" stroke="#047857" stroke-width="1.5"/>
+    <!-- Embedded LiF nanocrystals & B-O network icons inside SEI -->
+    <circle cx="103" cy="76" r="9" fill="#FEF08A" stroke="#CA8A04"/>
+    <text x="103" y="79" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#854D0E" text-anchor="middle">LiF</text>
+    <circle cx="103" cy="362" r="9" fill="#FEF08A" stroke="#CA8A04"/>
+    <text x="103" y="365" font-family="DejaVu Sans" font-size="7.5" font-weight="bold" fill="#854D0E" text-anchor="middle">LiF</text>
+    <text x="103" y="222" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 103 222)">致密富 LiF / B-O 复合 SEI</text>
+
+    <!-- Uniform Li+ Flux Arrows into Anode -->
+    <line x1="165" y1="105" x2="126" y2="105" stroke="#059669" stroke-width="3" marker-end="url(#greenArr)"/>
+    <line x1="165" y1="185" x2="126" y2="185" stroke="#059669" stroke-width="3" marker-end="url(#greenArr)"/>
+    <line x1="165" y1="265" x2="126" y2="265" stroke="#059669" stroke-width="3" marker-end="url(#greenArr)"/>
+    <line x1="165" y1="335" x2="126" y2="335" stroke="#059669" stroke-width="3" marker-end="url(#greenArr)"/>
+    <rect x="132" y="62" width="118" height="24" rx="5" fill="#D1FAE5" stroke="#059669"/>
+    <text x="191" y="78" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#065F46" text-anchor="middle">① 原位浸润无缝贴合</text>
+
+    <!-- Center: Homogeneous Plasticized MBA Gel Network + LHCE CIP/AGG Sheath -->
+    <path d="M 130 140 Q 230 120 330 140 Q 430 160 530 140" fill="none" stroke="#2563EB" stroke-width="4" stroke-dasharray="6,3"/>
+    <path d="M 130 295 Q 230 315 330 295 Q 430 275 530 295" fill="none" stroke="#2563EB" stroke-width="4" stroke-dasharray="6,3"/>
+    <path d="M 245 65 L 245 370 M 415 65 L 415 370" fill="none" stroke="#60A5FA" stroke-width="3" stroke-dasharray="5,3"/>
+    <circle cx="245" cy="135" r="7" fill="url(#nodeOrange)"/>
+    <circle cx="415" cy="145" r="7" fill="url(#nodeOrange)"/>
+    <circle cx="245" cy="300" r="7" fill="url(#nodeOrange)"/>
+    <circle cx="415" cy="290" r="7" fill="url(#nodeOrange)"/>
+
+    <!-- Central LHCE CIP/AGG Solvation Sheath Driving Anion Decomposition -->
+    <circle cx="330" cy="215" r="56" fill="#FEF3C7" fill-opacity="0.9" stroke="#D97706" stroke-width="2" stroke-dasharray="5,3"/>
+    <circle cx="330" cy="215" r="15" fill="url(#liBall)"/>
+    <text x="330" y="220" font-family="DejaVu Sans" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">Li⁺</text>
+    <circle cx="298" cy="192" r="13" fill="url(#dfobBall)"/>
+    <text x="298" y="196" font-family="DejaVu Sans" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">DFOB⁻</text>
+    <circle cx="362" cy="192" r="12" fill="url(#pf6Ball)"/>
+    <text x="362" y="196" font-family="DejaVu Sans" font-size="8" font-weight="bold" fill="#FFFFFF" text-anchor="middle">PF₆⁻</text>
+    <rect x="292" y="238" width="76" height="16" rx="4" fill="#FFFFFF" stroke="#D97706"/>
+    <text x="330" y="250" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#92400E" text-anchor="middle">弱配位DMTFA+TTE</text>
+    <rect x="242" y="132" width="176" height="22" rx="5" fill="#FFFFFF" stroke="#14B8A6"/><text x="330" y="147" font-family="Noto Sans SC, DejaVu Sans" font-size="10.5" font-weight="bold" fill="#0F766E" text-anchor="middle">② LHCE 富阴离子鞘 (快速脱溶)</text>
+
+    <!-- Arrows from DFOB-/PF6- to Anode SEI and Cathode CEI -->
+    <path d="M 272 205 L 130 205" stroke="#059669" stroke-width="2.5" marker-end="url(#greenArr)"/>
+    <rect x="142" y="210" width="126" height="36" rx="5" fill="#ECFDF5" stroke="#10B981"/>
+    <text x="205" y="225" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#065F46" text-anchor="middle">DFOB⁻/PF₆⁻ 优先还原</text>
+    <text x="205" y="239" font-family="Noto Sans SC, DejaVu Sans" font-size="9" fill="#047857" text-anchor="middle">→ LiF + B-O 交联网络</text>
+
+    <path d="M 388 205 L 524 205" stroke="#D97706" stroke-width="2.5" marker-end="url(#goldArr)"/>
+    <rect x="394" y="210" width="126" height="36" rx="5" fill="#FFFBEB" stroke="#F59E0B"/>
+    <text x="457" y="225" font-family="Noto Sans SC, DejaVu Sans" font-size="9.5" font-weight="bold" fill="#92400E" text-anchor="middle">DFOB⁻ 优先氧化 + 除HF</text>
+    <text x="457" y="239" font-family="Noto Sans SC, DejaVu Sans" font-size="9" fill="#B45309" text-anchor="middle">→ 富 B-O/LiF 致密 CEI</text>
+
+    <!-- Right Electrode: Dense CEI + Protected Cathode -->
+    <rect x="530" y="54" width="36" height="330" fill="#F59E0B" stroke="#B45309" stroke-width="1.5"/>
+    <text x="548" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="11.5" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 548 220)">致密富 B-O / LiF CEI 膜</text>
+    <rect x="566" y="54" width="78" height="330" rx="6" fill="url(#cathGrad)"/>
+    <text x="605" y="220" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#FFFFFF" text-anchor="middle" transform="rotate(-90 605 220)">高稳定正极 (Cathode)</text>
+
+    <!-- Three Solution Summary Strips at Bottom of Right Panel -->
+    <rect x="20" y="396" width="624" height="52" rx="8" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.5"/>
+    <text x="34" y="418" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#065F46">
+      协同机制 ① 原位成胶消除界面空隙：
+    </text>
+    <text x="255" y="418" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" fill="#334155">
+      DMTFA:TTE(1:1)低粘度前驱体深度润湿电极微孔后原位交联，
+    </text>
+    <text x="34" y="439" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#059669">
+      ➔ 实现分子级无缝界面贴合，均化界面 Li⁺ 通量，从源头消除枝晶形核热点。
+    </text>
+
+    <rect x="20" y="456" width="624" height="52" rx="8" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.5"/>
+    <text x="34" y="478" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#065F46">
+      协同机制 ② 负极刚柔并济 LiF/B-O SEI：
+    </text>
+    <text x="278" y="478" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" fill="#334155">
+      入鞘 DFOB⁻(低LUMO) 与 PF₆⁻ 随 Li⁺ 抵近界面优先还原，
+    </text>
+    <text x="34" y="499" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#059669">
+      ➔ 构筑高模量 LiF 纳米晶 + 柔韧硼氧(B-O)网络复合 SEI，实现平整无枝晶沉积。
+    </text>
+
+    <rect x="20" y="516" width="624" height="54" rx="8" fill="#FFFFFF" stroke="#6EE7B7" stroke-width="1.5"/>
+    <text x="34" y="538" font-family="Noto Sans SC, DejaVu Sans" font-size="13" font-weight="bold" fill="#065F46">
+      协同机制 ③ 正极抗蚀富 F/B CEI 膜：
+    </text>
+    <text x="255" y="538" font-family="Noto Sans SC, DejaVu Sans" font-size="11.2" fill="#334155">
+      DFOB⁻(高HOMO) 在正极优先氧化成膜，且协同 MBA 酰胺基团捕获 H₂O/HF，
+    </text>
+    <text x="34" y="559" font-family="Noto Sans SC, DejaVu Sans" font-size="12" font-weight="bold" fill="#059669">
+      ➔ 彻底阻断 HF 酸腐蚀与过渡金属 (TMⁿ⁺) 溶出，保障高电压长循环稳定。
+    </text>
+  </g>
+
+  <!-- ==================== BOTTOM PANEL: ORBITAL ENERGY (LUMO/HOMO) & QUESTION 2 FORMULATION ==================== -->
+  <g transform="translate(24, 700)">
+    <rect width="1352" height="260" rx="14" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.8" filter="url(#shadow2)"/>
+
+    <!-- Left: LUMO / HOMO Energy Level Diagram of DMTFA, TTE, PF6-, DFOB- -->
+    <rect x="18" y="16" width="560" height="228" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5"/>
+    <text x="298" y="38" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#0F172A" text-anchor="middle">
+      前线分子轨道能级与优先成膜机制：为什么 DFOB⁻/PF₆⁻ 主导双界面成膜？
+    </text>
+    <!-- LUMO bars (Top half) -->
+    <text x="64" y="68" font-family="DejaVu Sans, Noto Sans SC" font-size="11.5" font-weight="bold" fill="#DC2626">LUMO (还原电位)</text>
+    <!-- DMTFA -->
+    <line x1="175" y1="72" x2="235" y2="72" stroke="#0284C7" stroke-width="4"/>
+    <text x="205" y="64" font-family="DejaVu Sans" font-size="10.5" font-weight="bold" fill="#0284C7" text-anchor="middle">DMTFA</text>
+    <!-- TTE -->
+    <line x1="265" y1="78" x2="325" y2="78" stroke="#0891B2" stroke-width="4"/>
+    <text x="295" y="70" font-family="DejaVu Sans" font-size="10.5" font-weight="bold" fill="#0891B2" text-anchor="middle">TTE</text>
+    <!-- PF6- -->
+    <line x1="355" y1="90" x2="415" y2="90" stroke="#7C3AED" stroke-width="4"/>
+    <text x="385" y="82" font-family="DejaVu Sans" font-size="10.5" font-weight="bold" fill="#7C3AED" text-anchor="middle">Li⁺-PF₆⁻</text>
+    <!-- DFOB- (Lowest LUMO!) -->
+    <line x1="445" y1="112" x2="525" y2="112" stroke="#059669" stroke-width="5"/>
+    <rect x="438" y="118" width="96" height="20" rx="4" fill="#D1FAE5"/>
+    <text x="486" y="132" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#065F46" text-anchor="middle">最低LUMO→优先还原SEI</text>
+    <text x="485" y="104" font-family="DejaVu Sans" font-size="11" font-weight="bold" fill="#059669" text-anchor="middle">Li⁺-DFOB⁻</text>
+
+    <!-- HOMO bars (Bottom half) -->
+    <text x="64" y="195" font-family="DejaVu Sans, Noto Sans SC" font-size="11.5" font-weight="bold" fill="#B45309">HOMO (氧化电位)</text>
+    <line x1="175" y1="200" x2="235" y2="200" stroke="#0284C7" stroke-width="4"/>
+    <line x1="265" y1="208" x2="325" y2="208" stroke="#0891B2" stroke-width="4"/>
+    <line x1="355" y1="214" x2="415" y2="214" stroke="#7C3AED" stroke-width="4"/>
+    <!-- DFOB- (Highest HOMO!) -->
+    <line x1="445" y1="170" x2="525" y2="170" stroke="#D97706" stroke-width="5"/>
+    <rect x="438" y="144" width="96" height="20" rx="4" fill="#FEF3C7"/>
+    <text x="486" y="158" font-family="Noto Sans SC, DejaVu Sans" font-size="10" font-weight="bold" fill="#92400E" text-anchor="middle">最高HOMO→优先氧化CEI</text>
+
+    <text x="275" y="232" font-family="Noto Sans SC, DejaVu Sans" font-size="11" font-weight="bold" fill="#334155" text-anchor="middle">
+      氟代溶剂(DMTFA/TTE)宽电化学窗口 + DFOB⁻正负极双向优先成膜
+    </text>
+
+    <!-- Right: How our system poses and resolves Scientific Question 2 -->
+    <rect x="596" y="16" width="738" height="228" rx="10" fill="#ECFDF5" stroke="#10B981" stroke-width="2"/>
+    <rect x="616" y="30" width="350" height="30" rx="15" fill="#047857"/>
+    <text x="791" y="50" font-family="Noto Sans SC, DejaVu Sans" font-size="14" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+      由此凝练【核心科学问题二】与本体系调控思路
+    </text>
+    <text x="616" y="86" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#065F46">
+      “原位 MBA 凝胶骨架如何协同富阴离子溶剂化鞘 (DFOB⁻/PF₆⁻)，消除固-固界面接触
+    </text>
+    <text x="616" y="110" font-family="Noto Sans SC, DejaVu Sans" font-size="15.5" font-weight="bold" fill="#065F46">
+      阻力并在正负极原位构筑高稳定富 LiF/B-O 双界面相 (SEI/CEI)？”
+    </text>
+    <line x1="616" y1="124" x2="1314" y2="124" stroke="#6EE7B7" stroke-width="1.5"/>
+
+    <rect x="616" y="136" width="224" height="92" rx="8" fill="#FFFFFF" stroke="#34D399" stroke-width="1.5"/>
+    <text x="728" y="158" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#065F46" text-anchor="middle">① 原位液态浸润—热聚合成胶</text>
+    <text x="728" y="180" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">消除电极界面微孔盲区，降低R_int</text>
+    <text x="728" y="198" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">并均化Li⁺沉积通量抑制枝晶</text>
+
+    <rect x="853" y="136" width="224" height="92" rx="8" fill="#FFFFFF" stroke="#34D399" stroke-width="1.5"/>
+    <text x="965" y="158" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#047857" text-anchor="middle">② 阴离子入鞘加速脱溶与还原</text>
+    <text x="965" y="180" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">LHCE驱动DFOB⁻/PF₆⁻入鞘低能垒</text>
+    <text x="965" y="198" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">脱溶，生成刚柔并济LiF/B-O SEI</text>
+
+    <rect x="1090" y="136" width="224" height="92" rx="8" fill="#FFFFFF" stroke="#34D399" stroke-width="1.5"/>
+    <text x="1202" y="158" font-family="Noto Sans SC, DejaVu Sans" font-size="12.5" font-weight="bold" fill="#B45309" text-anchor="middle">③ 正极优先成膜与HF化学清除</text>
+    <text x="1202" y="180" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">DFOB⁻氧化构筑富B/F CEI，配合</text>
+    <text x="1202" y="198" font-family="Noto Sans SC, DejaVu Sans" font-size="11" fill="#334155" text-anchor="middle">MBA酰胺基除酸防过渡金属溶出</text>
+  </g>
+</svg>
