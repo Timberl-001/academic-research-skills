@@ -195,9 +195,7 @@ lx = 10.9; ly = 6.65
 ax.text(lx, ly, "Legend", fontsize=8, fontweight="bold", va="center")
 items = [("li", "Li⁺"), ("pf6", "PF₆⁻"), ("dfob", "DFOB⁻"), ("dmtfa", "DMTFA"), ("tte", "TTE"), ("mba", "MBA monomer"),
          ("pmba", "PMBA amide chain\n○ –CO–NH–"), ("pegda", "Ether-type chain\n○ –O–"), ("shell", "Li⁺ solvation shell"),
-         ("hb", "N–H···anion\n(design, to verify)"), ("sei", "LiF/B–O-rich
-SEI / CEI"), ("org", "Organic-rich
-SEI / CEI")]
+         ("hb", "N–H···anion\n(design, to verify)"), ("sei", "LiF/B–O-rich\nSEI / CEI"), ("org", "Organic-rich\nSEI / CEI")]
 y = ly
 for k, lab in items:
     y -= 0.46 if "\n" in lab else 0.36
