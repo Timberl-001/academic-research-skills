@@ -1,11 +1,11 @@
 # Academic Research Skills for Claude Code
 
-[![Version](https://img.shields.io/badge/version-v3.22.2-blue)](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.22.2)
+[![Version](https://img.shields.io/badge/version-v3.24.1-blue)](https://github.com/Imbad0202/academic-research-skills/releases/tag/v3.24.1)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20696614-blue)](https://doi.org/10.5281/zenodo.20696614)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/crucify020v)
 
-[English](README.md) | [繁體中文版](README.zh-TW.md) | [日本語版](README.ja-JP.md) | [한국어](README.ko-KR.md) | [Español](README.es-ES.md)
+[English](README.md) | [繁體中文版](README.zh-TW.md) | [日本語版](README.ja-JP.md) | [한국어](README.ko-KR.md) | [Español](README.es-ES.md) | [Português](README.pt-BR.md)
 
 一套完整的学术研究 Claude Code 技能包，涵盖从研究到论文出版的全流程。
 
@@ -65,7 +65,7 @@ v3.3 的灵感来自 [**PaperOrchestra**](https://arxiv.org/abs/2604.05018)（So
 
 **👉 [docs/DATA_FLOWS.md](docs/DATA_FLOWS.md)** — 哪些数据会离开你的电脑（书目 resolver、可选且需明确同意的跨模型调用、更新检查）、本地缓存存什么与存多久、每条路径怎么关闭。（英文）
 
-**使用 Claude Science？** 四个 skill 可直接导入：**Skills → Import from GitHub**，粘贴 `https://github.com/Imbad0202/academic-research-skills`，点 **Preview**，再点 **Import 4 skills**（需本 repo v3.14.0+——导入器读取 marketplace manifest 中显式声明的 skill 路径）。导入是一次性快照：ARS 更新后需重新导入。导入的 skill 承载 ARS 方法论（研究／写作／评审协议）；Claude Code 专属机制——slash commands、hooks、subagent 编排——不会转移。详见 [docs/SETUP.md](docs/SETUP.md) Method 5。
+**使用 Claude Science？** 五个 skill 可直接导入：**Skills → Import from GitHub**，粘贴 `https://github.com/Imbad0202/academic-research-skills`，点 **Preview**，再点 **Import**（需本 repo v3.14.0+——导入器读取 marketplace manifest 中显式声明的 skill 路径）。导入是一次性快照：ARS 更新后需重新导入。导入的 skill 承载 ARS 方法论（研究／写作／评审协议）；Claude Code 专属机制——slash commands、hooks、subagent 编排——不会转移。详见 [docs/SETUP.md](docs/SETUP.md) Method 5。
 
 **使用 Pi？** 运行 `pi install git:github.com/Imbad0202/academic-research-skills` 安装仓库内的社区维护 wrapper。它继续以原始 ARS 内容为准，并记录 Pi 在编排和 hooks 方面的限制。详见 [`pi/README.md`](pi/README.md)。
 
@@ -88,6 +88,7 @@ v3.3 的灵感来自 [**PaperOrchestra**](https://arxiv.org/abs/2604.05018)（So
 - **Academic Paper** — 12 个 Agent 的论文撰写团队，含风格校准、写作质量检查、LaTeX 输出强化、可视化、修订教练、引用格式转换、反泄露协议、VLM 图表验证。
 - **Academic Paper Reviewer** — 7 个 Agent 的多视角同行评审，采用逐准则、证据锚定的叙事判断（Journal-Fit Reviewer + 3 位动态审查者 + 魔鬼代言人），含让步门槛协议、攻击强度保持、可选跨模型 DA critique / calibration、R&R 追溯矩阵、只读约束。目前 live review 一律为 `NOT_CALIBRATED`；完整 calibration 只产生有界候选 profile，尚未接入 live review。
 - **Academic Pipeline** — 10 阶段全流程调度器，含自适应 checkpoint、主张验证、材料护照、可选 `repro_lock`、可选跨模型学术诚信验证、中途强化机制，以及逐项准则的叙事退步检查（typed trajectory 尚未实现）。
+- **SR-Screener** — 系统综述、范围综述与快速综述的研究筛选，按用户确认的筛选规则执行：两位盲审 AI 审查者加第三位裁决者、按固定顺序的排除代码、不预设任何决定、可续跑的批次、质量检查（种子研究、近似排除复查、kappa 与 PABAK）、PRISMA 2020 数字、EndNote/Zotero RIS 分组，以及交给 `academic-paper` 的 `literature_corpus[]`。AI 的决定只是辅助，最终由研究团队核查。
 - **数据访问层级标注**（v3.3.2+）— 每个 skill 声明 `data_access_level`（`raw` / `redacted` / `verified_only`），由 `scripts/check_data_access_level.py` 强制执行。设计灵感来自 Anthropic 的 automated-w2s-researcher（2026）。详见 [`shared/ground_truth_isolation_pattern.md`](shared/ground_truth_isolation_pattern.md)。
 - **任务类型标注**（v3.3.2+）— 每个 skill 声明 `task_type`（`open-ended` 或 `outcome-gradable`）。目前 ARS 所有 skills 皆为 `open-ended`。
 - **Benchmark 报告 Schema**（v3.3.5+）— JSON Schema + lint script，要求诚实的 benchmark 比较报告。详见 [`shared/benchmark_report_pattern.md`](shared/benchmark_report_pattern.md)。
@@ -209,6 +210,19 @@ ARS Stage 2 写作      →  用验证过的实验结果撰写论文
 
 > Pipeline 结束时自动产出 **Stage 6：过程记录** — 含论文创建过程记录与 6 维度协作质量评估（1–100 分）。
 
+#### SR-Screener（研究筛选，8 种模式）
+
+```
+"把我的计划书转成筛选规则"                    → protocol mode
+"这篇摘要符合我的综述纳入条件吗？"            → quick mode（单一审查者初筛）
+"先用种子研究试跑筛选"                        → pilot mode
+"筛选这些数据库导出文件"                      → ta-screen mode
+"筛选晋级记录的全文"                          → ft-screen mode
+"裁决我 Rayyan 导出文件中的冲突"              → adjudicate mode
+"帮我复查排除的记录"                          → audit mode
+"给我这次筛选的 PRISMA 数字"                  → report mode
+```
+
 ### 支持语言
 
 - **繁体中文** — 用户以中文对话时默认使用
@@ -254,9 +268,13 @@ ARS Stage 2 写作      →  用验证过的实验结果撰写论文
 
 7 个 Agent 的多视角审查，采用 **逐准则、证据锚定的叙事判断**。模式：full、re-review、quick、methodology-focus、guided、calibration。目前 live review 与 Schema 6 package 一律为 `NOT_CALIBRATED`；完整 calibration 可产生有界候选 profile，但尚未接入 live review。不得以固定总分映射接受、小修、大修或退稿。第一轮审查面板 vs. 契约治理再审调度的分界：见 ARCHITECTURE.md §3 Stage 3 / Stage 3'。
 
-### Academic Pipeline (v3.22.2)
+### Academic Pipeline (v3.24.1)
 
 10 阶段调度器，含学术诚信验证、两阶段审查、苏格拉底指导、协作质量评估。Pipeline 规则（由 agent 按流程遵守，不是运行时保证）：每个阶段都需用户确认 checkpoint；学术诚信验证（Stage 2.5 + 4.5）为 MANDATORY 且没有不留记录的绕过路径（所有覆写都须记录用户理由、供 Stage 6 使用）；R&R 追溯矩阵（Schema 11）把每一项审查意见对应到作者的修订主张，并记录复审是否验证通过。v3.4 添加 Compliance Agent（PRISMA-trAIce + RAISE）于 Stage 2.5 / 4.5。v3.5 添加 **协作深度观察员**（`collaboration_depth_agent`，仅咨询性质、永不阻挡流程）于每一次 FULL/SLIM checkpoint 与 pipeline 完成时。MANDATORY 学术诚信闸门（2.5 / 4.5）明确跳过观察员，避免稀释合规检查。理论基础：Wang & Zhang (2026), IJETHE 23:11。逐阶段矩阵（agent、产出物、闸门）：见 ARCHITECTURE.md §3。
+
+### SR-Screener (v1.0.0)
+
+4 个 agent 的研究筛选，位于 `deep-research`（问题、计划书、检索）与 `academic-paper`（撰写综述）之间。模式：protocol、quick、pilot、ta-screen、ft-screen、adjudicate、audit、report。两位盲审的审查者 subagent（只能用 Read 与 Grep）按用户确认的筛选规则审每一条记录，第三位审查者裁决"晋级 vs. 排除"的冲突；只用标准库的 Python 脚本负责解析 RIS / PubMed .nbib / Web of Science / CSV 导出文件、去重、分批、合并，并产出筛选记录表、RIS 分组、PRISMA 2020 数字、含 `[TO COMPLETE]` 字段的方法段草稿，以及 `literature_corpus[]` 文件。Agent 遵守的规则（不是运行时保证）：用户确认筛选规则前不筛任何记录、失败的调用不会被当成默认"排除"、数字发表前由研究团队核查决定。详见 [`sr-screener/SKILL.md`](sr-screener/SKILL.md)。
 
 ---
 
@@ -322,14 +340,14 @@ https://github.com/Imbad0202/academic-research-skills
 
 这里只列最近三个版本。完整更新记录在英文版 [CHANGELOG.md](CHANGELOG.md)。到 v3.21.2 为止的简体中文版本摘要已冻结存放于 [docs/changelog-archive/zh-CN.md](docs/changelog-archive/zh-CN.md)，之后不再更新。
 
-### v3.22.2（2026-09-25）— 运行记录与交接检查、缩写检查、扩大 instruction/data 边界，以及路由与首页修复
+### v3.24.1（2026-11-02）— 从 claude.ai 账号市集安装 plugin、审稿前确认配置卡，以及巴西葡萄牙文 README
 
-> **两个确定性检查由合成测试固定；提示层变更的效果尚未测量：**v3.22.2 新增运行记录（#887）。pipeline 有 passport 文件时，orchestrator 会把用户的初始指示、每个 checkpoint 的提问与用户原话的回答、步骤回执与文件哈希，追加到 passport 旁的本地记录文件。发生 compaction、续跑或 subagent 返回之后，`scripts/run_ledger.py report` 会比对记录与摘要或报告的声明，列出差异；现在它会自己以英文或繁体中文打印这份交接检查，并在写入记录时计算该条记录所指文件的哈希（#898）。记录文件保存用户的原话，`docs/DATA_FLOWS.md` 列出这个文件与删除方式。本版也新增 `scripts/check_acronyms.py`（#849，由 @reiropke 提议），不调用模型，报告未定义、先用后定义或重复定义的缩写；提示会让调用方在保存好的草稿与摘要上运行它，审稿时则把报告附在 Editorial Decision Letter 最后，作为参考附件，审稿决定、修订路线图与复审准则都不引用它。两个脚本都由合成测试固定；实际运行时是否写入记录、是否调用检查，尚未测量。instruction/data 边界现在覆盖派工与 passport 导入中的第三方文字（#890）、接收端通过自己的工具调用读到的文字，以及每个 skill 的主 session（#894）；lint 固定每一份副本，效果尚未测量（可选的 claim-audit 裁判提示也随之改变，旧提示的缓存判定不再沿用）。修复：路由核心现在也送达 plugin 与 skills 复制安装（#892）；模式惯用的输入缺失时，明确的请求仍视为明确（#889）；`/ars-lit-review` 不再把进行中的运行导向别的流程（#897）；修订教练不再把同行评审导入委员会往来变体（#854）；orchestrator 把「权威」skill 输出限定为交付物的归属（#888）；首页与 showcase 的说法与来源一致（#908）。路由结果来自每个 fixture 一个 session，只是初步验证，不代表比率。新增一个描述记录文件的 schema；没有任何既有 schema、指令模型或推理强度设置的变更。
+> **claude.ai 与 Claude Desktop 的安装修复；没有新 skill 或模式：**ARS 现在可以从 claude.ai 账号市集安装。这一版之前，这种安装方式下，五个核心 skill 全都无法加载（#1035），而且四个 plugin 代理的名称含下划线，claude.ai 不接受（#1037）。在 Claude Desktop 上，普通对话中有一个 skill 与 `/ars-lit-review` 实际运行；项目对话直接派工给 plugin 代理 `synthesis-agent`；文件夹工作时出现 SessionStart 启动通知。write-scope guard、工具白名单与完整 pipeline 在 claude.ai 与 Claude Desktop 上尚未测试。审稿时现在会等用户确认 Reviewer Configuration Cards（#1030），README 也新增巴西葡萄牙文版（#1032）。
 
-### v3.22.1（2026-09-23）— 模型现况对齐（Opus 5.5）、引用检查加载与中文 APA 7 修复、Pi 包装器修正
+### v3.24.0（2026-10-27）— 审查小组推荐文献与审查意见的参考检查、write-scope guard 启动器改为单一进程，以及诚信检查规则修复
 
-> **模型现况对齐与修复，新增提示层防线的效果尚未测量：**v3.22.1 在两个模型各自通读 Opus 5.5 system card 的审计之后，把 Claude Opus 5.5 与 Claude Fable 5.1 并列为受支持的 session 模型，审计没有退役任何防护（#883）。文档新增推理强度建议（Claude Code 让 Opus 5.5 以 `medium` 起步，重度任务应使用 `high` 及以上）、两个模型共用的一段标价换算，以及分层说明：阶梯顺序是厂商的产品排序，不是能力排序。card 指出 Opus 5.5 比先前的模型更常照做粘贴文字里的指令，因此修订教练现在把粘贴的审稿与委员会文字当作数据处理，并由 lint 固定；这道提示层防线的效果尚未测量。本版也修复模式加载与引用检查：13 个 plugin 模式命令直接调用其命名空间下的核心 skill，并从 plugin 根目录解析附带的参考文件，恢复引用检查的加载（#857）；中文 APA 7 检查会找出正文缺少的作者简称，保留歧义例外与完整的参考文献作者字段，只在有笔画排序颠倒的证据时才建议重排（#882）；引用检查整体也把可见的语法错误与未经核实的解析或来源声明分开（#882）；新增的英文、繁体中文与韩文触发词会把请求引导到引用检查，CI 也把每份 skill 描述限制在 1,024 个 code point 以内（#858、#864）。Pi 包装器可接受字符串数组形式的 system prompt（#880）。没有任何 schema、命令模型或推理强度设置的变更。
+> **两项审查参考检查与数项修复；没有新 skill，这两项检查在真实审查上的准确度尚未测量：**v3.24.0 在 Editorial Decision Letter 加上两份附件。第一份实时查询 Reviewer 2 与 Reviewer 3 推荐的每一篇著作，查询范围是引用验证关卡使用的四个索引，只报告有没有这条记录，不判断该著作是否支持推荐理由（#1001）。第二份把每一项 weakness，以及 Devil's Advocate 每一行 CRITICAL 或 MAJOR 意见，去掉审稿人席位标签后交给 session 模型的一个 subagent，由它判断稿件是否与该意见矛盾。只有判定者的引文通过脚本对稿件的比对检查，附件才列为矛盾；其他判定为错误的意见列为未确认（#1002）。这项检查默认开启，设置 `ARS_PANEL_CLAIM_CHECK=0` 可以关闭。两份附件都不影响审查决定、修订路线图或复审标准。第二项检查上线前，一项预注册的 held-out 审计检查了 805 条审查小组意见，估计错误意见的比例介于 1.5% 到 12.9%；Claude Opus 5.5 与 Claude Fable 5.1 担任判定者时都通过了它的对照关卡。write-scope guard 的启动器每次工具调用只启动一个 Python 进程，原来是三个，Windows 上 AppXSvc 的内存泄漏预计因此降为原来的三分之一左右，但 Windows 上的实际行为尚未测试（#1015）；guard 的代码注释也写明它检查哪些工具名称（#1022）。三条诚信检查规则在 Stage 5 入口、报告有效期限与 Stage 4′ 三点上取得一致（#1011），启动通知也改为只在有新版本时显示（#1027）。#1015、#1022 与 #1027 由外部用户报告。
 
-### v3.22.0（2026-09-16）— 输出语言对契约、语系轨、plugin eval 套件与 Windows／传输修复
+### v3.23.2（2026-10-24）— 诚信检查只读引用的版本、Stage 2.5 一律执行，以及适配器、启动通知与 Windows 修复
 
-> **加的是结构，证据保持有界：**v3.22.0 让一次运行可以通过注册表键控的 Schema 4 字段声明输出语言对，字段缺席时旧有文件逐字重现（#862 Phase 1、PR #869），并围绕它建立语系轨：@didacrios 贡献的 es-ES README 与保守的触发词、社区维护的语系包政策，以及单一 owner 的暂定申请路径。两套 `claude plugin eval` 套件（revision-coach、citation-check）与 reviewer-calibration harness 仅作为回归防线与派发基底发布，均不声称测得的提升或校准值。修复：`/ars-mark-read` 与其余五个锁点通过一个共用的 `msvcrt` 后端在 Windows 可用、OpenAI 请求不再发送 GPT-6 Astra 拒收的参数、受限的 Codex 传输拒绝 `effort=ultra`、审计来源记录实际的裁判身份、苏格拉底路径 F6 不再预选方向、无来源支撑的声明不能再靠 hedge 过关。README 只保留最近三版；Gartenberg 等人与 Wang、Li 等人加入 human-in-the-loop 锚点。Roadmap Phase 4（阶段级证据上限）本版未交付，窗口顺延。
+> **修复；没有新 skill。一项提示层变更做了小规模行为检查，其余尚未测量：**v3.23.2 让 Stage 2.5 与 4.5 的声明核查只拿稿件引用的那个版本来比对（#1006）。读不到引用的版本时，核查会记录一条访问备注并请用户提供 PDF，不再改读工作论文或预印本。在一份合成测试稿上运行六次（Claude Opus 5.5 与 Claude Fable 5.1 各三次，关闭网络工具），六次都遵守这条规则。先前的诚信报告不再能让 pipeline 跳过 Stage 2.5，改为附上作为参考（#995）。缺少必要输入时，每一份规则文件都会阻止阶段转换（#990）；苏格拉底导师的示例不再为用户的想法排名（#992）。SessionStart 启动通知会把更新提醒显示给用户，给模型看的启动内容约减少 2.1 KB（#999）。Obsidian 适配器接受未加引号的 ISO 日期年份，并拒绝布尔值与上标数字年份（#988、#989）；六个 lint 在 Windows 上改用 POSIX 形式比较路径（#964、#978）；Pi 包装器改为与 Pi 的结构化提示区段组合（#985）；`CITATION.cff` 加上作者的 ORCID iD（#1007）。#978、#985、#988 由外部贡献者提供。

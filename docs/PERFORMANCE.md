@@ -42,7 +42,7 @@
 
 ### v3.7.0 Plugin agents and model routing
 
-When ARS is installed as a Claude Code plugin (`/plugin install academic-research-skills`), three downstream worker agents are exposed as plugin-shipped subagents: `synthesis_agent`, `research_architect_agent`, and `report_compiler_agent`. Each declares `model: inherit` in its frontmatter, which means they run under the **dispatching session's model** rather than a pinned floor:
+When ARS is installed as a Claude Code plugin (`/plugin install academic-research-skills`), three downstream worker agents are exposed as plugin-shipped subagents: `synthesis-agent`, `research-architect-agent`, and `report-compiler-agent` (underscore names before #1037). Each declares `model: inherit` in its frontmatter, which means they run under the **dispatching session's model** rather than a pinned floor:
 
 - An Opus session running the full pipeline gets Opus agents, preserving the integrative depth those agents were designed for.
 - A Sonnet session gets Sonnet agents, matching the cost/latency profile of the parent run.
@@ -89,7 +89,7 @@ These are on top of the existing per-skill costs in the table above (same 15,000
 
 ### v3.6.3 Passport reset boundary (opt-in)
 
-When `ARS_PASSPORT_RESET=1` is set, every FULL checkpoint becomes a context-reset boundary. The intended workflow is:
+When `ARS_PASSPORT_RESET=1` is set, every FULL and MANDATORY checkpoint becomes a context-reset boundary. The intended workflow is:
 
 1. Run a stage to FULL checkpoint in session A.
 2. Copy the `[PASSPORT-RESET: hash=<hash>, stage=<completed>, next=<next>]` tag from the checkpoint notification.

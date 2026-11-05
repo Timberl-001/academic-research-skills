@@ -6,12 +6,12 @@ A Claude Code session loads the repository's `.claude/CLAUDE.md` only when its w
 
 - `.claude/CLAUDE.md` § Routing Discipline (v3.9.2), for sessions started inside a clone of this repository;
 - `scripts/announce-ars-loaded.sh`, which reads the block from this file at every SessionStart (startup, clear, resume, compaction, fork), so plugin installs have it before any skill loads; after compaction, resume, or a fork its lead-in limits the block to a new request;
-- the `SKILL.md` of every skill (four today), so every install path has it once a skill loads.
+- the `SKILL.md` of every skill (five today), so every install path has it once a skill loads.
 
 `scripts/check_routing_core_sync.py` fails CI when a copy differs from this block by a single byte or a skill's `SKILL.md` lacks it. Change the rules here and copy the block to the carriers in the same commit. The message template, the phase table, and worked examples are in `shared/references/intent_clarification_protocol.md`.
 
 <!-- routing-core:begin -->
-**Step 0 — Escape hatch check (before any classification):** If the user's first message begins with `[direct-mode]` (case-insensitive byte-0 token, optionally preceded by whitespace/newlines that are stripped on parse), record this fact, strip the prefix and surrounding whitespace from the message, and skip directly to **Step 1 explicit-intent handling** on the stripped content. The literal `[direct-mode]` is NOT passed through to the dispatched agent. If the stripped message itself has no clear skill named, Step 1 falls through to Step 3 clarification (the escape hatch bypasses cross-phase clarification (Step 2), not all routing). When the token is honored and the named agent or skill needs inputs the message does not supply, read that agent's or skill's file and ask for what it requires, in its terms. Without the byte-0 token, naming an agent is not explicit intent: such a message goes through Steps 1-3 like any other, so cross-phase materials still get Step 2 clarification.
+**Step 0 — Escape hatch check (before any classification):** If the user's first message begins with `[direct-mode]` (case-insensitive byte-0 token, optionally preceded by whitespace/newlines that are stripped on parse), record this fact, strip the prefix and surrounding whitespace from the message, and skip directly to **Step 1 explicit-intent handling** on the stripped content. The literal `[direct-mode]` is NOT passed through to the dispatched agent. If the stripped message itself has no clear skill named, Step 1 falls through to Step 3 clarification (the escape hatch bypasses cross-phase clarification (Step 2), not all routing). When the token is honored and the named agent or skill needs inputs the message does not supply, read that agent's or skill's file and ask for what it requires, in its terms. A `[direct-mode]` token after any other non-whitespace character is not the escape hatch, even when the message asks to skip questions: classify the message through Steps 1-3 as if the token were absent, and do not forward the token. Without the byte-0 token, naming an agent is not explicit intent: such a message goes through Steps 1-3 like any other, so cross-phase materials still get Step 2 clarification.
 
 Otherwise, classify the user's input:
 
@@ -25,6 +25,8 @@ Otherwise, classify the user's input:
 
 3. **Ambiguous intent, no materials** — user provides no artifacts and no clear request:
    → Clarify per `shared/references/intent_clarification_protocol.md`.
+
+**Screening boundary (sr-screener):** a request to screen records the user already has (database exports, pasted abstracts, full-text PDFs) against a review's eligibility criteria, or to build a screening protocol, pilot the screening, adjudicate screening conflicts, audit exclusions, or report the selection counts, routes to `sr-screener`. A request to write a literature review, or to run a systematic review, meta-analysis, or PRISMA report, does not route to `sr-screener`. Screening starts only when the user asks for it: `deep-research` `systematic-review` mode may mention `sr-screener`, but never hands over to it automatically.
 
 **Anti-pattern (caused #133):** Receiving ambiguous cross-phase materials and silently auto-routing to a single-phase agent based on which phase the materials "look closest to." This bypasses orchestrator-level reconciliation and lets the subagent inherit the full ambiguity without independent oversight.
 <!-- routing-core:end -->

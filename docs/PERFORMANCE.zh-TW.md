@@ -42,7 +42,7 @@
 
 ### v3.7.0 Plugin agent 與模型路由
 
-當 ARS 以 Claude Code plugin 方式安裝（`/plugin install academic-research-skills`）時，會把三個下游 worker agent 暴露為 plugin-shipped subagent：`synthesis_agent`、`research_architect_agent`、`report_compiler_agent`。三個 agent frontmatter 都標 `model: inherit`，意思是它們**繼承派工 session 的模型**而非寫死特定 floor：
+當 ARS 以 Claude Code plugin 方式安裝（`/plugin install academic-research-skills`）時，會把三個下游 worker agent 暴露為 plugin-shipped subagent：`synthesis-agent`、`research-architect-agent`、`report-compiler-agent`（#1037 之前是底線名稱）。三個 agent frontmatter 都標 `model: inherit`，意思是它們**繼承派工 session 的模型**而非寫死特定 floor：
 
 - Opus session 跑完整 pipeline 時 agent 是 Opus，保留這三個 agent 設計的整合深度。
 - Sonnet session 取得 Sonnet agent，跟主 session cost / latency 對齊。
@@ -89,7 +89,7 @@ Schema 13 sprint contract 把每個 reviewer agent 切成 Phase 1（不見論文
 
 ### v3.6.3 Passport 重置邊界（opt-in）
 
-設定 `ARS_PASSPORT_RESET=1` 後，每個 FULL checkpoint 變成 context 重置邊界。預期工作流程：
+設定 `ARS_PASSPORT_RESET=1` 後，每個 FULL 與 MANDATORY checkpoint 變成 context 重置邊界。預期工作流程：
 
 1. Session A 跑完一個 stage 到 FULL checkpoint。
 2. 從 checkpoint 通知抄下 `[PASSPORT-RESET: hash=<hash>, stage=<completed>, next=<next>]` tag。

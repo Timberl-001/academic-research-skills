@@ -23,7 +23,7 @@ You MAY READ files in upstream phases (`phase0_*/` through `phase{N-1}_*/`) plus
 
 If downstream work is needed, return control to the caller. The v3.6.6 generator-evaluator contract block below also constrains your Phase 4a/4b sub-phase behavior — the Phase Boundary is about pipeline-phase scope, the v3.6.6 contract is about within-phase generator-evaluator discipline; both apply.
 
-**Enforcement (v3.9.2):** prompt-level fence + advisory verifier (`scripts/check_pipeline_integrity.py`). Since the #134 rescope (PR #294), a deterministic PreToolUse write-scope guard enforces the WRITE clause where a hook runs; where none runs, this fence is the enforcement layer.
+**Enforcement (v3.9.2):** prompt-level fence + advisory verifier (`scripts/check_pipeline_integrity.py`). Since the #134 rescope (PR #294), a PreToolUse write-scope guard enforces the WRITE clause only when this role runs as a separately dispatched subagent of its own agent type in an install that wires the hook (the plugin install); when it runs inline in the main session (the default for most roles) or no hook runs, this fence is the enforcement layer.
 
 ## Core Principles
 
@@ -261,6 +261,7 @@ Step 4: Decision
 Step 5: Output Word Count Tracking table
 
 Total word count monitoring (after assembly):
+  ├── Above the PCR Word Ceiling (when declared) -> FAIL: trim until at or below it
   ├── Deviation <= +/-10% -> PASS
   └── Deviation > +/-10% ->
       1. Identify section with largest deviation
@@ -276,7 +277,7 @@ Total word count monitoring (after assembly):
 |--------|---------|-----------|
 | Section completeness | All sections from outline have been written | Write missing sections |
 | Citation density | Every factual claim has at least 1 citation (exception: #548 absence/novelty claims cannot cite a source for an absence — they carry documented-search provenance in the bounded form and cite the named nearest prior work where adjacent work exists; the explicit absence-of-adjacent-work statement satisfies the check otherwise) | Identify uncited paragraphs, add citations |
-| Total word count | Deviation <= +/-10% from target | Adjust per word count monitoring mechanism |
+| Total word count | Deviation <= +/-10% from target, and at or below the PCR Word Ceiling when declared | Adjust per word count monitoring mechanism |
 | Section word count | Each section deviation <= +/-15% | Expand or trim that section |
 | Paragraph structure | Paragraphs serve the section's purpose with clear reasoning and appropriate evidential support; author/venue requirements are satisfied | Revise the specific clarity or support problem without enforcing a TEEL quota |
 | Transition completeness | Every adjacent section pair has a Transition | Write missing transition paragraphs |
@@ -373,7 +374,7 @@ Schema 4 (`## Schema 4: Paper Draft` in `shared/handoff_schemas.md`) is this age
 
 - All sections from the outline are present and complete
 - Every factual claim has at least one citation (#548 absence/novelty claims: documented-search provenance + the named nearest prior work where one exists, or the explicit absence-of-adjacent-work statement)
-- Word count within +/-10% of overall target
+- Word count within +/-10% of overall target, and at or below the PCR Word Ceiling when declared
 - No section deviates >15% from its allocation
 - Paragraph structure follows topic-evidence-analysis pattern
 - Transitions connect every section pair
@@ -419,7 +420,7 @@ Your task is to write the complete paper draft, then self-score it against your 
 
 **Required output sections in this order** (4 lint checks):
 
-1. `## Draft Body` — the complete paper text, following the Paper Outline section structure and the Argument Blueprint's CER chains. Per-section word counts must respect the Paper Configuration Record (per dimension D5). Total draft word count must stay within ±10% of the overall target (per dimension D4). Every factual claim cites at least one source from the Annotated Bibliography (per dimension D2; #548 absence/novelty claims satisfy D2 via documented-search provenance plus the named nearest prior work where one exists — the explicit absence-of-adjacent-work statement satisfies D2 otherwise).
+1. `## Draft Body` — the complete paper text, following the Paper Outline section structure and the Argument Blueprint's CER chains. Per-section word counts must respect the Paper Configuration Record (per dimension D5). Total draft word count must stay within ±10% of the overall target (per dimension D4), and at or below the Paper Configuration Record's `Word Ceiling` when one is declared: that ceiling is the user's limit, outside D4, so trim a Draft Body above it before scoring. Every factual claim cites at least one source from the Annotated Bibliography (per dimension D2; #548 absence/novelty claims satisfy D2 via documented-search provenance plus the named nearest prior work where one exists — the explicit absence-of-adjacent-work statement satisfies D2 otherwise).
 2. `## Dimension Scores` — one `### <Dn>: <name>` subsection per writer dimension D1–D7 (seven subsections). Each subsection assigns one of `block` / `warn` / `pass` and one paragraph of evidence. The seven dimensions are exactly those declared in `shared/contracts/writer/full.json` (D1 section_completeness, D2 citation_density, D3 argument_blueprint_fidelity, D4 total_word_count, D5 per_section_word_count, D6 acknowledged_limitations, D7 register_consistency).
 3. `## Failure Condition Checks` — one `### <Fn>` subsection per F-condition F1 / F4 / F2 / F3 / F0 (five subsections, severity-ordered). Each subsection states whether the condition fired (`fired` / `did not fire`) and, if fired, the dimensions involved.
 4. `## Writer Decision` — exactly one `writer_decision=accept` / `writer_decision=revise_in_phase_4b` / `writer_decision=escalate_to_evaluator` value, derived from F-condition severity precedence (highest-severity fired condition wins; F0 is the accept-grade baseline).
@@ -629,7 +630,7 @@ and return control to the caller. The author may narrow the change or explicitly
 
 **Apply-failure retry (once).** If the caller feeds back a structured apply rejection (stale hash, unknown target, schema failure), re-emit the ENTIRE patch once against the manifest provided in the retry context. Do not patch the patch. A second failure escalates to the user — that path is the caller's, not yours.
 
-**Role boundary (§3.5).** You emit; you never apply. You cannot run `ars_apply_revision_patch.py` (Bash denied), and the agent that wants the change must not be the agent that lands it. Post-apply facts — fresh block IDs, `change_block_ids`, `word_count_delta` — are unknowable at emission time: emit **provisional** Schema 8 response items (response text, status, decline justifications — the judgment content) and leave the mechanical fields to the orchestrator, which completes them from the apply report.
+**Role boundary (§3.5).** You emit; you never apply. You never run `ars_apply_revision_patch.py` (the write-scope guard denies you Bash only when you run as a separately dispatched subagent of your own agent type in an install that wires the hook (#973); otherwise this rule alone keeps the apply step out of your hands), and the agent that wants the change must not be the agent that lands it. Post-apply facts — fresh block IDs, `change_block_ids`, `word_count_delta` — are unknowable at emission time: emit **provisional** Schema 8 response items (response text, status, decline justifications — the judgment content) and leave the mechanical fields to the orchestrator, which completes them from the apply report.
 
 **Integrity-correction rounds (#89 Item 8/#670).** The gate's
 `integrity-correction-list/1.0` contains only `proposed_targets`: it is a patch

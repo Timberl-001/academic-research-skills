@@ -65,6 +65,22 @@ id = "892-routing-core-sync"
 path = "scripts/test_check_routing_core_sync.py"
 
 [[pytest]]
+id = "916-method-weaknesses-sync"
+path = "scripts/test_check_method_weaknesses_sync.py"
+
+[[pytest]]
+id = "921-review-form-note-sync"
+path = "scripts/test_check_review_form_note_sync.py"
+
+[[pytest]]
+id = "923-shared-marker-block"
+path = "scripts/test_skill_lint_marker_block.py"
+
+[[pytest]]
+id = "915-experiment-alignment-overclaim-fixtures"
+path = "scripts/test_experiment_alignment_overclaim_fixtures.py"
+
+[[pytest]]
 id = "v3.10-policy-layer"
 path = "scripts/test_check_v3_10_policy.py"
 
@@ -501,6 +517,10 @@ id = "611-calibration-tiers"
 path = "scripts/test_check_calibration_tiers.py"
 
 [[pytest]]
+id = "1030-reviewer-card-confirmation"
+path = "scripts/test_check_reviewer_card_confirmation.py"
+
+[[pytest]]
 id = "619-disclosure-closeout"
 path = "scripts/test_check_619_disclosure_closeout.py"
 
@@ -629,6 +649,10 @@ id = "656-evidence-row-integration"
 path = "scripts/test_check_evidence_row_integration.py"
 
 [[pytest]]
+id = "1006-phase-e-cited-version"
+path = "scripts/test_phase_e_cited_version.py"
+
+[[pytest]]
 id = "630-codex-subscription-transport"
 path = "scripts/test_cross_model_codex_transport.py"
 
@@ -707,3 +731,31 @@ path = "scripts/test_run_ledger.py"
 [[pytest]]
 id = "849-acronym-check"
 path = "scripts/test_check_acronyms.py"
+
+[[pytest]]
+id = "1001-panel-suggested-references"
+path = "scripts/test_verify_panel_recommendations.py"
+
+[[pytest]]
+id = "1002-panel-claim-check"
+path = "scripts/test_audit_panel_claims.py"
+
+[[pytest]]
+id = "927-standing-constraint-entry-schema"
+path = "scripts/test_standing_constraint_entry_schema.py"
+
+[[pytest]]
+id = "936-excluded-source-entry-schema"
+path = "scripts/test_excluded_source_entry_schema.py"
+
+[[pytest]]
+id = "sr-screener-pipeline"
+path = "scripts/test_sr_screener_pipeline.py"
+
+[[pytest]]
+id = "1002-extract-panel-claims"
+path = "scripts/test_extract_panel_claims.py"
+
+[[pytest]]
+id = "1002-dispatch-panel-claim-audit"
+path = "scripts/test_dispatch_panel_claim_audit.py"
