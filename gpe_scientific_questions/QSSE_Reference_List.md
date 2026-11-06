@@ -65,3 +65,20 @@
 
 - [1] 和 [4] 的存在意味着"MBA 原位凝胶"和"氟化酰胺 + PMBA"都不是首创；创新点必须落在"**溶剂化结构不变的光谱证据 + 无碳酸酯 DMTFA/TTE 电解液 + 4.5 V**"的组合上，而不是材料本身。
 - 建议下载 [1] 和 [4] 全文核对：他们的凝胶是否透明、MBA 用量、是否也观察到沉淀/白色——这直接关系到我们"沉淀聚合"解释是否与文献一致。
+
+---
+
+## D. 与"骨架不进入溶剂化壳"这一科学问题最接近的先行文献（2026-11-06 补充）
+
+**[9] He X., Ni Y., Hou Y., Lu Y., Jin S., Li H., Yan Z., Zhang K., Chen J. "Insights into the ionic conduction mechanism of quasi-solid polymer electrolytes through multispectral characterization." *Angew. Chem. Int. Ed.* 2021, 60, 22672–22677. DOI 10.1002/anie.202107648**
+- 体系：PVDF-HFP + LiTFSI/G4 准固态电解质；多谱学（Raman/FTIR/NMR）+ 第一性原理。
+- 他们的提法：QPE 中"溶剂的存在形式、各组分间相互作用、离子传导机制"不清楚；结论是 Li⁺ 的溶剂化结构与配位数与液态相近，溶剂既溶解盐又溶胀聚合物，聚合物基本不参与配位，Li⁺ 经液相传导。
+- 与我们的差别：他们是 ex-situ、PVDF-HFP（本来就弱配位）、Li–O₂ 体系；我们是原位聚合、极性酰胺骨架（理论上会配位）、4.5 V 锂金属。我们的问题更尖锐——"极性骨架也能不进入壳层吗？"
+
+**[10] Kim D.-H., Hwang S., Cho J.-J., Yu S., Kim S., Jeon J., Ahn K. H., Lee C., Song H.-K., Lee H. *ACS Energy Lett.* 2019, 4, 1265. （Adv. Sci. 2025 综述引为 ref 71；标题请在 WoS 核对）**
+- 体系：2 wt% 丙烯酸酯单体原位凝胶 + 1 M LiPF₆ EC/EMC。
+- 他们的提法：丙烯酸酯官能团**可以**参与 Li⁺ 溶剂化，但离子传导活化能与液态几乎相同，说明 Li⁺ 传输路径没有显著改变——归因于聚合物含量低。
+- 与我们的关系：这是"聚合物进入壳层但代价很小"的版本；我们要证明的是更强的一层——"壳层本身没变"（⁷Li + Raman）。两者并列可以清楚界定我们的增量。
+
+**框架来源：Zhou et al. "Molecular regulation and intermolecular chemistry in gel polymer electrolytes for high-voltage lithium batteries." *Adv. Sci.* 2025, 12, 2417169 (DOI 10.1002/advs.202417169)** —— 明确把 GPE 中的 Li⁺ 传输分为"经聚合物链段 / 经液相（聚合物仅为惰性骨架）/ 经[溶剂–Li⁺]络合物与聚合物相互作用"三类；我们的体系属于第二类，这篇综述可以直接用来定位。
+**佐证：Batteries 2025, 11, 27 (DOI 10.3390/batteries11010027)** —— DFT/MD 显示 PAN/磷酸酯交联凝胶中 Li⁺ 与聚合物官能团 0.5 nm 内 RDF 为零，Li⁺ 由 ~3 溶剂 + 1 阴离子配位；可作为计算侧的参照方法。
